@@ -1,0 +1,464 @@
+{
+  "blockName": "Hero",
+  "figmaNodeId": "976:72612",
+  "maxWidth": 1360,
+  "layout": {
+    "type": "section",
+    "styles": {
+      "large": {
+        "backgroundColor": "rgba(255, 255, 255, 1)",
+        "display": "flex",
+        "flexDirection": "column",
+        "alignItems": "start",
+        "padding": {
+          "top": 127,
+          "right": 80,
+          "bottom": 40,
+          "left": 40
+        },
+        "overflow": "hidden",
+        "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif"
+      },
+      "medium": {
+        "padding": {
+          "top": 100,
+          "right": 20,
+          "bottom": 40,
+          "left": 20
+        }
+      }
+    },
+    "children": [
+      {
+        "type": "container",
+        "name": "textContent",
+        "styles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "justifyContent": "start",
+            "width": 911,
+            "maxWidth": "100%"
+          }
+        },
+        "children": [
+          {
+            "type": "heading",
+            "level": 1,
+            "text": "ТИБСОВО®: индивидуальный подход для наилучшего результата",
+            "styles": {
+              "large": {
+                "color": "#61279E",
+                "fontSize": 64,
+                "fontWeight": 600,
+                "lineHeight": 70,
+                "letterSpacing": -2.56
+              },
+              "medium": {
+                "fontSize": 40,
+                "lineHeight": 48,
+                "maxWidth": "100%"
+              }
+            },
+            "specialChars": {
+              "®": {
+                "fontSize": 64
+              }
+            }
+          },
+          {
+            "type": "paragraph",
+            "text": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов с холангиокарциномой с мутацией в гене IDH1.",
+            "styles": {
+              "large": {
+                "color": "#151518",
+                "fontSize": 20,
+                "fontWeight": 400,
+                "lineHeight": 28,
+                "marginTop": 32
+              },
+              "medium": {
+                "maxWidth": "100%"
+              }
+            },
+            "specialChars": {
+              "®": {
+                "fontSize": 20
+              }
+            },
+            "note": "Учитывать перенос строк в тексте"
+          }
+        ]
+      },
+      {
+        "type": "container",
+        "name": "statsContainer",
+        "styles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "alignItems": "stretch",
+            "justifyContent": "start",
+            "width": 448,
+            "maxWidth": "100%",
+            "marginTop": 97
+          },
+          "medium": {
+            "marginTop": 40
+          }
+        },
+        "children": [
+          {
+            "type": "card",
+            "name": "statCard1",
+            "fullWidth": true,
+            "styles": {
+              "large": {
+                "borderRadius": 20,
+                "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                "position": "relative",
+                "display": "flex",
+                "flexDirection": "column",
+                "alignItems": "stretch",
+                "justifyContent": "center",
+                "width": "100%",
+                "padding": {
+                  "top": 24,
+                  "right": 24,
+                  "bottom": 24,
+                  "left": 24
+                }
+              },
+              "medium": {
+                "padding": {
+                  "top": 24,
+                  "right": 20,
+                  "bottom": 24,
+                  "left": 20
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "statValue",
+                "text": "63%",
+                "styles": {
+                  "color": "#61279E",
+                  "fontSize": 40,
+                  "fontWeight": 600,
+                  "lineHeight": 1.1,
+                  "letterSpacing": -1.2,
+                  "zIndex": 0
+                }
+              },
+              {
+                "type": "statDescription",
+                "text": "снижение риска прогрессирования заболевания или смерти (HR, 0.37 [95% CI, 0.25-0.54]; P<0.0001).",
+                "styles": {
+                  "color": "#151518",
+                  "fontSize": 16,
+                  "fontWeight": 400,
+                  "lineHeight": 22,
+                  "marginTop": 12,
+                  "zIndex": 0
+                },
+                "note": "В тексте есть символ переноса строки (\\u000b)"
+              },
+              {
+                "type": "icon",
+                "name": "infoIcon",
+                "position": "absolute",
+                "styles": {
+                  "right": 16,
+                  "top": 16,
+                  "width": 20,
+                  "height": 20,
+                  "minHeight": 20,
+                  "zIndex": 0
+                },
+                "iconType": "info",
+                "iconStyles": {
+                  "opacity": 0.5,
+                  "strokeColor": "#636466",
+                  "strokeWidth": 1.5
+                }
+              }
+            ]
+          },
+          {
+            "type": "container",
+            "name": "statsRow",
+            "styles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "row",
+                "alignItems": "center",
+                "justifyContent": "start",
+                "width": "100%",
+                "gap": 8,
+                "marginTop": 8
+              },
+              "medium": {
+                "maxWidth": "100%"
+              }
+            },
+            "children": [
+              {
+                "type": "card",
+                "name": "statCard2",
+                "fullWidth": false,
+                "styles": {
+                  "large": {
+                    "borderRadius": 20,
+                    "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                    "position": "relative",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "stretch",
+                    "justifyContent": "center",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "flexBasis": "0%",
+                    "padding": {
+                      "top": 24,
+                      "right": 24,
+                      "bottom": 24,
+                      "left": 24
+                    }
+                  },
+                  "medium": {
+                    "padding": {
+                      "top": 24,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "type": "statValue",
+                    "text": "32%",
+                    "styles": {
+                      "color": "#61279E",
+                      "fontSize": 40,
+                      "fontWeight": 600,
+                      "lineHeight": 1.1,
+                      "letterSpacing": -1.2,
+                      "zIndex": 0
+                    }
+                  },
+                  {
+                    "type": "statDescription",
+                    "text": "6-мес ВБП.",
+                    "styles": {
+                      "color": "#151518",
+                      "fontSize": 16,
+                      "fontWeight": 400,
+                      "lineHeight": 1.4,
+                      "marginTop": 12,
+                      "zIndex": 0
+                    }
+                  },
+                  {
+                    "type": "icon",
+                    "name": "infoIcon",
+                    "position": "absolute",
+                    "styles": {
+                      "right": 16,
+                      "top": 16,
+                      "width": 20,
+                      "height": 20,
+                      "minHeight": 20,
+                      "zIndex": 0
+                    },
+                    "iconType": "info",
+                    "iconStyles": {
+                      "opacity": 0.5,
+                      "strokeColor": "#636466",
+                      "strokeWidth": 1.5
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "card",
+                "name": "statCard3",
+                "fullWidth": false,
+                "styles": {
+                  "large": {
+                    "borderRadius": 20,
+                    "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                    "position": "relative",
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "alignItems": "stretch",
+                    "justifyContent": "center",
+                    "flex": 1,
+                    "flexShrink": 1,
+                    "flexBasis": "0%",
+                    "padding": {
+                      "top": 24,
+                      "right": 24,
+                      "bottom": 24,
+                      "left": 24
+                    }
+                  },
+                  "medium": {
+                    "padding": {
+                      "top": 24,
+                      "right": 20,
+                      "bottom": 24,
+                      "left": 20
+                    }
+                  }
+                },
+                "children": [
+                  {
+                    "type": "statValue",
+                    "text": "22%",
+                    "styles": {
+                      "color": "#61279E",
+                      "fontSize": 40,
+                      "fontWeight": 600,
+                      "lineHeight": 1.1,
+                      "letterSpacing": -1.2,
+                      "zIndex": 0
+                    }
+                  },
+                  {
+                    "type": "statDescription",
+                    "text": "12-мес ВБП.",
+                    "styles": {
+                      "color": "#151518",
+                      "fontSize": 16,
+                      "fontWeight": 400,
+                      "lineHeight": 1.4,
+                      "marginTop": 12,
+                      "zIndex": 0
+                    }
+                  },
+                  {
+                    "type": "icon",
+                    "name": "infoIcon",
+                    "position": "absolute",
+                    "styles": {
+                      "right": 15,
+                      "top": 16,
+                      "width": 20,
+                      "height": 20,
+                      "minHeight": 20,
+                      "zIndex": 0
+                    },
+                    "iconType": "info",
+                    "iconStyles": {
+                      "opacity": 0.5,
+                      "strokeColor": "#636466",
+                      "strokeWidth": 1.5
+                    },
+                    "note": "Позиция right: 15px (отличается от других карточек на 1px)"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "colors": {
+    "accent": "#61279E",
+    "bodyText": "#151518",
+    "cardBackground": "rgba(224, 219, 244, 0.4)",
+    "white": "rgba(255, 255, 255, 1)",
+    "iconStroke": "#636466"
+  },
+  "typography": {
+    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+    "heading": {
+      "large": {
+        "fontSize": 64,
+        "fontWeight": 600,
+        "lineHeight": 70,
+        "letterSpacing": -2.56
+      },
+      "medium": {
+        "fontSize": 40,
+        "lineHeight": 48
+      }
+    },
+    "paragraph": {
+      "fontSize": 20,
+      "fontWeight": 400,
+      "lineHeight": 28
+    },
+    "statValue": {
+      "fontSize": 40,
+      "fontWeight": 600,
+      "lineHeight": 1.1,
+      "letterSpacing": -1.2
+    },
+    "statDescription": {
+      "fontSize": 16,
+      "fontWeight": 400,
+      "lineHeight": {
+        "card1": 22,
+        "card2": 1.4,
+        "card3": 1.4
+      }
+    }
+  },
+  "spacing": {
+    "container": {
+      "large": {
+        "paddingTop": 127,
+        "paddingRight": 80,
+        "paddingBottom": 40,
+        "paddingLeft": 40
+      },
+      "medium": {
+        "paddingTop": 100,
+        "paddingRight": 20,
+        "paddingLeft": 20
+      }
+    },
+    "textContent": {
+      "width": 911,
+      "headingToParagraph": 32
+    },
+    "statsContainer": {
+      "width": 448,
+      "marginTop": {
+        "large": 97,
+        "medium": 40
+      }
+    },
+    "cards": {
+      "gap": 8,
+      "marginTop": 8,
+      "padding": {
+        "large": 24,
+        "medium": 20
+      },
+      "borderRadius": 20
+    },
+    "cardContent": {
+      "valueToDescription": 12
+    }
+  },
+  "breakpoints": {
+    "large": "desktop",
+    "medium": "tablet/mobile"
+  },
+  "notes": [
+    "Максимальная ширина блока: 1360px, блок должен быть выровнен по центру",
+    "Учитывать перенос строк в текстах",
+    "Иконки информации позиционируются абсолютно в правом верхнем углу каждой карточки",
+    "Карточки во втором ряду имеют равную ширину (flex: 1)",
+    "Фон карточек имеет прозрачность 40%",
+    "Все текстовые элементы должны корректно отображаться с учетом межбуквенных расстояний (negative letter-spacing)",
+    "Символ ® должен отображаться с соответствующим размером шрифта в зависимости от контекста"
+  ]
+}
+

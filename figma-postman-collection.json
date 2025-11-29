@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "figma-api-test",
+		"name": "Figma API Test",
+		"description": "Коллекция для проверки подключения к Figma API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get File Info",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/files/{{file_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"files",
+						"{{file_key}}"
+					]
+				},
+				"description": "Получить информацию о файле Figma"
+			},
+			"response": []
+		},
+		{
+			"name": "Get File Nodes",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/files/{{file_key}}/nodes?ids={{node_ids}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"files",
+						"{{file_key}}",
+						"nodes"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "{{node_ids}}",
+							"description": "Node IDs через запятую, например: 976:72612,976:76138"
+						}
+					]
+				},
+				"description": "Получить информацию о конкретных нодах"
+			},
+			"response": []
+		},
+		{
+			"name": "Get File Images",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/images/{{file_key}}?ids={{node_ids}}&format=png",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"images",
+						"{{file_key}}"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "{{node_ids}}"
+						},
+						{
+							"key": "format",
+							"value": "png"
+						}
+					]
+				},
+				"description": "Получить изображения нод"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Node 976-72612 (Hero)",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/files/{{file_key}}/nodes?ids=976:72612",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"files",
+						"{{file_key}}",
+						"nodes"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "976:72612"
+						}
+					]
+				},
+				"description": "Проверка блока Hero (976-72612)"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Node 976-76138",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/files/{{file_key}}/nodes?ids=976:76138",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"files",
+						"{{file_key}}",
+						"nodes"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "976:76138"
+						}
+					]
+				},
+				"description": "Проверка блока 976-76138"
+			},
+			"response": []
+		},
+		{
+			"name": "Test Node 976-57380",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "X-Figma-Token",
+						"value": "{{figma_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.figma.com/v1/files/{{file_key}}/nodes?ids=976:57380",
+					"protocol": "https",
+					"host": [
+						"api",
+						"figma",
+						"com"
+					],
+					"path": [
+						"v1",
+						"files",
+						"{{file_key}}",
+						"nodes"
+					],
+					"query": [
+						{
+							"key": "ids",
+							"value": "976:57380"
+						}
+					]
+				},
+				"description": "Проверка блока 976-57380"
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "figma_token",
+			"value": "YOUR_FIGMA_ACCESS_TOKEN",
+			"type": "string"
+		},
+		{
+			"key": "file_key",
+			"value": "pXSmINvA5ZQlGLAGJvIKcr",
+			"type": "string"
+		},
+		{
+			"key": "node_ids",
+			"value": "976:72612",
+			"type": "string"
+		}
+	]
+}
+

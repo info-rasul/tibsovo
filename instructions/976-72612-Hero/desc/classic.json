@@ -1,0 +1,521 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "id": "builder-9a03780b8ea08b3005a4be3a3b4d2e20",
+            "responsiveStyles": {
+                "large": {
+                    "backgroundColor": "rgba(255, 255, 255, 1)",
+                    "display": "flex",
+                    "paddingLeft": "40px",
+                    "paddingRight": "80px",
+                    "paddingTop": "127px",
+                    "paddingBottom": "40px",
+                    "flexDirection": "column",
+                    "overflow": "hidden",
+                    "alignItems": "start",
+                    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif"
+                },
+                "medium": {
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "paddingTop": "100px"
+                }
+            },
+            "meta": {
+                "fromJSX": true,
+                "id": "976:72612",
+                "type": "FRAME",
+                "name": "Hero",
+                "fromFigma": true,
+                "vcpImportId": "vcp-b24e9e39c9fd47a4b72c6912fc714338",
+                "vcpFigmaSelectionUUID": "0d32fce2-0319-40cc-8f6a-193a0b99bd75"
+            },
+            "layerName": "Hero",
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-5be1dd43a64733509c088eb68d44cbc7",
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "911px",
+                            "maxWidth": "100%",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "justifyContent": "start"
+                        },
+                        "medium": {}
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "976:72671",
+                        "type": "FRAME",
+                        "name": "Frame 2131328686"
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-f1da24479b198467fea8a4b21d912a20",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Accent_2, #61279E)",
+                                    "fontSize": "64px",
+                                    "fontWeight": "600",
+                                    "lineHeight": "70px",
+                                    "letterSpacing": "-2.56px"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%",
+                                    "fontSize": "40px",
+                                    "lineHeight": "48px"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "976:72672",
+                                "type": "TEXT",
+                                "name": "ТИБСОВО®: индивидуальный подход для наилучшего результата"
+                            },
+                            "layerName": "ТИБСОВО®: индивидуальный подход для наилучшего результата",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "ТИБСОВО®: индивидуальный подход для наилучшего результата\r"
+                                }
+                            }
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-c76f70dab2014269c1e3cf31cb7bc745",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Body-Black, #151518)",
+                                    "fontSize": "20px",
+                                    "fontWeight": "400",
+                                    "lineHeight": "28px",
+                                    "marginTop": "32px"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "976:72673",
+                                "type": "TEXT",
+                                "name": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов с холангиокарциномой с мутацией в гене IDH1."
+                            },
+                            "layerName": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов с холангиокарциномой с мутацией в гене IDH1.",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов с холангиокарциномой с мутацией в гене IDH1.\r"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-421d3980b81db42d107387590760997d",
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "marginTop": "97px",
+                            "width": "448px",
+                            "maxWidth": "100%",
+                            "flexDirection": "column",
+                            "alignItems": "stretch",
+                            "justifyContent": "start"
+                        },
+                        "medium": {
+                            "marginTop": "40px"
+                        }
+                    },
+                    "meta": {
+                        "fromJSX": true,
+                        "id": "976:72674",
+                        "type": "FRAME",
+                        "name": "Frame 2131328984"
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-6eb0833918196fa31fc4d14605b29103",
+                            "responsiveStyles": {
+                                "large": {
+                                    "borderRadius": "20px",
+                                    "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                                    "position": "relative",
+                                    "display": "flex",
+                                    "width": "100%",
+                                    "paddingLeft": "24px",
+                                    "paddingRight": "24px",
+                                    "paddingTop": "24px",
+                                    "paddingBottom": "24px",
+                                    "flexDirection": "column",
+                                    "alignItems": "stretch",
+                                    "justifyContent": "center"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%",
+                                    "paddingLeft": "20px",
+                                    "paddingRight": "20px"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "976:72675",
+                                "type": "FRAME",
+                                "name": "Frame 2131328947"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-c0f525691238b4b855da76dd24544734",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Accent_2, #61279E)",
+                                            "fontSize": "40px",
+                                            "fontWeight": "600",
+                                            "lineHeight": "1.1",
+                                            "letterSpacing": "-1.2px",
+                                            "zIndex": "0"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:72676",
+                                        "type": "TEXT",
+                                        "name": "63%"
+                                    },
+                                    "layerName": "63%",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "63%"
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-36197acd32e6881e8f9beff6cafcbda0",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "fontSize": "16px",
+                                            "fontWeight": "400",
+                                            "lineHeight": "22px",
+                                            "zIndex": "0",
+                                            "marginTop": "12px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:72677",
+                                        "type": "TEXT",
+                                        "name": "снижение риска прогрессирования заболевания или смерти\u000b (HR, 0.37 [95% CI, 0.25-0.54]; P<0.0001)."
+                                    },
+                                    "layerName": "снижение риска прогрессирования заболевания или смерти\u000b (HR, 0.37 [95% CI, 0.25-0.54]; P<0.0001).",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "снижение риска прогрессирования заболевания или смерти\u000b (HR, 0.37 [95% CI, 0.25-0.54]; P&lt;0.0001)."
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-40aa9cac6b5dc6371d592876a3cd3c01",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "position": "absolute",
+                                            "zIndex": "0",
+                                            "display": "flex",
+                                            "minHeight": "20px",
+                                            "width": "20px",
+                                            "right": "16px",
+                                            "top": "16px",
+                                            "height": "20px"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:72678",
+                                        "type": "INSTANCE",
+                                        "name": "Icons"
+                                    },
+                                    "layerName": "Icons"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-32c1f29fd70b95c512c9496fc899897e",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "marginTop": "8px",
+                                    "width": "100%",
+                                    "alignItems": "center",
+                                    "gap": "8px",
+                                    "justifyContent": "start"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "976:72679",
+                                "type": "FRAME",
+                                "name": "Frame 2131328950"
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-98a159a720f15f2b07bb4af90cb30122",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "borderRadius": "20px",
+                                            "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                                            "alignSelf": "stretch",
+                                            "position": "relative",
+                                            "display": "flex",
+                                            "marginTop": "auto",
+                                            "marginBottom": "auto",
+                                            "paddingLeft": "24px",
+                                            "paddingRight": "24px",
+                                            "paddingTop": "24px",
+                                            "paddingBottom": "24px",
+                                            "flexDirection": "column",
+                                            "alignItems": "stretch",
+                                            "justifyContent": "center",
+                                            "flex": "1",
+                                            "flexShrink": "1",
+                                            "flexBasis": "0%"
+                                        },
+                                        "medium": {
+                                            "paddingLeft": "20px",
+                                            "paddingRight": "20px"
+                                        }
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:72680",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328948"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-e1b46f21bd7808a97c863dfafbc33787",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Accent_2, #61279E)",
+                                                    "fontSize": "40px",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "1.1",
+                                                    "letterSpacing": "-1.2px",
+                                                    "zIndex": "0"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72681",
+                                                "type": "TEXT",
+                                                "name": "32%"
+                                            },
+                                            "layerName": "32%",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "32%"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-3cd870880ecef768f9bd6db8cf4bd1c6",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-Black, #151518)",
+                                                    "fontSize": "16px",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "1.4",
+                                                    "zIndex": "0",
+                                                    "marginTop": "12px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72682",
+                                                "type": "TEXT",
+                                                "name": "6-мес ВБП."
+                                            },
+                                            "layerName": "6-мес ВБП.",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "6-мес ВБП."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-3b206935d93be4d9080f9814140a8a41",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "position": "absolute",
+                                                    "zIndex": "0",
+                                                    "display": "flex",
+                                                    "minHeight": "20px",
+                                                    "width": "20px",
+                                                    "right": "16px",
+                                                    "top": "16px",
+                                                    "height": "20px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72683",
+                                                "type": "INSTANCE",
+                                                "name": "Icons"
+                                            },
+                                            "layerName": "Icons"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-34c6f615961af807588c42f016a409e5",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "borderRadius": "20px",
+                                            "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                                            "alignSelf": "stretch",
+                                            "position": "relative",
+                                            "display": "flex",
+                                            "marginTop": "auto",
+                                            "marginBottom": "auto",
+                                            "paddingLeft": "24px",
+                                            "paddingRight": "24px",
+                                            "paddingTop": "24px",
+                                            "paddingBottom": "24px",
+                                            "flexDirection": "column",
+                                            "alignItems": "stretch",
+                                            "justifyContent": "center",
+                                            "flex": "1",
+                                            "flexShrink": "1",
+                                            "flexBasis": "0%"
+                                        },
+                                        "medium": {
+                                            "paddingLeft": "20px",
+                                            "paddingRight": "20px"
+                                        }
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:72684",
+                                        "type": "FRAME",
+                                        "name": "Frame 2131328949"
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-42789e5d1e3da56e48cc4110d8190df8",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Accent_2, #61279E)",
+                                                    "fontSize": "40px",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "1.1",
+                                                    "letterSpacing": "-1.2px",
+                                                    "zIndex": "0"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72685",
+                                                "type": "TEXT",
+                                                "name": "22%"
+                                            },
+                                            "layerName": "22%",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "22%"
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-0bf1de59080a83906529efa1ad8390d9",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "var(--Body-Black, #151518)",
+                                                    "fontSize": "16px",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "1.4",
+                                                    "zIndex": "0",
+                                                    "marginTop": "12px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72686",
+                                                "type": "TEXT",
+                                                "name": "12-мес ВБП."
+                                            },
+                                            "layerName": "12-мес ВБП.",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "12-мес ВБП."
+                                                }
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-deb8783752f9fcfe9585b6a41242f429",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "position": "absolute",
+                                                    "zIndex": "0",
+                                                    "display": "flex",
+                                                    "minHeight": "20px",
+                                                    "width": "20px",
+                                                    "right": "15px",
+                                                    "top": "16px",
+                                                    "height": "20px"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:72687",
+                                                "type": "INSTANCE",
+                                                "name": "Icons"
+                                            },
+                                            "layerName": "Icons"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-b24e9e39c9fd47a4b72c6912fc714338"
+}

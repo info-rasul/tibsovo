@@ -97,8 +97,14 @@ const MechanismOfAction = () => {
                     {/* Блок 1 - mIDH1 (фиолетовый) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#61279E] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
-                          <span className="text-white text-sm font-medium">mIDH1</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              mIDH1
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#61279E]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -109,8 +115,14 @@ const MechanismOfAction = () => {
                     {/* Блок 2 - 2-ГГ (фиолетовый) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#61279E] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
-                          <span className="text-white text-sm font-medium">2-ГГ</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              2-ГГ
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#61279E]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -121,8 +133,14 @@ const MechanismOfAction = () => {
                     {/* Блок 3 - α-КГ (фиолетовый) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#61279E] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
-                          <span className="text-white text-sm font-medium">α-КГ</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              α-КГ
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#61279E]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -130,11 +148,17 @@ const MechanismOfAction = () => {
                       </p>
                     </div>
 
-                    {/* Блок 4 - mIDH1 (красный) */}
+                    {/* Блок 4 - mIDH1 (фиолетовый) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#E74C39] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(231,76,57,0.2)]">
-                          <span className="text-white text-sm font-medium">mIDH1</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              mIDH1
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#61279E]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -145,11 +169,17 @@ const MechanismOfAction = () => {
 
                   {/* Нижний ряд - 4 блока */}
                   <div className="flex flex-col lg:flex-row items-start gap-6 lg:gap-4">
-                    {/* Блок 5 - α-КГ (красный) */}
+                    {/* Блок 5 - α-КГ (голубой) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#E74C39] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(231,76,57,0.2)]">
-                          <span className="text-white text-sm font-medium">α-КГ</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#87A9E2] hover:bg-[#6f8fc7] transition-colors duration-200 shadow-[0_0_20px_0_rgba(135,169,226,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              α-КГ
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#87A9E2]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -157,11 +187,17 @@ const MechanismOfAction = () => {
                       </p>
                     </div>
 
-                    {/* Блок 6 - 2-ГГ (красный) */}
+                    {/* Блок 6 - 2-ГГ (голубой) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#E74C39] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(231,76,57,0.2)]">
-                          <span className="text-white text-sm font-medium">2-ГГ</span>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#87A9E2] hover:bg-[#6f8fc7] transition-colors duration-200 shadow-[0_0_20px_0_rgba(135,169,226,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              2-ГГ
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#87A9E2]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -169,15 +205,19 @@ const MechanismOfAction = () => {
                       </p>
                     </div>
 
-                    {/* Блок 7 - Итоговый результат (красный) */}
+                    {/* Блок 7 - Итоговый результат (голубой) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16 rounded-full bg-[#E74C39] flex items-center justify-center flex-shrink-0 shadow-[0_0_20px_0_rgba(231,76,57,0.2)]">
-                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M2 17L12 22L22 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                            <path d="M2 12L12 17L22 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                          </svg>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#87A9E2] hover:bg-[#6f8fc7] transition-colors duration-200 shadow-[0_0_20px_0_rgba(135,169,226,0.2)]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-white">
+                              <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                              <path d="M2 17L12 22L22 17" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                              <path d="M2 12L12 17L22 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                            </svg>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#87A9E2]"></div>
                         </div>
                       </div>
                       <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
@@ -185,11 +225,22 @@ const MechanismOfAction = () => {
                       </p>
                     </div>
 
-                    {/* Блок 8 - Пустой блок для симметрии */}
+                    {/* Блок 8 - Четвертый блок (голубой) */}
                     <div className="flex flex-col w-full lg:flex-1 gap-3">
                       <div className="flex items-center justify-center">
-                        <div className="w-16 h-16"></div>
+                        <div className="relative">
+                          <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#87A9E2] hover:bg-[#6f8fc7] transition-colors duration-200 shadow-[0_0_20px_0_rgba(135,169,226,0.2)]">
+                            <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
+                              mIDH1
+                            </span>
+                          </button>
+                          {/* Выступ-указатель внизу */}
+                          <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#87A9E2]"></div>
+                        </div>
                       </div>
+                      <p className="text-[#151518] text-base font-normal leading-[22px] text-center">
+                        Мутация с приобретением функции
+                      </p>
                     </div>
                   </div>
 
@@ -204,18 +255,7 @@ const MechanismOfAction = () => {
             </div>
           </div>
 
-          {/* Кнопка */}
-          <div className="flex flex-col items-center w-full max-w-[260px] mx-auto mt-12">
-            <div className="relative">
-              <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
-                <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
-                  mlDH1
-                </span>
-              </button>
-              {/* Выступ-указатель внизу */}
-              <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-[12px] border-l-transparent border-r-[12px] border-r-transparent border-t-[12px] border-t-[#61279E]"></div>
-            </div>
-          </div>
+      
         </div>
       </div>
     </div>

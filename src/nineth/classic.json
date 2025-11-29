@@ -1,0 +1,781 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "id": "builder-f280a719494ae5a40494095d6e8f9e90",
+            "responsiveStyles": {
+                "large": {
+                    "backgroundColor": "rgba(224, 219, 244, 0.4)",
+                    "display": "flex",
+                    "paddingLeft": "80px",
+                    "paddingRight": "80px",
+                    "paddingTop": "35px",
+                    "paddingBottom": "35px",
+                    "flexDirection": "column",
+                    "alignItems": "center",
+                    "justifyContent": "center"
+                },
+                "medium": {
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px"
+                }
+            },
+            "meta": {
+                "fromJSX": true,
+                "id": "976:73353",
+                "type": "FRAME",
+                "name": "Footer",
+                "fromFigma": true,
+                "vcpImportId": "vcp-9db72328fb234bbbadd68d00aca01a74",
+                "vcpFigmaSelectionUUID": "ea250da1-9727-4dc1-bf6a-08571521c801"
+            },
+            "layerName": "Footer",
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "id": "builder-7c08cb2a8f1b458f8d21328d19e8f241",
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "100%",
+                            "maxWidth": "1140px",
+                            "flexDirection": "column",
+                            "alignItems": "start"
+                        },
+                        "medium": {
+                            "maxWidth": "100%"
+                        }
+                    },
+                    "meta": {
+                        "fromJSX": true
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-dffeb012e7fd4c75bd73cafccc72147a",
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "100%",
+                                    "maxWidth": "1055px",
+                                    "alignItems": "stretch",
+                                    "gap": "40px 100px",
+                                    "flexWrap": "wrap"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-4e059975f346c701a3b49693206ebf82",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "alignItems": "start",
+                                            "overflow": "hidden",
+                                            "justifyContent": "start"
+                                        },
+                                        "medium": {}
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:73354",
+                                        "type": "FRAME",
+                                        "name": "Link → logo-white.svg"
+                                    },
+                                    "layerName": "Link → logo-white.svg",
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "id": "builder-39b400f3d3ff0f80bc1bf32ce61d958c",
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "minHeight": "30px",
+                                                    "width": "150px",
+                                                    "flexDirection": "column",
+                                                    "overflow": "hidden",
+                                                    "alignItems": "center",
+                                                    "justifyContent": "center"
+                                                },
+                                                "medium": {}
+                                            },
+                                            "meta": {
+                                                "fromJSX": true,
+                                                "id": "976:73355",
+                                                "type": "FRAME",
+                                                "name": "logo-white.svg fill"
+                                            },
+                                            "layerName": "logo-white.svg fill",
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "id": "builder-377110a2a20c67c7ba046b24e59a08fa",
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "position": "relative",
+                                                            "display": "flex",
+                                                            "width": "100%"
+                                                        },
+                                                        "medium": {}
+                                                    },
+                                                    "meta": {
+                                                        "fromJSX": true,
+                                                        "id": "976:73356",
+                                                        "type": "FRAME",
+                                                        "name": "logo-white.svg"
+                                                    },
+                                                    "layerName": "logo-white.svg",
+                                                    "component": {
+                                                        "name": "Image",
+                                                        "options": {
+                                                            "aspectRatio": 0.2,
+                                                            "noWebp": true,
+                                                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/a879c2f70952d80188780579e158944419fe6a09?placeholderIfAbsent=true",
+                                                            "backgroundSize": "contain"
+                                                        }
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "id": "builder-a3381814d79877521ec80264508305e1",
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "var(--Body-Black, #151518)",
+                                            "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                            "fontSize": "20px",
+                                            "fontWeight": "400",
+                                            "textTransform": "uppercase",
+                                            "flexGrow": "1",
+                                            "flexShrink": "1",
+                                            "width": "666px"
+                                        },
+                                        "medium": {
+                                            "maxWidth": "100%"
+                                        }
+                                    },
+                                    "meta": {
+                                        "fromJSX": true,
+                                        "id": "976:73383",
+                                        "type": "TEXT",
+                                        "name": "материал предназначен для специалистов здравоохранения"
+                                    },
+                                    "layerName": "материал предназначен для специалистов здравоохранения",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "материал предназначен для специалистов здравоохранения"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-9cf1fa546be744c0b95726f53ae35401",
+                            "responsiveStyles": {
+                                "large": {
+                                    "alignSelf": "stretch",
+                                    "marginTop": "46px"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%",
+                                    "marginTop": "40px"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true
+                            },
+                            "component": {
+                                "name": "Columns",
+                                "options": {
+                                    "space": 93,
+                                    "columns": [
+                                        {
+                                            "width": 33.33333333333333,
+                                            "blocks": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "id": "builder-c0eef9a1a4d44f03ba974bb8295eb5c6",
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "flexGrow": "1",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "start",
+                                                            "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontSize": "12px",
+                                                            "color": "var(--Body-Black, #151518)",
+                                                            "fontWeight": "400"
+                                                        },
+                                                        "medium": {
+                                                            "marginTop": "40px"
+                                                        }
+                                                    },
+                                                    "meta": {
+                                                        "fromJSX": true
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-6b9ccf317a497d16ed2a3f186bc89a53",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "fontWeight": "700",
+                                                                    "lineHeight": "1.25",
+                                                                    "textTransform": "uppercase"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73367",
+                                                                "type": "TEXT",
+                                                                "name": "Адрес офиса:"
+                                                            },
+                                                            "layerName": "Адрес офиса:",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Адрес офиса:"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-effc2ac7aa9030978ebda500c9cc6199",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "marginTop": "29px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73368",
+                                                                "type": "TEXT",
+                                                                "name": "АО «Сервье»:"
+                                                            },
+                                                            "layerName": "АО «Сервье»:",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "АО «Сервье»:"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-7e83a37fbbe71fb74e9d6a82ad91196a",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "display": "flex",
+                                                                    "flexDirection": "column",
+                                                                    "alignItems": "stretch",
+                                                                    "lineHeight": "18px",
+                                                                    "justifyContent": "start"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73369",
+                                                                "type": "FRAME",
+                                                                "name": "Link"
+                                                            },
+                                                            "layerName": "Link",
+                                                            "children": [
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "id": "builder-c602832dc642e054037084f1da322207",
+                                                                    "responsiveStyles": {
+                                                                        "large": {
+                                                                            "color": "var(--Body-Black, #151518)"
+                                                                        },
+                                                                        "medium": {}
+                                                                    },
+                                                                    "meta": {
+                                                                        "fromJSX": true,
+                                                                        "id": "976:73370",
+                                                                        "type": "TEXT",
+                                                                        "name": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9 Бизнес-центр Белые Сады"
+                                                                    },
+                                                                    "layerName": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9 Бизнес-центр Белые Сады",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "125196, Москва, ул. Лесная, д.7, этажи 7/8/9<br/>Бизнес-центр Белые Сады"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-572efefc89661f7d19e805ed929ad42b",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "marginTop": "5px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73371",
+                                                                "type": "TEXT",
+                                                                "name": "Телефон: +7 495 937-07-00"
+                                                            },
+                                                            "layerName": "Телефон: +7 495 937-07-00",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Телефон: +7 495 937-07-00"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-857c8ffbca7bdde202e7272292b9a452",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "marginTop": "17px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73372",
+                                                                "type": "TEXT",
+                                                                "name": "Link → ru.communications@servier.com"
+                                                            },
+                                                            "layerName": "Link → ru.communications@servier.com",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ru.communications@servier.com"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-197a9f8e971b9f4f106ed0f1c2c41d90",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "lineHeight": "18px",
+                                                                    "alignSelf": "stretch",
+                                                                    "marginTop": "14px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73373",
+                                                                "type": "TEXT",
+                                                                "name": "Link → ru.communications@servier.com"
+                                                            },
+                                                            "layerName": "Link → ru.communications@servier.com",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ООО «СЕРВЬЕ РУС», 108828 г. Москва, пос. Краснопахорское, квартал 158, вл.2, стр.1, кабинет 169 Тел. +7 (495) 225-80-10"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "width": 33.33333333333333,
+                                            "blocks": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "id": "builder-4f6fd61d215cd4303e692d49cfa06e06",
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "width": "100%",
+                                                            "paddingRight": "1px",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "stretch",
+                                                            "justifyContent": "start"
+                                                        },
+                                                        "medium": {
+                                                            "marginTop": "40px",
+                                                            "paddingRight": "0px"
+                                                        }
+                                                    },
+                                                    "meta": {
+                                                        "fromJSX": true,
+                                                        "id": "976:73374",
+                                                        "type": "FRAME",
+                                                        "name": "Container"
+                                                    },
+                                                    "layerName": "Container",
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-c63f18cbd21250d971eb968a414c5a66",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontWeight": "700",
+                                                                    "lineHeight": "30px",
+                                                                    "textTransform": "uppercase"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73375",
+                                                                "type": "TEXT",
+                                                                "name": "Сообщить о нежелательном явлении"
+                                                            },
+                                                            "layerName": "Сообщить о нежелательном явлении",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Сообщить о нежелательном явлении"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-4f64a7e328424a1f725387f83f1bf5fc",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "18px",
+                                                                    "marginTop": "30px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73376",
+                                                                "type": "TEXT",
+                                                                "name": "передать запрос по препарату или связаться по другим вопросам Вы можете через форму обратной связи"
+                                                            },
+                                                            "layerName": "передать запрос по препарату или связаться по другим вопросам Вы можете через форму обратной связи",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "передать запрос по препарату или связаться по другим<br/>вопросам Вы можете через форму обратной связи"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-936cb80dcba011e2bdcfaeea40fb59cb",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "justifyContent": "center",
+                                                                    "alignItems": "center",
+                                                                    "borderRadius": "5px",
+                                                                    "border": "1px solid var(--Body-Black, #151518)",
+                                                                    "display": "flex",
+                                                                    "marginTop": "30px",
+                                                                    "width": "257px",
+                                                                    "maxWidth": "100%",
+                                                                    "paddingLeft": "27px",
+                                                                    "paddingRight": "27px",
+                                                                    "paddingTop": "23px",
+                                                                    "paddingBottom": "20px",
+                                                                    "gap": "20px",
+                                                                    "overflow": "hidden"
+                                                                },
+                                                                "medium": {
+                                                                    "paddingLeft": "20px",
+                                                                    "paddingRight": "20px"
+                                                                }
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "976:73377",
+                                                                "type": "FRAME",
+                                                                "name": "Border"
+                                                            },
+                                                            "layerName": "Border",
+                                                            "children": [
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "id": "builder-c2c865b6d5754d08ade1a4b9de3ee506",
+                                                                    "responsiveStyles": {
+                                                                        "large": {
+                                                                            "color": "var(--Body-Black, #151518)",
+                                                                            "textAlign": "center",
+                                                                            "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                                                            "fontSize": "14px",
+                                                                            "fontWeight": "700",
+                                                                            "lineHeight": "1.14",
+                                                                            "alignSelf": "stretch",
+                                                                            "marginTop": "auto",
+                                                                            "marginBottom": "auto"
+                                                                        },
+                                                                        "medium": {}
+                                                                    },
+                                                                    "meta": {
+                                                                        "fromJSX": true,
+                                                                        "id": "976:73378",
+                                                                        "type": "TEXT",
+                                                                        "name": "Форма обратной связи"
+                                                                    },
+                                                                    "layerName": "Форма обратной связи",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "Форма обратной связи"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "id": "builder-090983b3c09bb1875f55e024565673d4",
+                                                                    "responsiveStyles": {
+                                                                        "large": {
+                                                                            "alignSelf": "stretch",
+                                                                            "display": "flex",
+                                                                            "marginTop": "auto",
+                                                                            "marginBottom": "auto",
+                                                                            "minHeight": "12px",
+                                                                            "flexDirection": "column",
+                                                                            "alignItems": "stretch",
+                                                                            "justifyContent": "start",
+                                                                            "width": "16px"
+                                                                        },
+                                                                        "medium": {}
+                                                                    },
+                                                                    "meta": {
+                                                                        "fromJSX": true,
+                                                                        "id": "976:73379",
+                                                                        "type": "FRAME",
+                                                                        "name": "Image"
+                                                                    },
+                                                                    "layerName": "Image",
+                                                                    "children": [
+                                                                        {
+                                                                            "@type": "@builder.io/sdk:Element",
+                                                                            "id": "builder-e37463f28f1d1ad3f33ca3728469cc5f",
+                                                                            "responsiveStyles": {
+                                                                                "large": {
+                                                                                    "display": "flex",
+                                                                                    "minHeight": "12px",
+                                                                                    "width": "16px",
+                                                                                    "flexDirection": "column",
+                                                                                    "overflow": "hidden",
+                                                                                    "alignItems": "center",
+                                                                                    "justifyContent": "center"
+                                                                                },
+                                                                                "medium": {}
+                                                                            },
+                                                                            "meta": {
+                                                                                "fromJSX": true,
+                                                                                "id": "976:73380",
+                                                                                "type": "FRAME",
+                                                                                "name": "arrow-right.svg fill"
+                                                                            },
+                                                                            "layerName": "arrow-right.svg fill",
+                                                                            "children": [
+                                                                                {
+                                                                                    "@type": "@builder.io/sdk:Element",
+                                                                                    "id": "builder-bfe3d6f73b57973c75c5621ee72135fb",
+                                                                                    "responsiveStyles": {
+                                                                                        "large": {
+                                                                                            "position": "relative",
+                                                                                            "display": "flex",
+                                                                                            "width": "100%"
+                                                                                        },
+                                                                                        "medium": {}
+                                                                                    },
+                                                                                    "meta": {
+                                                                                        "fromJSX": true,
+                                                                                        "id": "976:73381",
+                                                                                        "type": "FRAME",
+                                                                                        "name": "arrow-right.svg"
+                                                                                    },
+                                                                                    "layerName": "arrow-right.svg",
+                                                                                    "component": {
+                                                                                        "name": "Image",
+                                                                                        "options": {
+                                                                                            "aspectRatio": 0.75,
+                                                                                            "noWebp": true,
+                                                                                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/3589b4abe9b273edff2fad8ca5cfe59397cae2e1?placeholderIfAbsent=true",
+                                                                                            "backgroundSize": "contain"
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "width": 33.33333333333333,
+                                            "blocks": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "id": "builder-7958a620da896be3f773e88b5a07c97f",
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "stretch",
+                                                            "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontSize": "12px",
+                                                            "color": "var(--Body-Black, #151518)",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "24px",
+                                                            "justifyContent": "center"
+                                                        },
+                                                        "medium": {
+                                                            "marginTop": "40px"
+                                                        }
+                                                    },
+                                                    "meta": {
+                                                        "fromJSX": true,
+                                                        "id": "979:94046",
+                                                        "type": "FRAME",
+                                                        "name": "Frame 24061099"
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-3c5bbb384fee8d4217da16ef4369d9c6",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "#151518"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "979:94047",
+                                                                "type": "TEXT",
+                                                                "name": "Item → Link → Условия использования"
+                                                            },
+                                                            "layerName": "Item → Link → Условия использования",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ТИБСОВО® <span style=\"color: rgba(0,0,0,1);\">РУ ЛП-№(012213)-(РГ-RU)</span>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-c70674037e05ddd061e6bf21b38ba13a",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "marginTop": "16px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "979:94048",
+                                                                "type": "TEXT",
+                                                                "name": "Item → Link → Условия использования"
+                                                            },
+                                                            "layerName": "Item → Link → Условия использования",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Условия использования"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "id": "builder-f69d7d73b6c64bbb9dd5f5d17f4a29fc",
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "color": "var(--Body-Black, #151518)",
+                                                                    "marginTop": "16px"
+                                                                },
+                                                                "medium": {}
+                                                            },
+                                                            "meta": {
+                                                                "fromJSX": true,
+                                                                "id": "979:94049",
+                                                                "type": "TEXT",
+                                                                "name": "Item → Link → Политика в отношении обработки персональных данных"
+                                                            },
+                                                            "layerName": "Item → Link → Политика в отношении обработки персональных данных",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Политика в отношении обработки персональных данных"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "id": "builder-813a9d018559be197d522f5adb3ab619",
+                            "responsiveStyles": {
+                                "large": {
+                                    "color": "var(--Body-Black, #151518)",
+                                    "fontFamily": "Century Gothic, -apple-system, Roboto, Helvetica, sans-serif",
+                                    "fontSize": "12px",
+                                    "fontWeight": "400",
+                                    "opacity": "0.5",
+                                    "marginTop": "15px"
+                                },
+                                "medium": {
+                                    "maxWidth": "100%"
+                                }
+                            },
+                            "meta": {
+                                "fromJSX": true,
+                                "id": "976:73365",
+                                "type": "TEXT",
+                                "name": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены"
+                            },
+                            "layerName": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "© 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-9db72328fb234bbbadd68d00aca01a74"
+}
