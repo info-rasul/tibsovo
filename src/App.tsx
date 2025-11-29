@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden ">
       <Header />
       <Hero />
       <Efficiency />
