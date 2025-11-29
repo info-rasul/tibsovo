@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import graphImage from '../assets/graph.svg'
 
 const Graphs = () => {
   const [activeTab, setActiveTab] = useState<'overall' | 'progression' | 'response'>('progression')
@@ -60,6 +61,14 @@ const Graphs = () => {
                   снижение риска прогрессирования заболевания или смерти (HR, 0.37 [95% CI, 0.25-0.54]; P&lt;0.0001)
                 </div>
               </div>
+            </div>
+            {/* Graph Image */}
+            <div className="flex flex-col px-8 py-[30px]">
+            <img 
+              src={graphImage}
+              alt="Graph"
+              className="w-full h-auto"
+            />
             </div>
           </div>
 

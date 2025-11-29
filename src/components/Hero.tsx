@@ -40,10 +40,10 @@ function Hero() {
       />
       
       {/* Content Container */}
-      <div className="relative z-10 mx-auto w-full max-w-[1360px] pl-4 pr-4 mt-[56px] pt-[24px] pb-10 md:pl-5 md:pr-5 md:pt-[100px] lg:pl-10 lg:pr-10 lg:pt-[127px] 2xl:px-0">
+      <div className="relative z-10 mx-auto w-full max-w-[1360px] pl-4 pr-4 mt-[56px] pt-[24px] pb-10 md:pl-5 md:pr-5 md:pt-[100px] lg:pl-10 lg:pr-10 lg:pt-[71px] 2xl:px-0">
           {/* Text Content */}
           <div className="flex flex-col items-start gap-6 md:gap-8">
-            <h1 className="max-w-[55%] md:max-w-[60%] text-[#61279E] text-[32px] md:text-4xl lg:text-[64px] font-semibold leading-[110%] tracking-[-0.96px] md:tracking-[-2.56px]">
+            <h1 className="max-w-[55%] md:max-w-[66%] text-[#61279E] text-[32px] md:text-4xl lg:text-[64px] font-semibold leading-[110%] tracking-[-0.96px] md:tracking-[-2.56px]">
               ТИБСОВО<span className="text-[32px] md:text-4xl lg:text-[64px]">®</span>: индивидуальный подход для наилучшего результата
             </h1>
             
@@ -53,9 +53,9 @@ function Hero() {
           </div>
 
           {/* Stats Cards */}
-          <div className="mt-8 md:mt-10 lg:mt-[89px] flex flex-col gap-2 w-full md:max-w-[448px]">
+          <div className="mt-8 md:mt-10 lg:mt-[95px] flex flex-col gap-2 w-full md:max-w-[448px]">
             {/* First large card */}
-            <div className="relative rounded-2xl md:rounded-[20px] bg-[rgba(224,219,244,0.4)] p-4 md:p-5 lg:p-6 flex flex-col justify-center items-start gap-2 md:gap-3">
+            <div className="relative rounded-2xl md:rounded-[20px] bg-[rgba(224,219,244,0.4)] p-4 md:p-5 lg:p-5.5 flex flex-col justify-center items-start gap-2 md:gap-3">
               <div className="text-[#61279E] text-2xl md:text-[44px] font-semibold leading-[110%] tracking-[-0.72px] md:tracking-[-1.32px]">
                 {stats[0].value}
               </div>
@@ -86,7 +86,7 @@ function Hero() {
               {stats.slice(1).map((stat, index) => (
                 <div 
                   key={index}
-                  className="relative rounded-2xl md:rounded-[20px] bg-[rgba(224,219,244,0.4)] p-4 md:p-5 lg:p-6 flex flex-col justify-center items-start gap-2 md:gap-3 w-1/2 flex-1"
+                  className="relative rounded-2xl md:rounded-[20px] bg-[rgba(224,219,244,0.4)] p-4 md:p-5 lg:p-5 flex flex-col justify-center items-start gap-2 md:gap-3 w-1/2 flex-1"
                 >
                   <div className="text-[#61279E] text-2xl md:text-[44px] font-semibold leading-[110%] tracking-[-0.72px] md:tracking-[-1.32px]">
                     {stat.value}

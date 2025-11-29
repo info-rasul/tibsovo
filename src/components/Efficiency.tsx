@@ -5,7 +5,7 @@ const Efficiency = () => {
   return (
     <div className="w-full max-w-full py-20 md:px-5 md:pb-24">
       <div 
-        className="mx-auto w-full max-w-[1360px] rounded-[20px] pt-15 pb-4 md:pb-4 relative overflow-hidden"
+        className="mx-auto w-full max-w-[1360px] rounded-[20px] pt-16 pb-4 md:pb-4 relative overflow-hidden"
         style={{ 
           backgroundColor: '#61279E',
           backgroundImage: `url(${effectImage})`,
