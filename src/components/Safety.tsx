@@ -1,20 +1,20 @@
-import stomachIcon from "../sixth/icons/1.svg";
-import groupIcon from "../sixth/icons/2.svg";
-import groupIcon2 from "../sixth/icons/3.svg";
+import icon1 from "../sixth/icons/1.svg";
+import icon2 from "../sixth/icons/2.svg";
+import icon3 from "../sixth/icons/3.svg";
 
 function Safety() {
   const listItems = [
     {
       text: "Наиболее частыми нежелательными реакциями были утомляемость (43 %), \nтошнота (42 %), боль в животе (35 %), диарея (35 %), снижение аппетита (24 %), \nасцит (23 %), рвота (23 %), анемия (19 %) и сыпь (15 %).",
-      icon: stomachIcon,
+      icon: icon3, // 3.svg - первый кружочек
     },
     {
       text: "Наиболее частыми серьезными нежелательными реакциями были \nасцит (2 %), гипербилирубинемия (2 %) и холестатическая желтуха (2 %).",
-      icon: groupIcon,
+      icon: icon1, // 1.svg - второй кружочек
     },
     {
       text: "Частота прекращения применения ивосидениба из-за развития нежелательных \nреакций составила 2 %. Нежелательными реакциями, приводившими \nк прекращению лечения, были асцит (1 %) и гипербилирубинемия (1 %).",
-      icon: groupIcon2,
+      icon: icon2, // 2.svg - третий кружочек
     },
   ];
 
