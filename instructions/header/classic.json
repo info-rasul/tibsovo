@@ -1,0 +1,74 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "properties": {
+                "layer-name": "Header"
+            },
+            "responsiveStyles": {
+                "large": {
+                    "display": "flex",
+                    "height": "56px",
+                    "padding": "12px 16px",
+                    "justifyContent": "space-between",
+                    "alignItems": "center",
+                    "alignSelf": "stretch",
+                    "background": "rgba(255, 255, 255, 0.80)",
+                    "boxShadow": "0 1px 48px 0 rgba(0, 0, 0, 0.05)",
+                    "backdropFilter": "blur(40px)",
+                    "position": "relative",
+                    "width": "100%",
+                    "boxSizing": "border-box"
+                },
+                "medium": {
+                    "padding": "12px 16px",
+                    "height": "56px"
+                },
+                "small": {
+                    "padding": "12px 16px",
+                    "height": "56px"
+                }
+            },
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                        "name": "Raw:Img",
+                        "options": {
+                            "image": "https://api.builder.io/api/v1/image/assets/TEMP/fc5019922353f377f2dfbf918ef233b68db80c2e?width=244",
+                            "altText": "Tibsovo_logo_new 1"
+                        }
+                    },
+                    "responsiveStyles": {
+                        "large": {
+                            "width": "122px",
+                            "height": "34px",
+                            "position": "relative"
+                        },
+                        "medium": {
+                            "width": "122px",
+                            "height": "34px"
+                        },
+                        "small": {
+                            "width": "100px",
+                            "height": "28px"
+                        }
+                    },
+                    "layerName": "Tibsovo_logo_new 1"
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                        "name": "Custom Code",
+                        "options": {
+                            "code": "<svg id=\"976:76133\" layer-name=\"Меню\" width=\"26\" height=\"26\" viewBox=\"0 0 26 26\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"menu-icon\" style=\"width: 26px; height: 26px; aspect-ratio: 1/1; position: relative\">\n<path d=\"M2.59961 5.19995H23.3996\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n<path d=\"M2.59961 13H23.3996\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n<path d=\"M2.59961 20.8H23.3996\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n</svg>"
+                        }
+                    }
+                }
+            ],
+            "layerName": "Header"
+        }
+    ],
+    "vcpImportId": "vcp-8d4a4fa3a4994671a2383232936c2502"
+}

@@ -9,14 +9,14 @@ const MechanismOfAction = () => {
             <h3 className="text-white text-base font-semibold leading-[120%] tracking-[0.48px] uppercase">
               Механизм действия
             </h3>
-            
+
             {/* Контент */}
             <div className="flex flex-col mt-4">
               {/* Большой заголовок */}
               <h2 className="text-white text-[40px] font-semibold leading-[110%] tracking-[-1.2px]">
                 Роль мутации гена IDH1 при холангиокарциноме
               </h2>
-              
+
               {/* Текст описания */}
               <p className="text-white text-xl font-normal leading-[28px] mt-6">
                 Мутации IDH1 диагностируются примерно в 10–20% случаев внутрипеченочной хронической кавернозной ангиопатии (ХКА):
@@ -255,7 +255,7 @@ const MechanismOfAction = () => {
             </div>
           </div>
 
-      
+
         </div>
       </div>
     </div>
