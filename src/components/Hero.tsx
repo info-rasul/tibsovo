@@ -21,35 +21,29 @@ function Hero() {
   ]
 
   return (
-    <>
-      <style>{`
-        .hero-bg-mobile {
-          background-image: url(${heroImageMob});
-          background-position: right 50px;
-          background-size: contain;
-          background-repeat: no-repeat;
-        }
-        @media (min-width: 768px) {
-          .hero-bg-mobile {
-            background-image: url(${heroImage});
-            background-position: right bottom;
-            background-size: contain;
-          }
-        }
-        @media (max-width: 767px) {
-          .hero-bg-mobile {
-            background-clip: padding-box;
-          }
-        }
-      `}</style>
-      <section 
-        className="relative w-full bg-white overflow-hidden min-h-[594px] md:min-h-auto hero-bg-mobile"
-      >
-        {/* Content Container */}
-        <div className="relative z-10 mx-auto w-full max-w-[1360px] pl-4 pr-4 mt-[56px] pt-[24px] pb-10 md:pl-5 md:pr-5 md:pt-[100px] lg:pl-10 lg:pr-10 lg:pt-[127px] 2xl:px-0">
+    <section 
+      className="relative w-full bg-white overflow-hidden min-h-[594px] md:min-h-auto"
+    >
+      {/* Background Image - Mobile */}
+      <img 
+        src={heroImageMob}
+        alt=""
+        className="absolute top-[38px] max-h-[200px] right-0 h-auto object-contain pointer-events-none md:hidden"
+        aria-hidden="true"
+      />
+      {/* Background Image - Desktop */}
+      <img 
+        src={heroImage}
+        alt=""
+        className="absolute max-w-[35%] top-[0] right-0 h-auto object-contain pointer-events-none hidden md:block"
+        aria-hidden="true"
+      />
+      
+      {/* Content Container */}
+      <div className="relative z-10 mx-auto w-full max-w-[1360px] pl-4 pr-4 mt-[56px] pt-[24px] pb-10 md:pl-5 md:pr-5 md:pt-[100px] lg:pl-10 lg:pr-10 lg:pt-[127px] 2xl:px-0">
           {/* Text Content */}
-          <div className="flex flex-col items-start gap-6 md:gap-8 max-w-[343px] md:max-w-[911px]">
-            <h1 className="text-[#61279E] text-[32px] md:text-4xl lg:text-[64px] font-semibold leading-[110%] tracking-[-0.96px] md:tracking-[-2.56px]">
+          <div className="flex flex-col items-start gap-6 md:gap-8">
+            <h1 className="max-w-[55%] md:max-w-[60%] text-[#61279E] text-[32px] md:text-4xl lg:text-[64px] font-semibold leading-[110%] tracking-[-0.96px] md:tracking-[-2.56px]">
               ТИБСОВО<span className="text-[32px] md:text-4xl lg:text-[64px]">®</span>: индивидуальный подход для наилучшего результата
             </h1>
             
@@ -123,7 +117,6 @@ function Hero() {
           </div>
         </div>
       </section>
-    </>
   )
 }
 
