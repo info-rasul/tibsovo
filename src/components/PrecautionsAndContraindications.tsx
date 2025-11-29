@@ -1,4 +1,8 @@
-import stomachIcon from "../sixth/icons/1.svg";
+import icon1 from "../seventh/icons/1.svg";
+import icon2 from "../seventh/icons/2.svg";
+import icon3 from "../seventh/icons/3.svg";
+import icon4 from "../seventh/icons/4.svg";
+import rectangle13Icon from "../seventh/icons/Rectangle 13.svg";
 
 function PrecautionsAndContraindications() {
   const precautions = [
@@ -6,23 +10,23 @@ function PrecautionsAndContraindications() {
       text: "Перед началом лечения необходимо провести электрокардиографическое исследование (ЭКГ). ",
       boldText:
         "Продолжительность интервала QT, скорректированный \n по частоте сердечных сокращений (QTc), должен составлять менее 450 мс.",
-      icon: stomachIcon,
+      icon: icon1,
       },
     {
       text: "По возможности следует избегать сочетанного применения лекарственных препаратов, удлиняющих интервал QTc, или умеренных и сильных ингибиторов CYP3A4.",
-      icon: stomachIcon,
+      icon: icon2,
     },
     {
       text: "Общий и биохимический анализы крови следует выполнять перед началом \n терапии препаратом ТИБСОВО®, по меньшей мере, один раз в неделю в течение первого месяца лечения.",
       lineBreak:
         "Общий и биохимический анализы крови следует выполнять перед началом \n терапии препаратом ТИБСОВО®, по меньшей мере, один раз в неделю \n в течение первого месяца лечения.",
-      icon: stomachIcon,
+      icon: icon3,
     },
     {
       text: "Женщины, способные к деторождению, должны пройти тест на беременность перед началом лечения препаратом ТИБСОВО® и избегать возникновения беременности во время терапии.",
       lineBreak:
         "Женщины, способные к деторождению, должны пройти тест на беременность перед началом лечения препаратом ТИБСОВО® и избегать возникновения беременности \n во время терапии.",
-      icon: stomachIcon,
+      icon: icon4,
     },
   ];
 
@@ -31,61 +35,54 @@ function PrecautionsAndContraindications() {
       text: "Гиперчувствительность к ивосиденибу или к любому из вспомогательных веществ.",
       lineBreak:
         "Гиперчувствительность к ивосиденибу \n или к любому из вспомогательных веществ.",
-      icon: stomachIcon,
+      icon: rectangle13Icon,
     },
     {
       text: "Совместное применение сильных индукторов CYP3A4 или дабигатрана.",
       lineBreak:
         "Совместное применение сильных \n индукторов CYP3A4 или дабигатрана.",
-      icon: stomachIcon,
+      icon: rectangle13Icon,
     },
     {
       text: "Врожденный синдром удлиненного интервала QT.",
       lineBreak: "Врожденный синдром \n удлиненного интервала QT.",
-      icon: stomachIcon,
+      icon: rectangle13Icon,
     },
     {
       text: "Семейный анамнез внезапной смерти или полиморфной желудочковой тахикардии.",
       lineBreak:
         "Семейный анамнез внезапной смерти \n или полиморфной желудочковой тахикардии.",
-      icon: stomachIcon,
+      icon: rectangle13Icon,
     },
     {
       text: "Продолжительность интервала QT/QTc > 500 мс, независимо от метода расчета корригированного интервала.",
       lineBreak:
         "Продолжительность интервала QT/QTc > 500 мс, \n независимо от метода расчета корригированного интервала.",
-      icon: stomachIcon,
+      icon: rectangle13Icon,
     },
   ];
 
   return (
     <section
-      className="w-full flex flex-col items-stretch justify-start"
+      className="w-full py-20 px-4 md:px-5 md:pb-24"
       style={{
         fontFamily: "Geist, -apple-system, Roboto, Helvetica, sans-serif",
       }}
     >
-      {/* Внешний контейнер с отступами */}
+      {/* Основной контентный блок */}
       <div
-        className="w-full pl-5 pr-5 md:pl-10 md:pr-10 flex items-center justify-start"
-        style={{ gap: "8px" }}
+        className="mx-auto w-full max-w-[1360px] rounded-[20px] overflow-hidden"
+        style={{
+          backgroundColor: "rgba(224, 219, 244, 0.4)",
+        }}
       >
-        {/* Основной контентный блок */}
-        <div
-          className="w-full min-w-[240px] flex flex-col items-stretch justify-start rounded-[20px] overflow-hidden flex-1"
-          style={{
-            backgroundColor: "rgba(224, 219, 244, 0.4)",
-            paddingTop: "64px",
-            paddingBottom: "64px",
-          }}
-        >
+        <div className="p-6 md:p-16 flex flex-col gap-12">
           {/* БЛОК 1: ГЛАВНЫЙ ЗАГОЛОВОК */}
           <div
-            className="w-full max-w-[1082px] px-5 md:px-16 flex items-center justify-start"
-            style={{ gap: "8px" }}
+            className="w-full flex flex-col items-stretch justify-start"
           >
             <h2
-              className="w-full max-w-[954px] text-left"
+              className="w-full text-left"
               style={{
                 fontSize: "32px",
                 fontWeight: 600,
@@ -103,11 +100,10 @@ function PrecautionsAndContraindications() {
           </div>
 
           {/* БЛОК 2: МЕРЫ ПРЕДОСТОРОЖНОСТИ */}
-          <div className="mt-10 md:mt-16 w-full flex flex-col items-stretch justify-start">
+          <div className="w-full flex flex-col items-stretch justify-start">
             {/* Заголовок раздела */}
             <div
-              className="w-full px-5 md:px-16 flex items-center justify-start"
-              style={{ gap: "8px" }}
+              className="w-full flex items-center justify-start"
             >
               <h3
                 className="flex-1 text-left"
@@ -126,7 +122,7 @@ function PrecautionsAndContraindications() {
             </div>
 
             {/* Список пунктов мер предосторожности */}
-            <div className="mt-10 md:mt-12 w-full max-w-[1058px] px-5 md:px-16 flex flex-col items-stretch justify-start">
+            <div className="mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start">
               {precautions.map((item, index) => (
                 <div
                   key={index}
@@ -149,7 +145,7 @@ function PrecautionsAndContraindications() {
                         transform: "translateY(-50%)",
                         height: "72px",
                         background:
-                          "linear-gradient(to right, rgba(135, 169, 226, 0) 0%, rgba(135, 169, 226, 0.8) 100%)",
+                          "linear-gradient(to right, rgba(106, 25, 164, 0) 0%, rgba(106, 25, 164, 1) 100%)",
                         borderTopRightRadius: "36px",
                         borderBottomRightRadius: "36px",
                       }}
@@ -175,10 +171,20 @@ function PrecautionsAndContraindications() {
 
                     {/* Текст элемента списка */}
                     <p
-                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line md:whitespace-pre-line"
+                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line"
                       style={{ wordBreak: "break-word" }}
                     >
-                      {item.text}
+                      {item.lineBreak ? item.lineBreak : (
+                        <>
+                          {item.text}
+                          {item.boldText && (
+                            <>
+                              {" "}
+                              <strong style={{ fontWeight: 700 }}>{item.boldText}</strong>
+                            </>
+                          )}
+                        </>
+                      )}
                     </p>
                   </div>
                 </div>
@@ -187,11 +193,10 @@ function PrecautionsAndContraindications() {
           </div>
 
           {/* БЛОК 3: ПРОТИВОПОКАЗАНИЯ */}
-          <div className="mt-10 md:mt-16 w-full flex flex-col items-stretch justify-start">
+          <div className="w-full flex flex-col items-stretch justify-start">
             {/* Заголовок раздела */}
             <div
-              className="w-full px-5 md:px-16 flex items-center justify-start"
-              style={{ gap: "8px" }}
+              className="w-full flex items-center justify-start"
             >
               <h3
                 className="flex-1 text-left"
@@ -210,7 +215,7 @@ function PrecautionsAndContraindications() {
             </div>
 
             {/* Список пунктов противопоказаний */}
-            <div className="mt-10 md:mt-12 w-full max-w-[1058px] px-5 md:px-16 flex flex-col items-stretch justify-start">
+            <div className="mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start">
               {contraindications.map((item, index) => (
                 <div
                   key={index}
@@ -223,30 +228,30 @@ function PrecautionsAndContraindications() {
                     className="relative flex items-center flex-1 min-w-0"
                     style={{ gap: "24px" }}
                   >
-                    {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
-                    <div
-                      className="absolute pointer-events-none"
-                      style={{
-                        left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
-                        right: "calc(100% - 72px)",
-                        top: "50%",
-                        transform: "translateY(-50%)",
-                        height: "72px",
-                        background:
-                          "linear-gradient(to right, rgba(135, 169, 226, 0) 0%, rgba(135, 169, 226, 0.8) 100%)",
-                        borderTopRightRadius: "36px",
-                        borderBottomRightRadius: "36px",
-                      }}
-                    />
-
-                    {/* Голубой круглый блок */}
-                    <div
-                      className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
-                      style={{
-                        backgroundColor: "##F60808",
-                        boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
-                      }}
-                    >
+                     {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
+                     <div
+                       className="absolute pointer-events-none"
+                       style={{
+                         left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
+                         right: "calc(100% - 72px)",
+                         top: "50%",
+                         transform: "translateY(-50%)",
+                         height: "72px",
+                         background:
+                           "linear-gradient(to right, rgba(231, 76, 57, 0) 0%, rgba(231, 76, 57, 0.8) 100%)",
+                         borderTopRightRadius: "36px",
+                         borderBottomRightRadius: "36px",
+                       }}
+                     />
+ 
+                     {/* Оранжевый круглый блок */}
+                     <div
+                       className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
+                       style={{
+                         backgroundColor: "#E74C39",
+                         boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
+                       }}
+                     >
                       <img
                         src={item.icon}
                         alt=""
@@ -259,10 +264,10 @@ function PrecautionsAndContraindications() {
 
                     {/* Текст элемента списка */}
                     <p
-                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line md:whitespace-pre-line"
+                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line"
                       style={{ wordBreak: "break-word" }}
                     >
-                      {item.text}
+                      {item.lineBreak || item.text}
                     </p>
                   </div>
                 </div>
