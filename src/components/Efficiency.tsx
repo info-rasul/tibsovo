@@ -1,20 +1,20 @@
-import Graphs from './Graphs'
-import effectImage from '../assets/effect.svg'
+import Graphs from "./Graphs";
+import effectImage from "../assets/effect.svg";
 
 const Efficiency = () => {
   return (
     <div className="w-full max-w-full py-2 md:py-20 md:px-5 md:pb-24 bg-white">
-      <div 
-        className="mx-auto w-full max-w-[1360px] rounded-[16px] md:rounded-[20px] pt-8 md:pt-16 pb-2 md:pb-4 relative overflow-hidden"
-        style={{ 
-          backgroundColor: '#61279E',
-          backgroundImage: `url(${effectImage})`,
-          backgroundPosition: 'right top',
-          backgroundSize: 'auto',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        <div className="flex flex-col gap-3 md:gap-6 px-4 md:px-16 pb-12 md:pb-0">
+      <div className="mx-auto w-full max-w-[1360px] rounded-[16px] md:rounded-[20px] pt-8 md:pt-16 pb-2 md:pb-4 relative overflow-hidden"
+              style={{
+                backgroundColor: "#61279E",
+                backgroundImage: `url("${effectImage}")`,
+                backgroundPosition: "right top",
+                backgroundSize: "auto",
+                backgroundRepeat: "no-repeat",
+              }}>
+        <div
+          className="flex flex-col gap-3 md:gap-6 px-4 md:px-16 pb-12 md:pb-0"
+        >
           {/* Заголовок */}
           <h2 className="text-xs md:text-base font-semibold uppercase leading-[120%] tracking-[0.36px] md:tracking-[0.48px] text-white">
             Эффективность
@@ -23,29 +23,34 @@ const Efficiency = () => {
           {/* Контент с блоком mini справа */}
           <div className="flex flex-col lg:flex-row gap-8 md:gap-8 items-start">
             <div className="flex flex-col gap-8 md:gap-12 flex-1">
-            {/* Текстовый блок */}
-            <div className="flex flex-col gap-6">
-              <h3 className="w-full max-w-[949px] text-2xl md:text-[40px] font-semibold leading-[110%] tracking-[-0.48px] md:tracking-[-1.2px] text-white">
-                Исследование ClarIDHy: международное двойное слепое рандомизированное плацебо-контролируемое исследование III фазы.
-              </h3>
-              <p className="w-full max-w-[949px] text-sm md:text-xl font-normal leading-[140%] text-white">
-                Цель исследования ClarIDHy: оценить эффективность и безопасность применения монотерапии ТИБСОВО® в сравнении с ПБО у взрослых пациентов с холангиокарциномой на поздних стадиях с мутацией в гене IDH1 (февраль 2017 – январь 2019).
-              </p>
-            </div>
+              {/* Текстовый блок */}
+              <div className="flex flex-col gap-6">
+                <h3 className="w-full max-w-[949px] text-2xl md:text-[40px] font-semibold leading-[110%] tracking-[-0.48px] md:tracking-[-1.2px] text-white">
+                  Исследование ClarIDHy: международное двойное слепое
+                  рандомизированное плацебо-контролируемое исследование III
+                  фазы.
+                </h3>
+                <p className="w-full max-w-[949px] text-sm md:text-xl font-normal leading-[140%] text-white">
+                  Цель исследования ClarIDHy: оценить эффективность и
+                  безопасность применения монотерапии ТИБСОВО® в сравнении с ПБО
+                  у взрослых пациентов с холангиокарциномой на поздних стадиях с
+                  мутацией в гене IDH1 (февраль 2017 – январь 2019).
+                </p>
+              </div>
 
-            {/* Кнопки */}
-            <div className="flex flex-col md:flex-row items-stretch md:items-center gap-3 md:gap-3 flex-wrap">
-              <button className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
-                <span className="text-sm md:text-base font-semibold leading-[140%] text-white">
-                  Дизайн исследования ClarIDHy
-                </span>
-              </button>
-              <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
-                <span className="text-sm md:text-base font-semibold leading-[140%] text-[#151518]">
-                  Исходные характеристики
-                </span>
-              </button>
-            </div>
+              {/* Кнопки */}
+              <div className="flex flex-col md:flex-row items-stretch md:items-center gap-3 md:gap-3 flex-wrap">
+                <button className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
+                  <span className="text-sm md:text-base font-semibold leading-[140%] text-white">
+                    Дизайн исследования ClarIDHy
+                  </span>
+                </button>
+                <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
+                  <span className="text-sm md:text-base font-semibold leading-[140%] text-[#151518]">
+                    Исходные характеристики
+                  </span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -53,8 +58,7 @@ const Efficiency = () => {
         <Graphs />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Efficiency
-
+export default Efficiency;

@@ -16,7 +16,7 @@ const Graphs = () => {
         {/* Content - Two columns */}
         <div className="flex flex-col lg:flex-row flex-1">
           {/* Left side - Stats */}
-          <div className="flex-1 flex flex-col">
+          <div className="flex-1 flex flex-col max-w-[68%] overflow-auto">
             {/* Header with tabs */}
             <div className="rounded-lg py-4 md:p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
               <div className="md:rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.12)] p-2 md:p-1.5 flex flex-row items-center gap-2 overflow-x-auto md:overflow-visible w-full md:w-auto scrollbar-hide">
@@ -90,7 +90,7 @@ const Graphs = () => {
           </div>
 
           {/* Right side - Text content */}
-          <div className="w-full lg:w-[436px] flex-shrink-0 px-2 md:px-1 pt-12 md:pt-0 py-4 md:pr-4 max-w-full">
+          <div className="w-full lg:w-[436px] flex-shrink-0 px-2 md:px-1 pt-12 md:pt-4 py-4 md:pr-4 max-w-full">
             <div className="rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.12)] px-5 py-5 md:px-8 md:pt-11 md:pb-7 flex flex-col gap-5 md:gap-6 h-full">
               <h3 className="text-[#151518] text-2xl md:text-[32px] font-semibold leading-[120%] md:leading-[35px] tracking-[-0.48px] md:tracking-[-0.96px]">
                 ТИБСОВО<span className="text-2xl md:text-[32px]">®</span> улучшает мВБП приблизительно в 2 раза по сравнению с плацебо
