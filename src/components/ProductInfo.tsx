@@ -53,7 +53,6 @@ const ProductInfo = () => {
           <div className="px-4 md:px-0 relative z-10">
             <ProductInstruct />
           </div>
-
           {/* Блок с предупреждением */}
           <div className="p-10  pb-12 relative z-10 flex items-start">
             {/* Иконка предупреждения */}

@@ -13,6 +13,7 @@ function App() {
       <Efficiency />
       <ProductInfo />
       <MechanismOfAction />
+
     </div>
   )
 }
