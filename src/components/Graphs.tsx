@@ -10,12 +10,12 @@ const Graphs = () => {
   ]
 
   return (
-    <div className="w-full pt-20 pb-1 md:px-4">
+    <div className="w-full max-w-full pt-20 pb-1 md:px-4">
       <div className="mx-auto w-full max-w-[1360px] rounded-2xl bg-white overflow-hidden flex flex-col">
         {/* Content - Two columns */}
         <div className="flex flex-col lg:flex-row flex-1">
           {/* Left side - Stats */}
-          <div className="flex-1 min-w-[240px] flex flex-col">
+          <div className="flex-1 min-w-0 md:min-w-[240px] flex flex-col">
             {/* Header with tabs */}
             <div className="rounded-lg p-4 px-4 flex items-center justify-between flex-wrap">
               <div className="rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.08)] p-1.5 flex items-center gap-2 flex-wrap">
@@ -64,7 +64,7 @@ const Graphs = () => {
           </div>
 
           {/* Right side - Text content */}
-          <div className="w-[436px] flex-shrink-0 px-1 py-4 pr-4">
+          <div className="w-full lg:w-[436px] flex-shrink-0 px-1 py-4 pr-4 max-w-full">
             <div className="rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.08)] p-8 flex flex-col gap-6 h-full">
               <h3 className="text-[#151518] text-[32px] font-semibold leading-[35px] tracking-[-0.96px]">
                 ТИБСОВО<span className="text-[32px]">®</span> улучшает мВБП приблизительно в 2 раза по сравнению с плацебо

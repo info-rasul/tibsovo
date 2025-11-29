@@ -37,11 +37,11 @@ const ProductInfo = () => {
 
             {/* Третий блок - Фотография препарата */}
             <div className="flex-1 lg:flex-none lg:w-[400px] bg-white p-8 flex items-center justify-center relative">
-              <div className="w-full h-[500px] rounded-xl flex items-center justify-center overflow-visible relative z-10">
+              <div className="w-full h-[500px] rounded-xl flex items-center justify-center overflow-hidden relative z-10">
                 <img 
                   src={tibsovoImage} 
                   alt="Препарат ТИБСОВО"
-                  className="w-[120%] h-[120%] object-contain"
+                  className="w-full h-full object-contain max-w-full"
                 />
               </div>
             </div>

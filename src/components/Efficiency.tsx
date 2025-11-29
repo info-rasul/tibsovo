@@ -3,7 +3,7 @@ import effectImage from '../assets/effect.svg'
 
 const Efficiency = () => {
   return (
-    <div className="w-full py-20 md:px-5 md:pb-24">
+    <div className="w-full max-w-full py-20 md:px-5 md:pb-24">
       <div 
         className="mx-auto w-full max-w-[1360px] rounded-[20px] pt-15 pb-4 md:pb-4 relative overflow-hidden"
         style={{ 
@@ -34,14 +34,14 @@ const Efficiency = () => {
             </div>
 
             {/* Кнопки */}
-            <div className="flex items-center gap-3">
-              <button className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-8 py-4">
-                <span className="text-base font-semibold leading-[140%] text-white">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 flex-wrap">
+              <button className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-6 sm:px-8 py-4 whitespace-nowrap">
+                <span className="text-sm sm:text-base font-semibold leading-[140%] text-white">
                   Дизайн исследования ClarIDHy
                 </span>
               </button>
-              <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-8 py-4">
-                <span className="text-base font-semibold leading-[140%] text-[#151518]">
+              <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-6 sm:px-8 py-4 whitespace-nowrap">
+                <span className="text-sm sm:text-base font-semibold leading-[140%] text-[#151518]">
                   Исходные характеристики
                 </span>
               </button>

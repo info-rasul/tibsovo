@@ -1,0 +1,574 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "link",
+            "properties": {
+                "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400;600&display=swap",
+                "rel": "stylesheet"
+            }
+        },
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "properties": {},
+            "responsiveStyles": {
+                "large": {
+                    "height": "594px",
+                    "alignSelf": "stretch",
+                    "position": "relative",
+                    "background": "#ffffff",
+                    "overflow": "hidden"
+                },
+                "medium": {},
+                "small": {}
+            },
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "343px",
+                            "flexDirection": "column",
+                            "alignItems": "flex-start",
+                            "gap": "24px",
+                            "position": "absolute",
+                            "left": "16px",
+                            "top": "24px",
+                            "height": "299px"
+                        },
+                        "medium": {
+                            "width": "calc(100% - 64px)",
+                            "maxWidth": "500px",
+                            "left": "32px"
+                        },
+                        "small": {
+                            "width": "calc(100% - 32px)",
+                            "maxWidth": "343px"
+                        }
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {
+                                "layer-name": "ТИБСОВО®: индивидуальный подход для наилучшего результата"
+                            },
+                            "responsiveStyles": {
+                                "large": {
+                                    "alignSelf": "stretch",
+                                    "color": "#61279E",
+                                    "fontFamily": "Geist",
+                                    "fontSize": "32px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "600",
+                                    "lineHeight": "110%",
+                                    "letterSpacing": "-0.96px",
+                                    "position": "relative"
+                                },
+                                "medium": {},
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "span",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "ТИБСОВО®: индивидуальный подход для наилучшего результата"
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                            "fontWeight": "600",
+                                            "fontSize": "32px",
+                                            "color": "rgba(97,39,158,1)"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "properties": {}
+                                }
+                            ],
+                            "layerName": "ТИБСОВО®: индивидуальный подход для наилучшего результата"
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {
+                                "layer-name": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов  с холангиокарциномой с мутацией в гене IDH1."
+                            },
+                            "responsiveStyles": {
+                                "large": {
+                                    "alignSelf": "stretch",
+                                    "color": "#151518",
+                                    "fontFamily": "Geist",
+                                    "fontSize": "14px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "400",
+                                    "lineHeight": "140%",
+                                    "position": "relative"
+                                },
+                                "medium": {},
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "span",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов  с холангиокарциномой с мутацией в гене IDH1."
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                            "fontWeight": "400",
+                                            "fontSize": "14px",
+                                            "color": "rgba(21,21,24,1)"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "properties": {}
+                                }
+                            ],
+                            "layerName": "ТИБСОВО® является единственным препаратом таргетной терапии, направленной на mIDH1, который включен в клинические рекомендации ESMO (I-A) и NCCN (категория 1) для пациентов  с холангиокарциномой с мутацией в гене IDH1."
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "343px",
+                            "flexDirection": "column",
+                            "alignItems": "flex-start",
+                            "gap": "8px",
+                            "position": "absolute",
+                            "left": "16px",
+                            "top": "355px",
+                            "height": "191px"
+                        },
+                        "medium": {
+                            "width": "calc(100% - 64px)",
+                            "maxWidth": "500px",
+                            "left": "32px"
+                        },
+                        "small": {
+                            "width": "calc(100% - 32px)",
+                            "maxWidth": "343px"
+                        }
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "padding": "16px",
+                                    "flexDirection": "column",
+                                    "justifyContent": "center",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px",
+                                    "alignSelf": "stretch",
+                                    "borderRadius": "16px",
+                                    "background": "rgba(224, 219, 244, 0.40)",
+                                    "position": "relative"
+                                },
+                                "medium": {},
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {
+                                        "layer-name": "63%"
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "#61279E",
+                                            "fontFamily": "Geist",
+                                            "fontSize": "24px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "600",
+                                            "lineHeight": "110%",
+                                            "letterSpacing": "-0.72px",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "span",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "63%"
+                                                }
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                    "fontWeight": "600",
+                                                    "fontSize": "24px",
+                                                    "color": "rgba(97,39,158,1)"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "properties": {}
+                                        }
+                                    ],
+                                    "layerName": "63%"
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {
+                                        "layer-name": "снижение риска прогрессирования заболевания  или смерти (HR, 0.37 [95% CI, 0.25-0.54]; P<0.0001)."
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "color": "#151518",
+                                            "fontFamily": "Geist",
+                                            "fontSize": "12px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "400",
+                                            "lineHeight": "140%",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "span",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "снижение риска прогрессирования заболевания  или смерти (HR, 0.37 [95% CI, 0.25-0.54]; P&amp;amp;lt;0.0001)."
+                                                }
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                    "fontWeight": "400",
+                                                    "fontSize": "12px",
+                                                    "color": "rgba(21,21,24,1)"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "properties": {}
+                                        }
+                                    ],
+                                    "layerName": "снижение риска прогрессирования заболевания  или смерти (HR, 0.37 [95% CI, 0.25-0.54]; P<0.0001)."
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "component": {
+                                        "name": "Custom Code",
+                                        "options": {
+                                            "code": "<svg id=\"976:76146\" layer-name=\"Icons\" data-component-name=\"Icons\" data-variant-name=\"Type=info\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"info-icon-1\" style=\"position: absolute; top: 16px; right: 16px; width: 20px; height: 20px; opacity: 0.5\">\n<g opacity=\"0.5\">\n<circle cx=\"9.99922\" cy=\"9.99995\" r=\"7.50312\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n<path d=\"M9.16602 12.9178H11.0913\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.1326 12.9179V9.37476H9.17383\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.0823 6.87143C10.0823 6.98654 9.98898 7.07985 9.87387 7.07985C9.75876 7.07985 9.66545 6.98654 9.66545 6.87143C9.66545 6.75632 9.75876 6.66301 9.87387 6.66301\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M9.87318 6.66297C9.98828 6.66297 10.0816 6.75628 10.0816 6.87139\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n</svg>"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "alignItems": "center",
+                                    "gap": "8px",
+                                    "alignSelf": "stretch",
+                                    "position": "relative"
+                                },
+                                "medium": {},
+                                "small": {
+                                    "flexDirection": "column",
+                                    "gap": "8px"
+                                }
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "8px",
+                                            "flex": "1 0 0",
+                                            "borderRadius": "16px",
+                                            "background": "rgba(224, 219, 244, 0.40)",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {
+                                                "layer-name": "32%"
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "#61279E",
+                                                    "fontFamily": "Geist",
+                                                    "fontSize": "24px",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "110%",
+                                                    "letterSpacing": "-0.72px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "span",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "32%"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontWeight": "600",
+                                                            "fontSize": "24px",
+                                                            "color": "rgba(97,39,158,1)"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "properties": {}
+                                                }
+                                            ],
+                                            "layerName": "32%"
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {
+                                                "layer-name": "6-мес ВБП."
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "#151518",
+                                                    "fontFamily": "Geist",
+                                                    "fontSize": "12px",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "140%",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "span",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "6-мес ВБП."
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontWeight": "400",
+                                                            "fontSize": "12px",
+                                                            "color": "rgba(21,21,24,1)"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "properties": {}
+                                                }
+                                            ],
+                                            "layerName": "6-мес ВБП."
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "component": {
+                                                "name": "Custom Code",
+                                                "options": {
+                                                    "code": "<svg id=\"976:76151\" layer-name=\"Icons\" data-component-name=\"Icons\" data-variant-name=\"Type=info\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"info-icon-2\" style=\"position: absolute; top: 16px; right: 16px; width: 20px; height: 20px; opacity: 0.5\">\n<g opacity=\"0.5\">\n<circle cx=\"9.99922\" cy=\"9.99995\" r=\"7.50312\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n<path d=\"M9.16602 12.9178H11.0913\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.1326 12.9179V9.37476H9.17383\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.0823 6.87143C10.0823 6.98654 9.98898 7.07985 9.87387 7.07985C9.75876 7.07985 9.66545 6.98654 9.66545 6.87143C9.66545 6.75632 9.75876 6.66301 9.87387 6.66301\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M9.87318 6.66297C9.98828 6.66297 10.0816 6.75628 10.0816 6.87139\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n</svg>"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "8px",
+                                            "flex": "1 0 0",
+                                            "borderRadius": "16px",
+                                            "background": "rgba(224, 219, 244, 0.40)",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {
+                                                "layer-name": "22%"
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "#61279E",
+                                                    "fontFamily": "Geist",
+                                                    "fontSize": "24px",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "110%",
+                                                    "letterSpacing": "-0.72px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "span",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "22%"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontWeight": "600",
+                                                            "fontSize": "24px",
+                                                            "color": "rgba(97,39,158,1)"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "properties": {}
+                                                }
+                                            ],
+                                            "layerName": "22%"
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {
+                                                "layer-name": "12-мес ВБП."
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "color": "#151518",
+                                                    "fontFamily": "Geist",
+                                                    "fontSize": "12px",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "400",
+                                                    "lineHeight": "140%",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "span",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "12-мес ВБП."
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "fontFamily": "Geist, -apple-system, Roboto, Helvetica, sans-serif",
+                                                            "fontWeight": "400",
+                                                            "fontSize": "12px",
+                                                            "color": "rgba(21,21,24,1)"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "properties": {}
+                                                }
+                                            ],
+                                            "layerName": "12-мес ВБП."
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "component": {
+                                                "name": "Custom Code",
+                                                "options": {
+                                                    "code": "<svg id=\"976:76155\" layer-name=\"Icons\" data-component-name=\"Icons\" data-variant-name=\"Type=info\" width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"info-icon-3\" style=\"position: absolute; top: 16px; right: 16px; width: 20px; height: 20px; opacity: 0.5\">\n<g opacity=\"0.5\">\n<circle cx=\"9.99922\" cy=\"9.99995\" r=\"7.50312\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n<path d=\"M9.16602 12.9178H11.0913\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.1326 12.9179V9.37476H9.17383\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.0823 6.87143C10.0823 6.98654 9.98898 7.07985 9.87387 7.07985C9.75876 7.07985 9.66545 6.98654 9.66545 6.87143C9.66545 6.75632 9.75876 6.66301 9.87387 6.66301\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M9.87318 6.66297C9.98828 6.66297 10.0816 6.75628 10.0816 6.87139\" stroke=\"#636466\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n</svg>"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "component": {
+                        "name": "Custom Code",
+                        "options": {
+                            "code": "<svg id=\"976:76156\" width=\"122\" height=\"594\" viewBox=\"0 0 122 594\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"background-pattern\" style=\"position: absolute; right: -200px; top: -178px; width: 637px; height: 802px; z-index: -1\">\n<path d=\"M322.164 -165.498L80.5294 31.3638C77.4767 33.8509 77.0181 38.3418 79.5052 41.3945L80.1359 42.1686C82.623 45.2213 87.1138 45.6799 90.1665 43.1928L331.801 -153.669C334.854 -156.156 335.312 -160.647 332.825 -163.7L332.195 -164.474C329.707 -167.526 325.217 -167.985 322.164 -165.498Z\" fill=\"url(#paint0_linear_976_76156)\"></path>\n<path d=\"M64.1642 95.1868L305.799 -101.675C308.851 -104.162 309.31 -108.653 306.823 -111.706L306.192 -112.48C303.705 -115.532 299.214 -115.991 296.162 -113.504L54.527 83.3578C51.4743 85.8448 51.0158 90.3357 53.5029 93.3884L54.1336 94.1626C56.6206 97.2153 61.1115 97.6738 64.1642 95.1868Z\" fill=\"url(#paint1_linear_976_76156)\"></path>\n<path d=\"M267.17 -59.5044L25.5352 137.357C22.4825 139.844 22.024 144.335 24.511 147.388L25.1418 148.162C27.6288 151.215 32.1197 151.673 35.1724 149.186L276.807 -47.6754C279.86 -50.1625 280.318 -54.6533 277.831 -57.706L277.2 -58.4802C274.713 -61.5329 270.222 -61.9914 267.17 -59.5044Z\" fill=\"url(#paint2_linear_976_76156)\"></path>\n<path d=\"M71.1681 181.192L312.803 -15.6701C315.855 -18.1572 316.314 -22.648 313.827 -25.7007L313.196 -26.4749C310.709 -29.5276 306.218 -29.9862 303.165 -27.4991L61.531 169.363C58.4782 171.85 58.0197 176.341 60.5067 179.393L61.1375 180.167C63.6245 183.22 68.1154 183.679 71.1681 181.192Z\" fill=\"url(#paint3_linear_976_76156)\"></path>\n<path d=\"M79.1661 144.188L320.801 -52.6741C323.853 -55.1612 324.312 -59.6521 321.825 -62.7048L321.194 -63.479C318.707 -66.5317 314.216 -66.9902 311.164 -64.5031L69.529 132.359C66.4763 134.846 66.0177 139.337 68.5048 142.389L69.1355 143.163C71.6226 146.216 76.1134 146.675 79.1661 144.188Z\" fill=\"url(#paint4_linear_976_76156)\"></path>\n<path d=\"M343.162 -30.4972L101.527 166.365C98.4747 168.852 98.0162 173.342 100.503 176.395L101.134 177.169C103.621 180.222 108.112 180.681 111.165 178.194L352.799 -18.6682C355.852 -21.1553 356.31 -25.6461 353.823 -28.6988L353.193 -29.473C350.706 -32.5257 346.215 -32.9842 343.162 -30.4972Z\" fill=\"url(#paint5_linear_976_76156)\"></path>\n<path d=\"M31.2477 150.828C35.8179 150.828 39.5227 147.123 39.5227 142.553C39.5227 137.983 35.8179 134.278 31.2477 134.278C26.6775 134.278 22.9727 137.983 22.9727 142.553C22.9727 147.123 26.6775 150.828 31.2477 150.828Z\" fill=\"#E74C39\"></path>\n<path d=\"M292.164 -173.497L50.5294 23.3648C47.4767 25.8519 47.0181 30.3427 49.5052 33.3954L50.1359 34.1696C52.623 37.2223 57.1138 37.6809 60.1665 35.1938L301.801 -161.668C304.854 -164.155 305.312 -168.646 302.825 -171.699L302.195 -172.473C299.707 -175.525 295.217 -175.984 292.164 -173.497Z\" fill=\"url(#paint6_linear_976_76156)\"></path>\n<path d=\"M56.234 36.83C60.8042 36.83 64.509 33.1251 64.509 28.555C64.509 23.9848 60.8042 20.2799 56.234 20.2799C51.6638 20.2799 47.959 23.9848 47.959 28.555C47.959 33.1251 51.6638 36.83 56.234 36.83Z\" fill=\"#E74C39\"></path>\n<path d=\"M60.2438 96.813C64.814 96.813 68.5188 93.1081 68.5188 88.538C68.5188 83.9678 64.814 80.2629 60.2438 80.2629C55.6736 80.2629 51.9688 83.9678 51.9688 88.538C51.9688 93.1081 55.6736 96.813 60.2438 96.813Z\" fill=\"#61279E\"></path>\n<path d=\"M15.1642 41.1926L256.799 -155.669C259.851 -158.156 260.31 -162.647 257.823 -165.7L257.192 -166.474C254.705 -169.527 250.214 -169.985 247.162 -167.498L5.52703 29.3636C2.47434 31.8507 2.01579 36.3416 4.50285 39.3943L5.13358 40.1684C7.62064 43.2211 12.1115 43.6797 15.1642 41.1926Z\" fill=\"url(#paint7_linear_976_76156)\"></path>\n<path d=\"M11.2457 42.838C15.8159 42.838 19.5208 39.1332 19.5208 34.563C19.5208 29.9928 15.8159 26.288 11.2457 26.288C6.67556 26.288 2.9707 29.9928 2.9707 34.563C2.9707 39.1332 6.67556 42.838 11.2457 42.838Z\" fill=\"#6A19A4\"></path>\n<path d=\"M67.2516 182.818C71.8218 182.818 75.5266 179.114 75.5266 174.543C75.5266 169.973 71.8218 166.268 67.2516 166.268C62.6814 166.268 58.9766 169.973 58.9766 174.543C58.9766 179.114 62.6814 182.818 67.2516 182.818Z\" fill=\"#61279E\"></path>\n<path d=\"M107.234 179.829C111.804 179.829 115.509 176.124 115.509 171.554C115.509 166.984 111.804 163.279 107.234 163.279C102.664 163.279 98.959 166.984 98.959 171.554C98.959 176.124 102.664 179.829 107.234 179.829Z\" fill=\"#E74C39\"></path>\n<path d=\"M75.2399 145.815C79.8101 145.815 83.5149 142.11 83.5149 137.54C83.5149 132.97 79.8101 129.265 75.2399 129.265C70.6697 129.265 66.9648 132.97 66.9648 137.54C66.9648 142.11 70.6697 145.815 75.2399 145.815Z\" fill=\"#87A9E2\"></path>\n<path d=\"M86.2418 44.8266C90.812 44.8266 94.5169 41.1217 94.5169 36.5515C94.5169 31.9813 90.812 28.2765 86.2418 28.2765C81.6717 28.2765 77.9668 31.9813 77.9668 36.5515C77.9668 41.1217 81.6717 44.8266 86.2418 44.8266Z\" fill=\"#87A9E2\"></path>\n<defs>\n<linearGradient id=\"paint0_linear_976_76156\" x1=\"332.51\" y1=\"-164.087\" x2=\"79.8205\" y2=\"41.7815\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#8DABDF\"></stop>\n<stop offset=\"0.48\" stop-color=\"#90ADE0\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"0.66\" stop-color=\"#9BB5E3\" stop-opacity=\"0.95\"></stop>\n<stop offset=\"0.78\" stop-color=\"#AEC4E8\" stop-opacity=\"0.88\"></stop>\n<stop offset=\"0.88\" stop-color=\"#CAD8F0\" stop-opacity=\"0.79\"></stop>\n<stop offset=\"0.97\" stop-color=\"#EDF2FA\" stop-opacity=\"0.66\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n</linearGradient>\n<linearGradient id=\"paint1_linear_976_76156\" x1=\"53.8125\" y1=\"93.7801\" x2=\"306.502\" y2=\"-112.088\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n<stop offset=\"0.02\" stop-color=\"#F3EDF8\" stop-opacity=\"0.63\"></stop>\n<stop offset=\"0.08\" stop-color=\"#CFB4E2\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"0.14\" stop-color=\"#AF84CE\" stop-opacity=\"0.81\"></stop>\n<stop offset=\"0.22\" stop-color=\"#965CBF\" stop-opacity=\"0.88\"></stop>\n<stop offset=\"0.31\" stop-color=\"#823EB3\" stop-opacity=\"0.94\"></stop>\n<stop offset=\"0.42\" stop-color=\"#7429AA\" stop-opacity=\"0.97\"></stop>\n<stop offset=\"0.57\" stop-color=\"#6C1CA5\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"1\" stop-color=\"#6A19A4\"></stop>\n</linearGradient>\n<linearGradient id=\"paint2_linear_976_76156\" x1=\"277.521\" y1=\"-58.0978\" x2=\"24.8321\" y2=\"147.77\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#E74C39\"></stop>\n<stop offset=\"0.46\" stop-color=\"#E34E3C\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"0.63\" stop-color=\"#DF5F50\" stop-opacity=\"0.96\"></stop>\n<stop offset=\"0.75\" stop-color=\"#D97266\" stop-opacity=\"0.9\"></stop>\n<stop offset=\"0.84\" stop-color=\"#E8A095\" stop-opacity=\"0.83\"></stop>\n<stop offset=\"0.93\" stop-color=\"#F2CAC4\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n</linearGradient>\n<linearGradient id=\"paint3_linear_976_76156\" x1=\"60.8164\" y1=\"179.785\" x2=\"313.506\" y2=\"-26.0832\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n<stop offset=\"0.02\" stop-color=\"#F3EDF8\" stop-opacity=\"0.63\"></stop>\n<stop offset=\"0.08\" stop-color=\"#CFB4E2\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"0.14\" stop-color=\"#AF84CE\" stop-opacity=\"0.81\"></stop>\n<stop offset=\"0.22\" stop-color=\"#965CBF\" stop-opacity=\"0.88\"></stop>\n<stop offset=\"0.31\" stop-color=\"#823EB3\" stop-opacity=\"0.94\"></stop>\n<stop offset=\"0.42\" stop-color=\"#7429AA\" stop-opacity=\"0.97\"></stop>\n<stop offset=\"0.57\" stop-color=\"#6C1CA5\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"1\" stop-color=\"#6A19A4\"></stop>\n</linearGradient>\n<linearGradient id=\"paint4_linear_976_76156\" x1=\"68.8202\" y1=\"142.776\" x2=\"321.51\" y2=\"-63.0919\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n<stop offset=\"0.03\" stop-color=\"#EDF2FA\" stop-opacity=\"0.66\"></stop>\n<stop offset=\"0.12\" stop-color=\"#CAD8F0\" stop-opacity=\"0.79\"></stop>\n<stop offset=\"0.22\" stop-color=\"#AEC4E8\" stop-opacity=\"0.88\"></stop>\n<stop offset=\"0.34\" stop-color=\"#9BB5E3\" stop-opacity=\"0.95\"></stop>\n<stop offset=\"0.52\" stop-color=\"#90ADE0\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"1\" stop-color=\"#8DABDF\"></stop>\n</linearGradient>\n<linearGradient id=\"paint5_linear_976_76156\" x1=\"353.514\" y1=\"-29.0906\" x2=\"100.824\" y2=\"176.778\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#E74C39\"></stop>\n<stop offset=\"0.46\" stop-color=\"#E34E3C\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"0.63\" stop-color=\"#DF5F50\" stop-opacity=\"0.96\"></stop>\n<stop offset=\"0.75\" stop-color=\"#D97266\" stop-opacity=\"0.9\"></stop>\n<stop offset=\"0.84\" stop-color=\"#E8A095\" stop-opacity=\"0.83\"></stop>\n<stop offset=\"0.93\" stop-color=\"#F2CAC4\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n</linearGradient>\n<linearGradient id=\"paint6_linear_976_76156\" x1=\"302.516\" y1=\"-172.09\" x2=\"49.8262\" y2=\"33.7779\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"#E74C39\"></stop>\n<stop offset=\"0.46\" stop-color=\"#E34E3C\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"0.63\" stop-color=\"#DF5F50\" stop-opacity=\"0.96\"></stop>\n<stop offset=\"0.75\" stop-color=\"#D97266\" stop-opacity=\"0.9\"></stop>\n<stop offset=\"0.84\" stop-color=\"#E8A095\" stop-opacity=\"0.83\"></stop>\n<stop offset=\"0.93\" stop-color=\"#F2CAC4\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"1\" stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n</linearGradient>\n<linearGradient id=\"paint7_linear_976_76156\" x1=\"4.81252\" y1=\"39.786\" x2=\"257.502\" y2=\"-166.082\" gradientUnits=\"userSpaceOnUse\">\n<stop stop-color=\"white\" stop-opacity=\"0.6\"></stop>\n<stop offset=\"0.02\" stop-color=\"#F3EDF8\" stop-opacity=\"0.63\"></stop>\n<stop offset=\"0.08\" stop-color=\"#CFB4E2\" stop-opacity=\"0.73\"></stop>\n<stop offset=\"0.14\" stop-color=\"#AF84CE\" stop-opacity=\"0.81\"></stop>\n<stop offset=\"0.22\" stop-color=\"#965CBF\" stop-opacity=\"0.88\"></stop>\n<stop offset=\"0.31\" stop-color=\"#823EB3\" stop-opacity=\"0.94\"></stop>\n<stop offset=\"0.42\" stop-color=\"#7429AA\" stop-opacity=\"0.97\"></stop>\n<stop offset=\"0.57\" stop-color=\"#6C1CA5\" stop-opacity=\"0.99\"></stop>\n<stop offset=\"1\" stop-color=\"#6A19A4\"></stop>\n</linearGradient>\n</defs>\n</svg>"
+                        }
+                    }
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-edc616057ccc4152b33972b8c9a2e84e"
+}

@@ -7,7 +7,7 @@ import MechanismOfAction from './components/MechanismOfAction'
 
 function App() {
   return (
-    <div className="min-h-screen w-full bg-gray-100 dark:bg-gray-900">
+    <div className="min-h-screen w-full max-w-full overflow-x-hidden bg-gray-100 dark:bg-gray-900">
       <Header />
       <Hero />
       <Efficiency />

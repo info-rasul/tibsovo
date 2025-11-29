@@ -1,6 +1,6 @@
 const MechanismOfAction = () => {
   return (
-    <div className="w-full py-20 px-4 md:px-5 md:pb-24">
+    <div className="w-full max-w-full py-20 px-4 md:px-5 md:pb-24">
       <div className="mx-auto w-full max-w-[1360px] rounded-[20px] bg-[#E74C39] p-6 md:p-16">
         <div className="flex flex-col gap-12">
           {/* Первый блок - Текст */}
@@ -206,8 +206,8 @@ const MechanismOfAction = () => {
 
           {/* Кнопка */}
           <div className="flex flex-col items-center w-full max-w-[260px] mx-auto mt-12">
-            <div className="relative">
-              <button className="flex items-center justify-center rounded-xl w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
+            <div className="relative w-full max-w-[260px]">
+              <button className="flex items-center justify-center rounded-xl w-full max-w-[260px] h-[82px] px-6 bg-[#61279E] hover:bg-[#4f1f7d] transition-colors duration-200 shadow-[0_0_20px_0_rgba(97,39,158,0.2)]">
                 <span className="text-white text-base font-semibold leading-[1.1] tracking-[-0.48px] whitespace-nowrap">
                   mlDH1
                 </span>
