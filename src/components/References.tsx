@@ -1,6 +1,13 @@
+import { useState } from "react";
 import frame30Icon from "../assets/eighth/Frame 30.svg";
 
 function References() {
+  const [isExpanded, setIsExpanded] = useState(true);
+
+  const toggleList = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <section className="w-full flex flex-col items-stretch justify-start bg-white py-6 md:py-12 md:pt-6 md:pb-24">
       <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start px-4 md:px-0">
@@ -14,19 +21,30 @@ function References() {
                 Список литературы
               </h2>
 
-              {/* Черный кружочек */}
-              <div className="flex-shrink-0 w-6 h-6 md:w-8 md:h-8 rounded-full self-stretch relative my-auto">
+              {/* Черный кружочек - кликабельная иконка */}
+              <button
+                onClick={toggleList}
+                className="flex-shrink-0 w-6 h-6 md:w-8 md:h-8 rounded-full self-stretch relative my-auto cursor-pointer hover:opacity-80 transition-opacity flex items-center justify-center"
+                aria-label={isExpanded ? "Свернуть список литературы" : "Развернуть список литературы"}
+              >
                 <img
                   src={frame30Icon}
                   alt=""
                   className="w-full h-full object-contain"
+                  style={{
+                    transform: isExpanded ? "rotate(180deg)" : "rotate(0deg)",
+                    transition: "transform 0.3s ease",
+                  }}
                 />
-              </div>
+              </button>
             </div>
 
             {/* Список литературы */}
-            <div className="w-full flex flex-col items-stretch justify-start mt-0 md:mt-8 px-0 md:px-2 text-[#151518] text-xs md:text-base font-normal leading-[140%] md:leading-[1.4] lg:max-w-[72%]">
-              <ol className="list-decimal list-outside ml-4 space-y-3 md:space-y-4">
+            {isExpanded && (
+              <div 
+                className="w-full flex flex-col items-stretch justify-start mt-0 md:mt-8 px-0 md:px-2 text-[#151518] text-xs md:text-base font-normal leading-[140%] md:leading-[1.4] lg:max-w-[72%] overflow-hidden transition-all duration-300 ease-in-out"
+              >
+                <ol className="list-decimal list-outside ml-4 space-y-3 md:space-y-4">
                 <li>
                   Dhillon S. Ivosidenib: first global approval. Drugs.
                   2018;78:1509–16;
@@ -71,6 +89,7 @@ function References() {
                 </li>
               </ol>
             </div>
+            )}
           </div>
         </div>
       </div>
