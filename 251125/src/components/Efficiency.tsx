@@ -16,7 +16,7 @@ const Efficiency = () => {
           <div className="flex flex-col gap-12">
             {/* Текстовый блок */}
             <div className="flex flex-col gap-6">
-              <h3 className="w-full max-w-[949px] text-[40px] font-semibold leading-[110%] tracking-[-1.2px] text-white">
+              <h3 className="w-full max-w-[949px] text-[40px] font-semibold leading-[120%] md:leading-[110%] tracking-[-1.2px] text-white">
                 Исследование ClarIDHy: международное двойное слепое рандомизированное плацебо-контролируемое исследование III фазы.
               </h3>
               <p className="w-full max-w-[949px] text-xl font-normal leading-[140%] text-white">

@@ -16,9 +16,9 @@ const Graphs = () => {
         {/* Content - Two columns */}
         <div className="flex flex-col lg:flex-row flex-1">
           {/* Left side - Stats */}
-          <div className="flex-1 flex flex-col max-w-[68%] overflow-auto">
+          <div className="flex-1 flex flex-col md:max-w-[68%] overflow-auto">
             {/* Header with tabs */}
-            <div className="rounded-lg py-4 md:p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
+            <div className="rounded-lg py-2 md:py-4 md:p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
               <div className="md:rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.12)] p-2 md:p-1.5 flex flex-row items-center gap-2 overflow-x-auto md:overflow-visible w-full md:w-auto scrollbar-hide">
                 {tabs.map((tab) => (
                   <button
