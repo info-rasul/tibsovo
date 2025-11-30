@@ -21,7 +21,7 @@ function IconSectionHeader({
 
   return (
     <div
-      className={`relative flex items-start flex-shrink-0 w-[176px] -gap-8 ${className}`}
+      className={`relative flex items-start flex-shrink-0 gap-8 ${className}`}
     >
       {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
       <div

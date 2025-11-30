@@ -1,4 +1,4 @@
-import Graphs from "./Graphs";
+import GraphsMain from "./Graphs/Main";
 import effectImage from "../assets/effect.svg";
 
 const Efficiency = () => {
@@ -22,8 +22,8 @@ const Efficiency = () => {
           <div className="flex flex-col lg:flex-row gap-8 md:gap-8 items-start">
             <div className="flex flex-col gap-8 md:gap-12 flex-1">
               {/* Текстовый блок */}
-              <div className="flex flex-col gap-6">
-                <h3 className="w-full max-w-[949px] text-2xl md:text-[40px] font-semibold leading-[110%] tracking-[-0.48px] md:tracking-[-1.2px] text-white">
+              <div className="flex flex-col gap-5 md:ap-6">
+                <h3 className="w-full max-w-[949px] text-2xl md:text-[40px] font-semibold leading-[120%] md:leading-[110%] tracking-[-0.48px] md:tracking-[-1.2px] text-white">
                   Исследование ClarIDHy: международное двойное слепое
                   рандомизированное плацебо-контролируемое исследование III
                   фазы.
@@ -53,8 +53,8 @@ const Efficiency = () => {
           </div>
         </div>
 
-        <Graphs />
-      </div>
+        <GraphsMain />
+      </div>  
     </div>
   );
 };

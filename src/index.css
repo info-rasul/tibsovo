@@ -27,3 +27,14 @@ body {
 .card-hover:hover {
   background-color: #E74C39 !important;
 }
+
+/* Scheme component mobile text size */
+.scheme-block-text {
+  font-size: 4.3px;
+}
+
+@media (min-width: 768px) {
+  .scheme-block-text {
+    font-size: 1rem; /* 16px - text-base */
+  }
+}

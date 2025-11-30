@@ -1,0 +1,1884 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "link",
+            "properties": {
+                "rel": "stylesheet",
+                "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&display=swap"
+            }
+        },
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "properties": {},
+            "responsiveStyles": {
+                "large": {
+                    "maxWidth": "none",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "display": "flex",
+                    "padding": "48px 0",
+                    "flexDirection": "column",
+                    "alignItems": "center",
+                    "gap": "32px",
+                    "alignSelf": "stretch",
+                    "position": "relative",
+                    "background": "#ffffff"
+                },
+                "medium": {
+                    "maxWidth": "991px",
+                    "padding": "32px 16px"
+                },
+                "small": {
+                    "maxWidth": "640px",
+                    "padding": "24px 16px",
+                    "gap": "24px"
+                }
+            },
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "343px",
+                            "flexDirection": "column",
+                            "alignItems": "flex-start",
+                            "gap": "32px",
+                            "position": "relative"
+                        },
+                        "medium": {
+                            "width": "100%",
+                            "maxWidth": "600px"
+                        },
+                        "small": {
+                            "gap": "24px"
+                        }
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "Взаимодействие с другими лекарственными препаратами  и другие виды взаимодействия"
+                                }
+                            },
+                            "responsiveStyles": {
+                                "large": {
+                                    "width": "343px",
+                                    "color": "#151518",
+                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                    "fontSize": "20px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "600",
+                                    "lineHeight": "120%",
+                                    "letterSpacing": "-0.4px",
+                                    "position": "relative"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "fontSize": "18px"
+                                },
+                                "small": {
+                                    "fontSize": "16px",
+                                    "lineHeight": "130%"
+                                }
+                            },
+                            "properties": {
+                                "layer-name": "Взаимодействие с другими лекарственными препаратами  и другие виды взаимодействия"
+                            },
+                            "layerName": "Взаимодействие с другими лекарственными препаратами  и другие виды взаимодействия"
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "alignItems": "flex-start",
+                            "position": "relative"
+                        },
+                        "medium": {},
+                        "small": {}
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "375px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "position": "relative"
+                                },
+                                "medium": {
+                                    "width": "100%"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "paddingRight": "16px",
+                                            "alignItems": "center",
+                                            "gap": "12px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {
+                                            "paddingRight": "0"
+                                        },
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "72px",
+                                                    "alignItems": "center",
+                                                    "gap": "-20px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "height": "48px",
+                                                            "flex": "1 0 0",
+                                                            "background": "linear-gradient(270deg,#8DABDF -523.9%,rgba(144,173,224,0.99) -212.23%,rgba(155,181,227,0.95) -95.35%,rgba(174,196,232,0.88) -17.44%,rgba(202,216,240,0.79) 47.49%,rgba(237,242,250,0.66) 105.93%,rgba(255,255,255,0.60) 125.41%)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "width": "48px",
+                                                            "height": "48px",
+                                                            "padding": "10px",
+                                                            "justifyContent": "center",
+                                                            "alignItems": "center",
+                                                            "flexShrink": "0",
+                                                            "aspectRatio": "1/1",
+                                                            "borderRadius": "100px",
+                                                            "background": "#87A9E2",
+                                                            "boxShadow": "0 0 20px 0 rgba(97,39,158,0.08)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76736\" layer-name=\"Health, Medicine/drugs-pill\" width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"pill-icon\" style=\"width: 28px; height: 28px; flex-shrink: 0; aspect-ratio: 1/1; position: absolute; left: 10px; top: 10px\">\n<circle cx=\"9.91593\" cy=\"9.91544\" r=\"2.91788\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M20.2522 16.0427L16.0423 20.2527C15.0408 21.2541 13.4185 21.2541 12.4171 20.2527V20.2527C11.4157 19.2512 11.4157 17.6289 12.4171 16.6275L16.627 12.4176C17.6284 11.4161 19.2508 11.4161 20.2522 12.4176V12.4176C21.2548 13.419 21.2548 15.0413 20.2522 16.0427Z\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M14.5352 14.5347L18.1358 18.1365\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M19.8362 24.5048H8.1647C5.58646 24.5048 3.49609 22.4145 3.49609 19.8362V8.1647C3.49609 5.58646 5.58646 3.49609 8.1647 3.49609H19.8362C22.4145 3.49609 24.5048 5.58646 24.5048 8.1647V19.8362C24.5048 22.4145 22.4145 24.5048 19.8362 24.5048Z\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "center",
+                                                    "gap": "8px",
+                                                    "flex": "1 0 0",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Сильные или умеренные  ингибиторы CYP3A4"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "flex": "1 0 0",
+                                                            "color": "#151518",
+                                                            "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "14px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "140%",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "13px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Сильные или умеренные  ингибиторы CYP3A4"
+                                                    },
+                                                    "layerName": "Сильные или умеренные  ингибиторы CYP3A4"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "20px 16px 32px 16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "24px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "16px 12px 24px 12px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "16px",
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "gap": "12px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76749\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Совместное применение с умеренными или сильными ингибиторами CYP3A4 повышает концентрацию ивосидениба в плазме, что может увеличить риск удлинения интервала QTc."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Совместное применение с умеренными или сильными ингибиторами CYP3A4 повышает концентрацию ивосидениба в плазме, что может увеличить риск удлинения интервала QTc."
+                                                            },
+                                                            "layerName": "Совместное применение с умеренными или сильными ингибиторами CYP3A4 повышает концентрацию ивосидениба в плазме, что может увеличить риск удлинения интервала QTc."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76753\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "properties": {
+                                                                "layer-name": "Умеренные ингибиторы CYP3A4: апрепитант, циклоспорин, дилтиазем, эритромицин, флуконазол, грейпфрут и грейпфрутовый сок, изавуконазол, верапамил."
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "children": [
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "tagName": "span",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "Умеренные ингибиторы CYP3A4:"
+                                                                        }
+                                                                    },
+                                                                    "responsiveStyles": {
+                                                                        "large": {
+                                                                            "fontWeight": "700"
+                                                                        },
+                                                                        "medium": {},
+                                                                        "small": {}
+                                                                    },
+                                                                    "properties": {}
+                                                                },
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "tagName": "span",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "апрепитант, циклоспорин, дилтиазем, эритромицин, флуконазол, грейпфрут и грейпфрутовый сок, изавуконазол, верапамил."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "layerName": "Умеренные ингибиторы CYP3A4: апрепитант, циклоспорин, дилтиазем, эритромицин, флуконазол, грейпфрут и грейпфрутовый сок, изавуконазол, верапамил."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76757\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "properties": {
+                                                                "layer-name": "Сильные ингибиторы CYP3A4: кларитромицин, итраконазол, кетоконазол, позаконазол, ритонавир, вориконазол."
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "children": [
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "tagName": "span",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "Сильные ингибиторы CYP3A4:"
+                                                                        }
+                                                                    },
+                                                                    "responsiveStyles": {
+                                                                        "large": {
+                                                                            "fontWeight": "700"
+                                                                        },
+                                                                        "medium": {},
+                                                                        "small": {}
+                                                                    },
+                                                                    "properties": {}
+                                                                },
+                                                                {
+                                                                    "@type": "@builder.io/sdk:Element",
+                                                                    "tagName": "span",
+                                                                    "component": {
+                                                                        "name": "Text",
+                                                                        "options": {
+                                                                            "text": "кларитромицин, итраконазол, кетоконазол, позаконазол, ритонавир, вориконазол."
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ],
+                                                            "layerName": "Сильные ингибиторы CYP3A4: кларитромицин, итраконазол, кетоконазол, позаконазол, ритонавир, вориконазол."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76761\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ пациентов на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ пациентов на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                            },
+                                                            "layerName": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ пациентов на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76765\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "При невозможности избежать применения умеренных или сильных ингибиторов CYP3A4 дозу ивосидениба следует снизить до 250 мг один раз в сутки."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "При невозможности избежать применения умеренных или сильных ингибиторов CYP3A4 дозу ивосидениба следует снизить до 250 мг один раз в сутки."
+                                                            },
+                                                            "layerName": "При невозможности избежать применения умеренных или сильных ингибиторов CYP3A4 дозу ивосидениба следует снизить до 250 мг один раз в сутки."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "375px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "position": "relative"
+                                },
+                                "medium": {
+                                    "width": "100%"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "paddingRight": "16px",
+                                            "alignItems": "center",
+                                            "gap": "12px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {
+                                            "paddingRight": "0"
+                                        },
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "72px",
+                                                    "alignItems": "center",
+                                                    "gap": "-20px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "height": "48px",
+                                                            "flex": "1 0 0",
+                                                            "background": "linear-gradient(270deg,#8DABDF -523.9%,rgba(144,173,224,0.99) -212.23%,rgba(155,181,227,0.95) -95.35%,rgba(174,196,232,0.88) -17.44%,rgba(202,216,240,0.79) 47.49%,rgba(237,242,250,0.66) 105.93%,rgba(255,255,255,0.60) 125.41%)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "width": "48px",
+                                                            "height": "48px",
+                                                            "padding": "10px",
+                                                            "justifyContent": "center",
+                                                            "alignItems": "center",
+                                                            "flexShrink": "0",
+                                                            "aspectRatio": "1/1",
+                                                            "borderRadius": "100px",
+                                                            "background": "#87A9E2",
+                                                            "boxShadow": "0 0 20px 0 rgba(97,39,158,0.08)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76773\" layer-name=\"Health, Medicine/Medical cross\" data-component-name=\"Health, Medicine/Medical cross\" width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"cross-icon\" style=\"display: flex; width: 28px; height: 28px; justify-content: center; align-items: center; flex-shrink: 0; aspect-ratio: 1/1; position: absolute; left: 10px; top: 10px\">\n<path d=\"M17.5 10.5H24.5V17.5H17.5V24.5H10.5\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.5 17.5H3.5V10.5H10.5V3.5H17.5\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "center",
+                                                    "gap": "8px",
+                                                    "flex": "1 0 0",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Сильные индукторы CYP3A4"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "flex": "1 0 0",
+                                                            "color": "#151518",
+                                                            "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "14px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "140%",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "13px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Сильные индукторы CYP3A4"
+                                                    },
+                                                    "layerName": "Сильные индукторы CYP3A4"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "20px 16px 32px 16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "24px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "16px 12px 24px 12px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "16px",
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "gap": "12px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76779\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Ивосидениб является субстратом CYP3A4. Ожидается, что совместное применение сильных индукторов CYP3A4 (например, карбамазепина, фенобарбитала, фенитоина, рифампицина, препаратов зверобоя продырявленного (Hypericum perforatum)) снизит концентрацию ивосидениба в плазме, в связи с этим совместное применение вышеуказанных препаратов с препаратом ТИБСОВО® противопоказано."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Ивосидениб является субстратом CYP3A4. Ожидается, что совместное применение сильных индукторов CYP3A4 (например, карбамазепина, фенобарбитала, фенитоина, рифампицина, препаратов зверобоя продырявленного (Hypericum perforatum)) снизит концентрацию ивосидениба в плазме, в связи с этим совместное применение вышеуказанных препаратов с препаратом ТИБСОВО® противопоказано."
+                                                            },
+                                                            "layerName": "Ивосидениб является субстратом CYP3A4. Ожидается, что совместное применение сильных индукторов CYP3A4 (например, карбамазепина, фенобарбитала, фенитоина, рифампицина, препаратов зверобоя продырявленного (Hypericum perforatum)) снизит концентрацию ивосидениба в плазме, в связи с этим совместное применение вышеуказанных препаратов с препаратом ТИБСОВО® противопоказано."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "375px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "position": "relative"
+                                },
+                                "medium": {
+                                    "width": "100%"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "paddingRight": "16px",
+                                            "alignItems": "center",
+                                            "gap": "12px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {
+                                            "paddingRight": "0"
+                                        },
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "72px",
+                                                    "alignItems": "center",
+                                                    "gap": "-20px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "height": "48px",
+                                                            "flex": "1 0 0",
+                                                            "background": "linear-gradient(270deg,#8DABDF -523.9%,rgba(144,173,224,0.99) -212.23%,rgba(155,181,227,0.95) -95.35%,rgba(174,196,232,0.88) -17.44%,rgba(202,216,240,0.79) 47.49%,rgba(237,242,250,0.66) 105.93%,rgba(255,255,255,0.60) 125.41%)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "width": "48px",
+                                                            "height": "48px",
+                                                            "padding": "10px",
+                                                            "justifyContent": "center",
+                                                            "alignItems": "center",
+                                                            "flexShrink": "0",
+                                                            "aspectRatio": "1/1",
+                                                            "borderRadius": "100px",
+                                                            "background": "#87A9E2",
+                                                            "boxShadow": "0 0 20px 0 rgba(97,39,158,0.08)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76787\" layer-name=\"Health, Medicine/drugs-pill.1\" width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"pill-icon-2\" style=\"width: 28px; height: 28px; flex-shrink: 0; aspect-ratio: 1/1; position: absolute; left: 10px; top: 10px\">\n<path d=\"M16.3348 3.49561C14.1149 3.49561 12.1144 4.39198 10.6426 5.82991\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M16.4472 11.5542L5.71875 22.2827\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M11.0826 24.5045C6.89134 24.5045 3.49609 21.1069 3.49609 16.918C3.49609 12.7291 6.89134 9.33154 11.0826 9.33154C15.2715 9.33154 18.6691 12.7291 18.6691 16.918C18.6691 21.1069 15.2715 24.5045 11.0826 24.5045\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M22.027 17.5019C23.5489 16.0185 24.506 13.9585 24.506 11.6662C24.506 7.15512 20.847 3.49609 16.3359 3.49609\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "center",
+                                                    "gap": "8px",
+                                                    "flex": "1 0 0",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Лекарственные препараты, удлиняющие интервал QTc"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "flex": "1 0 0",
+                                                            "color": "#151518",
+                                                            "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "14px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "140%",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "13px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Лекарственные препараты, удлиняющие интервал QTc"
+                                                    },
+                                                    "layerName": "Лекарственные препараты, удлиняющие интервал QTc"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "20px 16px 32px 16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "24px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "16px 12px 24px 12px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "16px",
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "gap": "12px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76801\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Совместное применение лекарственных препаратов, удлиняющих интервал QTc (например, антиаритмических средств, фторхинолонов, антагонистов 5-HT3-рецепторов, противогрибковых средств группы триазолов), может повышать риск удлинения интервала QTc, такого применения следует по возможности избегать во время лечения препаратом ТИБСОВО®."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Совместное применение лекарственных препаратов, удлиняющих интервал QTc (например, антиаритмических средств, фторхинолонов, антагонистов 5-HT3-рецепторов, противогрибковых средств группы триазолов), может повышать риск удлинения интервала QTc, такого применения следует по возможности избегать во время лечения препаратом ТИБСОВО®."
+                                                            },
+                                                            "layerName": "Совместное применение лекарственных препаратов, удлиняющих интервал QTc (например, антиаритмических средств, фторхинолонов, антагонистов 5-HT3-рецепторов, противогрибковых средств группы триазолов), может повышать риск удлинения интервала QTc, такого применения следует по возможности избегать во время лечения препаратом ТИБСОВО®."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76805\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                            },
+                                                            "layerName": "Необходимо соблюдать осторожность при проведении лечения и тщательно контролировать параметры ЭКГ на предмет удлинения интервала QTc в отсутствие подходящего альтернативного лечения."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "375px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "position": "relative"
+                                },
+                                "medium": {
+                                    "width": "100%"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "paddingRight": "16px",
+                                            "alignItems": "center",
+                                            "gap": "12px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {
+                                            "paddingRight": "0"
+                                        },
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "72px",
+                                                    "alignItems": "center",
+                                                    "gap": "-20px",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "height": "48px",
+                                                            "flex": "1 0 0",
+                                                            "background": "linear-gradient(270deg,#8DABDF -523.9%,rgba(144,173,224,0.99) -212.23%,rgba(155,181,227,0.95) -95.35%,rgba(174,196,232,0.88) -17.44%,rgba(202,216,240,0.79) 47.49%,rgba(237,242,250,0.66) 105.93%,rgba(255,255,255,0.60) 125.41%)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "width": "48px",
+                                                            "height": "48px",
+                                                            "padding": "10px",
+                                                            "justifyContent": "center",
+                                                            "alignItems": "center",
+                                                            "flexShrink": "0",
+                                                            "aspectRatio": "1/1",
+                                                            "borderRadius": "100px",
+                                                            "background": "#87A9E2",
+                                                            "boxShadow": "0 0 20px 0 rgba(97,39,158,0.08)",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76813\" layer-name=\"Health, Medicine/drugs-pill.2\" width=\"28\" height=\"28\" viewBox=\"0 0 28 28\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"pill-icon-3\" style=\"width: 28px; height: 28px; flex-shrink: 0; position: absolute; left: 10px; top: 10px\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.09259 13.1753C8.63623 13.6316 7.89743 13.6316 7.44224 13.1753L4.68309 10.4161C3.10043 8.83348 3.10043 6.26458 4.68309 4.68309V4.68309C6.26575 3.10043 8.83465 3.10043 10.4173 4.68309L14.0005 8.26741L9.09259 13.1753Z\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M14 8.26722L17.5832 4.68406C19.1658 3.10141 21.7336 3.10141 23.3174 4.68406V4.68406C24.9 6.26672 24.9 8.83563 23.3174 10.4183L20.5594 13.1763C20.103 13.6326 19.3642 13.6326 18.909 13.1763L14 8.26722Z\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M14.0039 17.5016C14.326 17.4993 14.5851 17.2379 14.5851 16.9157C14.5851 16.5936 14.3237 16.3322 14.0015 16.3345C13.6794 16.3345 13.418 16.5959 13.418 16.9181C13.418 17.2402 13.6771 17.5016 14.0039 17.5016\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M14.5851 23.9186C14.5828 23.5965 14.3214 23.3374 13.9992 23.3374C13.6771 23.3374 13.4156 23.5988 13.418 23.921C13.418 24.2431 13.6794 24.5046 14.0016 24.5046C14.3237 24.5046 14.5851 24.2431 14.5851 23.9186\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M16.918 20.4218C16.9203 20.744 17.1817 21.0031 17.5039 21.0031C17.826 21.0031 18.0875 20.7416 18.0851 20.4195C18.0851 20.0974 17.8237 19.8359 17.5015 19.8359C17.1794 19.8359 16.918 20.095 16.918 20.4218\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.5019 21.0031C10.8241 21.0008 11.0832 20.7393 11.0832 20.4172C11.0832 20.0951 10.8217 19.8336 10.4996 19.836C10.1775 19.836 9.91602 20.0974 9.91602 20.4195C9.91602 20.7417 10.1775 21.0031 10.5019 21.0031\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M20.4199 23.9233C20.4223 24.2454 20.6837 24.5046 21.0058 24.5046C21.328 24.5046 21.5894 24.2431 21.5871 23.921C21.5871 23.5988 21.3256 23.3374 21.0035 23.3374C20.6814 23.3374 20.4199 23.5965 20.4199 23.9233\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M7.58123 23.9186C7.5789 23.5965 7.31745 23.3374 6.99532 23.3374C6.67319 23.3374 6.41174 23.5988 6.41408 23.921C6.41408 24.2431 6.67552 24.5046 6.99765 24.5046C7.31979 24.5046 7.58123 24.2454 7.58123 23.9186\" stroke=\"white\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "justifyContent": "center",
+                                                    "alignItems": "center",
+                                                    "gap": "8px",
+                                                    "flex": "1 0 0",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Влияние ТИБСОВО® на другие лекарственные препараты"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "flex": "1 0 0",
+                                                            "color": "#151518",
+                                                            "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "14px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "140%",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "13px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Влияние ТИБСОВО® на другие лекарственные препараты"
+                                                    },
+                                                    "layerName": "Влияние ТИБСОВО® на другие лекарственные препараты"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "padding": "20px 16px 32px 16px",
+                                            "flexDirection": "column",
+                                            "justifyContent": "center",
+                                            "alignItems": "flex-start",
+                                            "gap": "24px",
+                                            "alignSelf": "stretch",
+                                            "position": "relative"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "16px 12px 24px 12px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "16px",
+                                                    "alignSelf": "stretch",
+                                                    "position": "relative"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "gap": "12px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76831\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Ивосидениб индуцирует CYP3A4, CYP2B6, CYP2C8, CYP2C9 и может индуцировать CYP2C19. Следовательно, он способен снизить системную экспозицию субстратов этих ферментов."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Ивосидениб индуцирует CYP3A4, CYP2B6, CYP2C8, CYP2C9 и может индуцировать CYP2C19. Следовательно, он способен снизить системную экспозицию субстратов этих ферментов."
+                                                            },
+                                                            "layerName": "Ивосидениб индуцирует CYP3A4, CYP2B6, CYP2C8, CYP2C9 и может индуцировать CYP2C19. Следовательно, он способен снизить системную экспозицию субстратов этих ферментов."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76835\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "При невозможности избежать применения таких лекарственных препаратов у пациентов следует контролировать утрату эффективности субстратов."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "При невозможности избежать применения таких лекарственных препаратов у пациентов следует контролировать утрату эффективности субстратов."
+                                                            },
+                                                            "layerName": "При невозможности избежать применения таких лекарственных препаратов у пациентов следует контролировать утрату эффективности субстратов."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76839\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "К субстратам CYP3A4 с узким терапевтическим диапазоном относятся: алфентанил, циклоспорин, эверолимус, фентанил, пимозид, хинидин, сиролимус, такролимус."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "К субстратам CYP3A4 с узким терапевтическим диапазоном относятся: алфентанил, циклоспорин, эверолимус, фентанил, пимозид, хинидин, сиролимус, такролимус."
+                                                            },
+                                                            "layerName": "К субстратам CYP3A4 с узким терапевтическим диапазоном относятся: алфентанил, циклоспорин, эверолимус, фентанил, пимозид, хинидин, сиролимус, такролимус."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76843\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "К субстратам CYP2B6 с узким терапевтическим диапазоном относятся: циклофосфамид, ифосфамид, метадон."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "К субстратам CYP2B6 с узким терапевтическим диапазоном относятся: циклофосфамид, ифосфамид, метадон."
+                                                            },
+                                                            "layerName": "К субстратам CYP2B6 с узким терапевтическим диапазоном относятся: циклофосфамид, ифосфамид, метадон."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76847\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "К субстратам CYP2C8 с узким терапевтическим диапазоном относятся: паклитаксел, пиоглитазон, репаглинид."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "К субстратам CYP2C8 с узким терапевтическим диапазоном относятся: паклитаксел, пиоглитазон, репаглинид."
+                                                            },
+                                                            "layerName": "К субстратам CYP2C8 с узким терапевтическим диапазоном относятся: паклитаксел, пиоглитазон, репаглинид."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76851\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "К субстратам CYP2C9 с узким терапевтическим диапазоном относятся: фенитоин, варфарин."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "К субстратам CYP2C9 с узким терапевтическим диапазоном относятся: фенитоин, варфарин."
+                                                            },
+                                                            "layerName": "К субстратам CYP2C9 с узким терапевтическим диапазоном относятся: фенитоин, варфарин."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76855\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "К субстратам CYP2C19 относится: омепразол."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "К субстратам CYP2C19 относится: омепразол."
+                                                            },
+                                                            "layerName": "К субстратам CYP2C19 относится: омепразол."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "8px",
+                                                            "alignSelf": "stretch",
+                                                            "position": "relative"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "component": {
+                                                                "name": "Custom Code",
+                                                                "options": {
+                                                                    "code": "<svg id=\"976:76859\" width=\"17\" height=\"17\" viewBox=\"0 0 17 17\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"bullet-icon\" style=\"width: 17px; height: 17px; aspect-ratio: 1/1; position: relative\">\n<circle cx=\"8.50028\" cy=\"8.49979\" r=\"3.64286\" fill=\"#87A9E2\"></circle>\n</svg>"
+                                                                }
+                                                            }
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Итраконазол или кетоконазол не следует совместно применять с ивосиденибом из-за ожидаемого снижения противогрибковой эффективности этих препаратов."
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "flex": "1 0 0",
+                                                                    "color": "#151518",
+                                                                    "fontFamily": "Geist,-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "12px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%",
+                                                                    "position": "relative"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "11px"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Итраконазол или кетоконазол не следует совместно применять с ивосиденибом из-за ожидаемого снижения противогрибковой эффективности этих препаратов."
+                                                            },
+                                                            "layerName": "Итраконазол или кетоконазол не следует совместно применять с ивосиденибом из-за ожидаемого снижения противогрибковой эффективности этих препаратов."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "vcpImportId": "vcp-d1d8361d54e44a8b9a03200d30b4dce3"
+}

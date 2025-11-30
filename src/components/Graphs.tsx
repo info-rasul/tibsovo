@@ -13,12 +13,9 @@ const Graphs = () => {
   return (
     <div className="w-full max-w-full pt-0 md:pt-20 pb-1 px-2 md:px-4">
       <div className="mx-auto w-full max-w-[1360px] rounded-xl md:rounded-2xl bg-white overflow-hidden flex flex-col">
-        {/* Content - Two columns */}
-        <div className="flex flex-col lg:flex-row flex-1">
-          {/* Left side - Stats */}
-          <div className="flex-1 flex flex-col max-w-[68%] overflow-auto">
-            {/* Header with tabs */}
-            <div className="rounded-lg py-4 md:p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
+       
+       {/* Header with tabs */}
+       <div className="rounded-lg py-2 md:py-4 md:p-4 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-0">
               <div className="md:rounded-xl bg-white shadow-[0_0_20px_0_rgba(97,39,158,0.12)] p-2 md:p-1.5 flex flex-row items-center gap-2 overflow-x-auto md:overflow-visible w-full md:w-auto scrollbar-hide">
                 {tabs.map((tab) => (
                   <button
@@ -52,6 +49,12 @@ const Graphs = () => {
                 </g>
               </svg>
             </div>
+       
+        {/* Content - Two columns */}
+        <div className="flex flex-col lg:flex-row flex-1">
+          {/* Left side - Stats */}
+          <div className="flex-1 flex flex-col md:max-w-[68%] overflow-auto">
+
             <div className="flex flex-col px-4 md:px-8 pb-4 md:py-[17px]">
               <div className="flex flex-col relative">
                 <div className="flex items-start justify-between">

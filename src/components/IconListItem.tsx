@@ -1,3 +1,5 @@
+import { useState, useEffect } from 'react'
+
 interface IconListItemProps {
   icon: string;
   text: string;
@@ -23,6 +25,26 @@ function IconListItem({
   boxShadow = "0 0 20px 0 rgba(97, 39, 158, 0.08)",
   iconSize = 72,
 }: IconListItemProps) {
+  const [isMobile, setIsMobile] = useState(false)
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+    
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+    
+    return () => window.removeEventListener('resize', checkMobile)
+  }, [])
+
+  // Применяем деление на 1.5 для мобильных устройств
+  const adjustedIconSize = isMobile ? iconSize / 1.5 : iconSize
+
+  // Убираем переносы строк на мобильных устройствах
+  const processedText = isMobile ? text.replace(/\n/g, ' ') : text
+  const processedBoldText = isMobile && boldText ? boldText.replace(/\n/g, ' ') : boldText
+
   // Парсим цвет для градиента
   const getRgbaColor = (hexColor: string, opacity: number) => {
     const r = parseInt(hexColor.slice(1, 3), 16);
@@ -35,32 +57,32 @@ function IconListItem({
   // iconSize = 72 -> iconImageSize = 40
   // iconSize = 56 -> iconImageSize = 32
   // Линейная интерполяция: iconImageSize = 0.5 * iconSize + 4
-  const iconImageSize = Math.round(0.5 * iconSize + 4);
+  const iconImageSize = Math.round(0.5 * adjustedIconSize + 4);
 
   return (
     <div
-      className={`relative w-full flex items-center gap-6 justify-start overflow-visible ${className}`}
+      className={`relative w-full flex items-center gap-3 md:gap-6 justify-start overflow-visible ${className}`}
     >
       {/* Единый блок: прямоугольник с кругом и текст */}
       <div
-        className="relative flex items-center flex-1 min-w-0 gap-6"
+        className="relative flex items-center flex-1 min-w-0 gap-3 md:gap-6"
       >
         {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
         {showGradient && (
           <div
             className="absolute pointer-events-none"
             style={{
-              left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
-              right: `calc(100% - ${iconSize}px)`,
+              left: isMobile ? "-16px" : "calc((100vw - 1360px) / 2 * -1 - 40px)",
+              right: `calc(100% - ${adjustedIconSize - 10}px)`,
               top: "50%",
               transform: "translateY(-50%)",
-              height: `${iconSize}px`,
+              height: `${adjustedIconSize}px`,
               background: `linear-gradient(to right, ${getRgbaColor(
                 color,
                 0
               )} 0%, ${getRgbaColor(color, gradientOpacity)} 100%)`,
-              borderTopRightRadius: `${iconSize / 2}px`,
-              borderBottomRightRadius: `${iconSize / 2}px`,
+              borderTopRightRadius: `${adjustedIconSize / 2}px`,
+              borderBottomRightRadius: `${adjustedIconSize / 2}px`,
             }}
           />
         )}
@@ -69,8 +91,8 @@ function IconListItem({
         <div
           className="relative rounded-full flex items-center justify-center flex-shrink-0 z-10"
           style={{
-            width: `${iconSize}px`,
-            height: `${iconSize}px`,
+            width: `${adjustedIconSize}px`,
+            height: `${adjustedIconSize}px`,
             backgroundColor: color,
             boxShadow: boxShadow,
           }}
@@ -88,13 +110,13 @@ function IconListItem({
 
         {/* Текст элемента списка */}
         <p
-          className={`text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line break-words ${textClassName}`}
+          className={`text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 ${isMobile ? 'whitespace-normal' : 'whitespace-pre-line'} break-words ${textClassName}`}
         >
-          {text}
-          {boldText && (
+          {processedText}
+          {processedBoldText && (
             <>
               {" "}
-              <strong className="font-bold">{boldText}</strong>
+              <strong className="font-bold">{processedBoldText}</strong>
             </>
           )}
         </p>

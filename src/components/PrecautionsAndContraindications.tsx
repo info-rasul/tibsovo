@@ -52,77 +52,87 @@ function PrecautionsAndContraindications() {
 
   return (
     <section
-      className="w-full py-12 px-4 md:px-5 md:pb-12"
+      className="w-full py-8 px-4 md:py-12 md:px-5 md:pb-12 bg-[rgba(224,219,244,0.4)] rounded-[16px] md:rounded-[20px] overflow-hidden"
     >
       {/* Основной контентный блок */}
       <div
-        className="mx-auto w-full max-w-[1360px] rounded-[20px] overflow-hidden bg-[rgba(224,219,244,0.4)]"
+        className="mx-auto w-full md:max-w-[1360px]"
       >
-        <div className="p-6 md:px-16 md:pt-16 md:pb-12 flex flex-col gap-12">
+        <div className="py-2 md:py-8 md:p-6 lg:px-16 lg:pt-16 md:pb-12 flex flex-col gap-8 md:gap-12">
           {/* БЛОК 1: ГЛАВНЫЙ ЗАГОЛОВОК */}
           <div
             className="w-full flex flex-col items-stretch justify-start md:pb-4"
           >
             <h2
-              className="w-full text-left text-[32px] font-semibold tracking-[-0.96px] leading-[35px] text-[#151518]"
+              className="w-full text-left text-xl md:text-[32px] font-semibold tracking-[-0.4px] md:tracking-[-0.96px] leading-[120%] md:leading-[35px] text-[#151518]"
             >
-              Перед началом приема препарата ТИБСОВО® требуется <br /> подтвердить наличие у пациентов мутации в гене IDH1 R132 <br /> с использованием подходящего диагностического теста
+              Перед началом приема препарата ТИБСОВО® требуется{" "}
+              <span className="hidden md:inline">
+                <br /> подтвердить наличие у пациентов мутации в гене IDH1 R132 <br /> с использованием подходящего диагностического теста
+              </span>
+              <span className="md:hidden">подтвердить наличие у пациентов мутации в гене IDH1 R132 с использованием подходящего диагностического теста</span>
             </h2>
           </div>
 
           {/* БЛОК 2: МЕРЫ ПРЕДОСТОРОЖНОСТИ */}
-          <div className="w-full flex flex-col items-stretch justify-start md:pb-4">
+          <div className="w-full flex flex-col items-stretch justify-start gap-6 md:gap-0 md:pb-4">
             {/* Заголовок раздела */}
             <div
               className="w-full flex items-center justify-start"
             >
               <h3
-                className="flex-1 text-left text-2xl font-semibold tracking-[-0.48px] leading-[1.2] text-[#151518]"
+                className="flex-1 text-left text-base md:text-2xl font-semibold tracking-[-0.48px] leading-[140%] md:leading-[1.2] text-[#151518]"
               >
                 Меры предосторожности перед применением:
               </h3>
             </div>
 
             {/* Список пунктов мер предосторожности */}
-            <div className="mt-10 md:mt-12 px-10 w-full flex flex-col items-stretch justify-start md:max-w-[84%]">
+            <div className="mt-0 md:mt-10 md:mt-12 px-4 md:px-10 w-full flex flex-col items-stretch justify-start md:max-w-[84%]">
               {precautions.map((item, index) => (
-                <IconListItem
-                  key={index}
-                  icon={item.icon}
-                  text={item.text}
-                  boldText={item.boldText}
-                  color="#6A19A4"
-                  gradientOpacity={1}
-                  className={index > 0 ? "mt-10 md:mt-12" : ""}
-                />
+                <div key={index} className={index > 0 ? "mt-6 md:mt-12" : ""}>
+                  <IconListItem
+                    icon={item.icon}
+                    text={item.text}
+                    boldText={item.boldText}
+                    color="#6A19A4"
+                    gradientOpacity={1}
+                    className="pr-4 md:pr-0"
+                    textClassName="text-xs md:text-xl leading-[140%] md:leading-[28px]"
+                    iconSize={72}
+                  />
+                </div>
               ))}
             </div>
           </div>
 
           {/* БЛОК 3: ПРОТИВОПОКАЗАНИЯ */}
-          <div className="w-full flex flex-col items-stretch justify-start md:pb-4">
+          <div className="w-full flex flex-col items-stretch justify-start gap-6 md:gap-0 md:pb-4">
             {/* Заголовок раздела */}
             <div
-              className="w-full flex items-center justify-start"
+              className="w-full flex items-center justify-start px-4 md:px-0"
             >
               <h3
-                className="flex-1 text-left text-2xl font-semibold tracking-[-0.48px] leading-[1.2] text-[#151518]"
+                className="flex-1 text-left text-base md:text-2xl font-semibold tracking-[-0.48px] leading-[140%] md:leading-[1.2] text-[#151518]"
               >
                 Противопоказания к применению препарата ТИБСОВО®:
               </h3>
             </div>
 
             {/* Список пунктов противопоказаний */}
-            <div className="mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start px-10">
+            <div className="mt-0 md:mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start px-4 md:px-10">
               {contraindications.map((item, index) => (
-                <IconListItem
-                  key={index}
-                  icon={item.icon}
-                  text={item.text}
-                  color="#E74C39"
-                  gradientOpacity={0.8}
-                  className={index > 0 ? "mt-10 md:mt-12" : ""}
-                />
+                <div key={index} className={index > 0 ? "mt-6 md:mt-12" : ""}>
+                  <IconListItem
+                    icon={item.icon}
+                    text={item.text}
+                    color="#E74C39"
+                    gradientOpacity={0.8}
+                    className="pr-4 md:pr-0"
+                    textClassName="text-xs md:text-xl leading-[140%] md:leading-[28px]"
+                    iconSize={72}
+                  />
+                </div>
               ))}
             </div>
           </div>
