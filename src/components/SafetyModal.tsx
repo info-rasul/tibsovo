@@ -87,9 +87,9 @@ const SafetyModal = ({ isOpen, onClose }: SafetyModalProps) => {
         <div className="p-4 md:p-8 md:px-10 md:pt-10">
           <div className="overflow-x-auto">
             <div className="min-w-[600px] md:min-w-0">
-              {/* Table Header Row 1 */}
-              <div className="flex items-start mb-0">
-                <div className="w-[220px] md:w-[220px]"></div>
+              {/* Table Header Row 1 - Main Headers */}
+              <div className="flex items-center">
+                <div className="w-[220px] md:w-[220px] p-4 md:px-8 bg-white"></div>
                 <div className="flex-1 flex items-center justify-center p-4 bg-[#61279E]">
                   <div className="text-center text-white text-base md:text-base font-semibold leading-[140%]">
                     ТИБСОВО® (n=124)
@@ -103,13 +103,13 @@ const SafetyModal = ({ isOpen, onClose }: SafetyModalProps) => {
               </div>
 
               {/* Table Header Row 2 - Subheaders */}
-              <div className="flex items-start mb-0">
+              <div className="flex items-center">
                 <div className="w-[220px] md:w-[220px] p-4 bg-[rgba(224,219,244,0.40)]">
                   <div className="text-[#61279E] text-base md:text-base font-semibold leading-[140%]">
                     Нежелательные явления (≥ 10%)
                   </div>
                 </div>
-                <div className="flex-1 flex items-center">
+                <div className="flex-1 flex items-center bg-[rgba(224,219,244,0.40)]">
                   <div className="flex-1 flex flex-col">
                     <div className="h-[92px] p-4 bg-[rgba(97,39,158,0.55)] flex items-end justify-center">
                       <div className="text-center text-white text-sm md:text-sm font-semibold leading-[140%]">
@@ -122,6 +122,8 @@ const SafetyModal = ({ isOpen, onClose }: SafetyModalProps) => {
                       </div>
                     </div>
                   </div>
+                </div>
+                <div className="flex-1 flex items-center">
                   <div className="flex-1 flex flex-col">
                     <div className="h-[92px] p-4 bg-[rgba(135,169,226,0.55)] flex items-end justify-center">
                       <div className="text-center text-[#151518] text-sm md:text-sm font-semibold leading-[140%]">
@@ -165,8 +167,8 @@ const SafetyModal = ({ isOpen, onClose }: SafetyModalProps) => {
 
               {/* Диарея */}
               <div className="flex items-center">
-                <div className="w-[220px] md:w-[220px] p-4 bg-white">
-                  <div className="text-[#61279E] text-base md:text-base font-semibold leading-[140%] text-center">
+                <div className="w-[220px] md:w-[220px] p-4 bg-[rgba(224,219,244,0.40)]">
+                  <div className="text-[#61279E] text-base md:text-base font-semibold leading-[140%]">
                     Диарея
                   </div>
                 </div>
@@ -671,4 +673,3 @@ const SafetyModal = ({ isOpen, onClose }: SafetyModalProps) => {
 };
 
 export default SafetyModal;
-
