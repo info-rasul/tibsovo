@@ -21,11 +21,11 @@ const MechanismOfAction = () => {
   ];
 
   return (
-    <div className="w-full py-20 px-4 md:px-5 md:pb-24">
-      <div className="mx-auto w-full max-w-[1360px] rounded-[20px] bg-[#E74C39] py-6 md:py-16">
+    <div className="w-full py-18 px-4 md:px-5 md:pb-14">
+      <div className="mx-auto w-full max-w-[1360px] rounded-[20px] bg-[#E74C39] pt-6 md:pt-16 pb-4">
         <div className="flex flex-col gap-12 px-4">
           {/* Первый блок - Текст */}
-          <div className="flex flex-col w-full px-8">
+          <div className="flex flex-col w-full px-8 pb-8">
             {/* Верхний заголовок */}
             <h3 className="text-white text-base font-semibold leading-[120%] tracking-[0.48px] uppercase">
               Механизм действия
