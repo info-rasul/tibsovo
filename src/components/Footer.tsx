@@ -3,58 +3,31 @@ import logo from '../assets/logo.svg'
 function Footer() {
   return (
     <footer
-      className="w-full flex flex-col items-center justify-center px-5 md:px-20 py-9"
-      style={{
-        backgroundColor: 'rgba(224, 219, 244, 0.4)',
-      }}
+      className="w-full flex flex-col items-center justify-center px-5 md:px-20 py-9 bg-[rgba(224,219,244,0.4)]"
     >
       <div
-        className="w-full flex flex-col items-start"
-        style={{
-          maxWidth: '1140px'
-        }}
+        className="w-full flex flex-col items-start max-w-[1140px]"
       >
         {/* Верхняя часть с логотипом и текстом */}
         <div
-          className="w-full flex items-stretch flex-wrap"
-          style={{
-            maxWidth: '1055px',
-            gap: '40px 100px'
-          }}
+          className="w-full flex items-stretch flex-wrap max-w-[1055px] gap-y-[40px] gap-x-[100px]"
         >
           {/* Логотип */}
           <div className="flex items-start justify-start overflow-hidden">
             <div
-              className="flex items-center justify-center"
-              style={{
-                minHeight: '30px',
-                width: '150px'
-              }}
+              className="flex items-center justify-center min-h-[30px] w-[150px]"
             >
               <img
                 src={logo}
                 alt="Servier Logo"
-                className="w-full h-auto"
-                style={{
-                  objectFit: 'contain'
-                }}
+                className="w-full h-auto object-contain"
               />
             </div>
           </div>
 
           {/* Текст */}
           <p
-            className="flex-1 min-w-0"
-            style={{
-              color: '#151518',
-              fontSize: '20px',
-              fontWeight: 400,
-              textTransform: 'uppercase',
-              flexGrow: 1,
-              flexShrink: 1,
-              width: '666px',
-              maxWidth: '100%'
-            }}
+            className="flex-1 min-w-0 text-[#151518] text-[20px] font-normal uppercase flex-grow flex-shrink w-[666px] max-w-full"
           >
             материал предназначен для специалистов здравоохранения
           </p>
@@ -62,73 +35,40 @@ function Footer() {
 
         {/* Три колонки */}
         <div
-          className="w-full flex flex-wrap items-start mt-10 md:mt-12"
-          style={{
-            gap: '0 93px'
-          }}
+          className="w-full flex flex-wrap items-start mt-10 md:mt-12 gap-x-[93px]"
         >
           {/* Колонка 1: Адрес офиса */}
           <div
-            className="flex flex-col items-start"
-            style={{
-              flex: '0 0 calc(33.333% - 62px)',
-              minWidth: '200px',
-              fontSize: '12px',
-              color: '#151518',
-              fontWeight: 400
-            }}
+            className="flex flex-col items-start flex-[0_0_calc(33.333%-62px)] min-w-[200px] text-xs text-[#151518] font-normal"
           >
             <p
-              style={{
-                color: '#151518',
-                fontWeight: 700,
-                lineHeight: '1.25',
-                textTransform: 'uppercase'
-              }}
+              className="text-[#151518] font-bold leading-[1.25] uppercase"
             >
               Адрес офиса:
             </p>
             <p
-              style={{
-                color: '#151518',
-                marginTop: '29px'
-              }}
+              className="text-[#151518] mt-[29px]"
             >
               АО «Сервье»:
             </p>
             <p
-              style={{
-                color: '#151518',
-                lineHeight: '18px',
-                marginTop: '5px',
-                whiteSpace: 'pre-line'
-              }}
+              className="text-[#151518] leading-[18px] mt-[5px] whitespace-pre-line"
             >
               {`125196, Москва, ул. Лесная, д.7, этажи 7/8/9
 Бизнес-центр Белые Сады`}
             </p>
             <p
-              style={{
-                color: '#151518',
-                marginTop: '5px'
-              }}
+              className="text-[#151518] mt-[5px]"
             >
               Телефон: +7 495 937-07-00
             </p>
             <p
-              style={{
-                color: '#151518',
-                marginTop: '17px'
-              }}
+              className="text-[#151518] mt-[17px]"
             >
               ru.communications@servier.com
             </p>
             <p
-              style={{
-                color: '#151518',
-                lineHeight: '18px',
-                marginTop: '14px'
-              }}
+              className="text-[#151518] leading-[18px] mt-[14px]"
             >
               ООО «СЕРВЬЕ РУС», 108828 г. Москва, пос. Краснопахорское, квартал 158, вл.2, стр.1, кабинет 169 Тел. +7 (495) 225-80-10
             </p>
@@ -136,79 +76,28 @@ function Footer() {
 
           {/* Колонка 2: Сообщить о нежелательном явлении */}
           <div
-            className="flex flex-col items-stretch mt-10 md:mt-0"
-            style={{
-              flex: '0 0 calc(33.333% - 62px)',
-              minWidth: '200px',
-              paddingRight: '1px'
-            }}
+            className="flex flex-col items-stretch mt-10 md:mt-0 flex-[0_0_calc(33.333%-62px)] min-w-[200px] pr-[1px]"
           >
             <p
-              style={{
-                color: '#151518',
-                fontSize: '12px',
-                fontWeight: 700,
-                lineHeight: '30px',
-                textTransform: 'uppercase'
-              }}
+              className="text-[#151518] text-xs font-bold leading-[30px] uppercase"
             >
               Сообщить о нежелательном явлении
             </p>
             <p
-              style={{
-                color: '#151518',
-                fontSize: '12px',
-                fontWeight: 400,
-                lineHeight: '18px',
-                marginTop: '30px',
-                whiteSpace: 'pre-line'
-              }}
+              className="text-[#151518] text-xs font-normal leading-[18px] mt-[30px] whitespace-pre-line"
             >
-              {`передать запрос по препарату или связаться по другим
-вопросам Вы можете через форму обратной связи`}
+              передать запрос по препарату или связаться по другим вопросам Вы можете через форму обратной связи
             </p>
             <button
-              className="flex items-center justify-center mt-8"
-              style={{
-                borderRadius: '5px',
-                border: '1px solid #151518',
-                width: '257px',
-                maxWidth: '100%',
-                paddingLeft: '20px',
-                paddingRight: '20px',
-                paddingTop: '23px',
-                paddingBottom: '20px',
-                gap: '20px',
-                backgroundColor: 'transparent',
-                cursor: 'pointer',
-                transition: 'opacity 0.2s'
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.opacity = '0.8'
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.opacity = '1'
-              }}
+              className="flex items-center justify-center mt-8 rounded-[5px] border border-[#151518] w-[257px] max-w-full pl-5 pr-5 pt-[23px] pb-5 gap-5 bg-transparent cursor-pointer transition-opacity duration-200 hover:opacity-80"
             >
               <span
-                style={{
-                  color: '#151518',
-                  textAlign: 'center',
-                  fontSize: '14px',
-                  fontWeight: 700,
-                  lineHeight: '1.14'
-                }}
+                className="text-[#151518] text-center text-sm font-bold leading-[1.14]"
               >
                 Форма обратной связи
               </span>
               <div
-                style={{
-                  width: '16px',
-                  minHeight: '12px',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center'
-                }}
+                className="w-4 min-h-[12px] flex items-center justify-center"
               >
                 <svg
                   width="16"
@@ -231,38 +120,18 @@ function Footer() {
 
           {/* Колонка 3: ТИБСОВО® и условия использования */}
           <div
-            className="flex flex-col items-stretch mt-10 md:mt-0"
-            style={{
-              flex: '0 0 calc(33.333% - 62px)',
-              minWidth: '200px',
-              fontSize: '12px',
-              color: '#151518',
-              fontWeight: 400,
-              lineHeight: '24px',
-              justifyContent: 'center'
-            }}
+            className="flex flex-col items-stretch mt-10 md:mt-0 flex-[0_0_calc(33.333%-62px)] min-w-[200px] text-xs text-[#151518] font-normal leading-6 justify-center"
           >
+            <p className="text-[#151518]">
+              ТИБСОВО® <span className="text-black">РУ ЛП-№(012213)-(РГ-RU)</span>
+            </p>
             <p
-              style={{
-                color: '#151518'
-              }}
-              dangerouslySetInnerHTML={{
-                __html: 'ТИБСОВО® <span style="color: rgba(0,0,0,1);">РУ ЛП-№(012213)-(РГ-RU)</span>'
-              }}
-            />
-            <p
-              style={{
-                color: '#151518',
-                marginTop: '16px'
-              }}
+              className="text-[#151518] mt-4"
             >
               Условия использования
             </p>
             <p
-              style={{
-                color: '#151518',
-                marginTop: '16px'
-              }}
+              className="text-[#151518] mt-4"
             >
               Политика в отношении обработки персональных данных
             </p>
@@ -271,13 +140,7 @@ function Footer() {
 
         {/* Копирайт */}
         <p
-          style={{
-            color: '#151518',
-            fontSize: '12px',
-            fontWeight: 400,
-            opacity: 0.5,
-            marginTop: '15px'
-          }}
+          className="text-[#151518] text-xs font-normal opacity-50 mt-[15px]"
         >
           © 2025 LES LABORATOIRES SERVIER. АО «Сервье». Все права защищены
         </p>

@@ -19,81 +19,39 @@ function References() {
           className="w-full flex flex-col items-stretch justify-start pr-5 md:pr-10"
         >
           <div
-            className="w-full flex flex-col items-stretch justify-start px-5 md:px-12 py-12 md:py-12"
-            style={{
-              borderRadius: '16px',
-              backgroundColor: 'rgba(224, 219, 244, 0.4)',
-            }}
+            className="w-full flex flex-col items-stretch justify-start px-5 md:px-12 py-12 md:py-12 rounded-2xl bg-[rgba(224,219,244,0.4)]"
           >
           {/* Заголовок с черным кружочком */}
           <div
-            className="w-full flex items-center justify-start flex-wrap"
-            style={{
-              gap: '24px',
-              fontSize: '40px',
-              color: '#0B0F3E',
-              fontWeight: 600,
-              letterSpacing: '-1.2px',
-              lineHeight: '1.1'
-            }}
+            className="w-full flex items-center justify-start flex-wrap gap-6 text-[40px] text-[#0B0F3E] font-semibold tracking-[-1.2px] leading-[1.1]"
           >
             {/* Текст заголовка */}
             <h2
-              className="flex-1 min-w-0"
-              style={{
-                flexShrink: 1,
-                flexBasis: '0%',
-                alignSelf: 'stretch',
-                marginTop: 'auto',
-                marginBottom: 'auto'
-              }}
+              className="flex-1 min-w-0 flex-shrink flex-[0_0_0%] self-stretch my-auto"
             >
               Список литературы
             </h2>
             
             {/* Черный кружочек */}
             <div
-              className="flex-shrink-0"
-              style={{
-                width: '32px',
-                height: '32px',
-                borderRadius: '32px',
-                alignSelf: 'stretch',
-                position: 'relative',
-                marginTop: 'auto',
-                marginBottom: 'auto'
-              }}
+              className="flex-shrink-0 w-8 h-8 rounded-full self-stretch relative my-auto"
             >
               <img
                 src={frame30Icon}
                 alt=""
-                className="w-full h-full"
-                style={{
-                  objectFit: 'contain'
-                }}
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
 
           {/* Список литературы */}
           <div
-            className="w-full flex flex-col items-stretch justify-start"
-            style={{
-              marginTop: '32px',
-              color: '#151518',
-              fontSize: '16px',
-              fontWeight: 400,
-              lineHeight: '22px'
-            }}
+            className="w-full flex flex-col items-stretch justify-start mt-8 text-[#151518] text-base font-normal leading-[22px]"
           >
             {references.map((reference, index) => (
               <p
                 key={index}
-                className="w-full"
-                style={{
-                  whiteSpace: 'pre-wrap',
-                  wordBreak: 'break-word'
-                }}
+                className="w-full whitespace-pre-wrap break-words"
               >
                 {reference}
               </p>

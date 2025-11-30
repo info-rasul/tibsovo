@@ -43,8 +43,7 @@ function IconListItem({
     >
       {/* Единый блок: прямоугольник с кругом и текст */}
       <div
-        className="relative flex items-center flex-1 min-w-0"
-        style={{ gap: "24px" }}
+        className="relative flex items-center flex-1 min-w-0 gap-6"
       >
         {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
         {showGradient && (
@@ -89,14 +88,13 @@ function IconListItem({
 
         {/* Текст элемента списка */}
         <p
-          className={`text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line ${textClassName}`}
-          style={{ wordBreak: "break-word" }}
+          className={`text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line break-words ${textClassName}`}
         >
           {text}
           {boldText && (
             <>
               {" "}
-              <strong style={{ fontWeight: 700 }}>{boldText}</strong>
+              <strong className="font-bold">{boldText}</strong>
             </>
           )}
         </p>

@@ -92,29 +92,18 @@ function DrugInteractions() {
         <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start">
         {/* Внутренний контейнер с контентом */}
         <div 
-          className="w-full flex flex-col items-start justify-start pr-5 md:pr-10"
-          style={{ 
-            fontSize: '32px',
-            color: '#151518',
-            fontWeight: 600,
-            letterSpacing: '-0.96px',
-            lineHeight: '35px',
-            paddingLeft: '0'
-          }}
+          className="w-full flex flex-col items-start justify-start pr-5 md:pr-10 text-[32px] text-[#151518] font-semibold tracking-[-0.96px] leading-[35px] pl-0"
         >
           {/* Блок со списком секций */}
           <div 
-            className="w-full max-w-[1171px] flex flex-col items-stretch justify-start"
-            style={{ marginTop: '64px' }}
+            className="w-full max-w-[1171px] flex flex-col items-stretch justify-start mt-16"
           >
             {sections.map((section, sectionIndex) => (
               <div 
                 key={sectionIndex}
-                className="relative w-full flex items-start justify-start overflow-visible md:flex-wrap"
-                style={{ 
-                  gap: '24px',
-                  marginTop: sectionIndex > 0 ? '48px' : '0'
-                }}
+                className={`relative w-full flex items-start justify-start overflow-visible md:flex-wrap gap-6 ${
+                  sectionIndex > 0 ? 'mt-12' : ''
+                }`}
               >
                 {/* Контейнер иконки */}
                 <IconSectionHeader
@@ -124,10 +113,7 @@ function DrugInteractions() {
 
                 {/* Контент секции */}
                 <div 
-                  className="flex-1 min-w-0 flex flex-col items-stretch justify-start relative z-10"
-                  style={{ 
-                    minWidth: '240px'
-                  }}
+                  className="flex-1 min-w-0 flex flex-col items-stretch justify-start relative z-10 min-w-[240px]"
                 >
                     {/* Заголовок секции */}
                     <h3 
@@ -141,29 +127,16 @@ function DrugInteractions() {
                       {section.items.map((item, itemIndex) => (
                         <div 
                           key={itemIndex}
-                          className={`relative w-full flex items-start justify-start ${
+                          className={`relative w-full flex items-start justify-start gap-3 ${
                             itemIndex > 0 ? 'mt-5' : ''
                           }`}
-                          style={{ gap: '12px' }}
                         >
                           {/* Буллет-точка */}
                           <div 
-                            className="flex items-center justify-center flex-shrink-0"
-                            style={{ 
-                              width: '28px',
-                              paddingLeft: '6px',
-                              paddingRight: '6px',
-                              paddingTop: '8px',
-                              paddingBottom: '8px'
-                            }}
+                            className="flex items-center justify-center flex-shrink-0 w-7 pl-1.5 pr-1.5 pt-2 pb-2"
                           >
                             <div 
-                              className="rounded-full flex-shrink-0"
-                              style={{
-                                width: '12px',
-                                height: '12px',
-                                backgroundColor: '#87A9E2'
-                              }}
+                              className="rounded-full flex-shrink-0 w-3 h-3 bg-[#87A9E2]"
                             />
                           </div>
 

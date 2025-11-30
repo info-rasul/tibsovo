@@ -21,11 +21,7 @@ function IconSectionHeader({
 
   return (
     <div
-      className={`relative flex items-start flex-shrink-0 ${className}`}
-      style={{
-        width: "176px",
-        gap: "-32px",
-      }}
+      className={`relative flex items-start flex-shrink-0 w-[176px] -gap-8 ${className}`}
     >
       {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
       <div
@@ -56,10 +52,7 @@ function IconSectionHeader({
           <img
             src={icon}
             alt=""
-            className="w-10 h-10"
-            style={{
-              objectFit: "contain",
-            }}
+            className="w-10 h-10 object-contain"
           />
         )}
       </div>

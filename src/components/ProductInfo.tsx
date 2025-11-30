@@ -20,14 +20,14 @@ const ProductInfo = () => {
                 </h3>
                 
                 {/* Контент */}
-                <div className="flex flex-col gap-4 md:gap-0 md:mt-4">
+                <div className="flex flex-col gap-4 md:gap-0 md:mt-2">
                   {/* Большой заголовок */}
                   <h2 className="text-[#61279E] text-2xl md:text-[40px] font-semibold leading-[120%] md:leading-[44px] tracking-[-0.48px] md:tracking-[-1.2px]">
                     Режим дозирования ТИБСОВО<span className="text-2xl md:text-[40px]">®</span>: один раз в день
                   </h2>
                   
                   {/* Текст описания */}
-                  <p className="text-[#151518] text-sm md:text-xl font-normal leading-[140%] md:leading-[28px] md:mt-4">
+                  <p className="text-[#151518] text-sm md:text-xl font-normal leading-[140%] md:leading-[28px] md:mt-6">
                     Препарат ТИБСОВО<span className="text-sm md:text-xl">®</span> в режиме монотерапии показан для лечения взрослых пациентов с местнораспространенной или метастатической холангиокарциномой с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках одной линии системной терапии
                   </p>
                 </div>

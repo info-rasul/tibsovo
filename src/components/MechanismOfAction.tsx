@@ -1,8 +1,9 @@
 import Scheme from "./Scheme";
-import r1 from '../assets/roles/1.svg'
-import r2 from '../assets/roles/2.svg'
-import r3 from '../assets/roles/3.svg'
+import r1 from "../assets/roles/1.svg";
+import r2 from "../assets/roles/2.svg";
+import r3 from "../assets/roles/3.svg";
 import IconListItem from "./IconListItem";
+import effectImage from "../assets/effect.svg";
 
 const MechanismOfAction = () => {
   const items = [
@@ -19,10 +20,14 @@ const MechanismOfAction = () => {
       text: "ТИБСОВО® — мощный низкомолекулярный ингибитор мутантного фермента IDH1,\n являющийся первым представителем своего класса и целенаправленно \n воздействующий на все известные мутантные варианты IDH1",
     },
   ];
-
   return (
     <div className="w-full py-18 px-4 md:px-5 md:pb-14">
-      <div className="mx-auto w-full max-w-[1360px] rounded-[20px] bg-[#E74C39] pt-6 md:pt-16 pb-4">
+      <div
+        className="mx-auto w-full max-w-[1360px] rounded-[16px] md:rounded-[20px] pt-8 md:pt-16 pb-2 md:pb-4 relative overflow-hidden bg-[#E74C39] bg-[right_top] bg-auto bg-no-repeat"
+        style={{
+          backgroundImage: `url("${effectImage}")`,
+        }}
+      >
         <div className="flex flex-col gap-12 px-4">
           {/* Первый блок - Текст */}
           <div className="flex flex-col w-full px-8 pb-8">

@@ -30,8 +30,7 @@ function Header() {
   return (
     <>
       <header 
-        className="fixed top-0 left-0 right-0 w-full backdrop-blur-[40px] shadow-[0_1px_48px_0_rgba(0,0,0,0.05)] z-50"
-        style={{ backgroundColor: 'rgba(255, 255, 255, 0.80)' }}
+        className="fixed top-0 left-0 right-0 w-full backdrop-blur-[40px] shadow-[0_1px_48px_0_rgba(0,0,0,0.05)] z-50 bg-[rgba(255,255,255,0.80)]"
       >
         <div className="h-14 px-4 flex items-center justify-between md:py-4 md:px-6 md:h-auto md:flex-wrap md:gap-10">
           {/* Logo */}

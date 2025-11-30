@@ -46,8 +46,7 @@ function Safety() {
 
             {/* Подзаголовок */}
             <p
-              className="text-[#151518] text-xl font-normal leading-[28px] mt-6 whitespace-pre-line"
-              style={{ wordBreak: "break-word" }}
+              className="text-[#151518] text-xl font-normal leading-[28px] mt-6 whitespace-pre-line break-words"
             >
               {`Безопасность монотерапии ТИБСОВО® пациентов с местнораспространенной или метастатической 
 холангиокарциномой с мутацией в гене IDH1 R132, ранее получавших лечение, как минимум, в рамках 
@@ -76,13 +75,7 @@ function Safety() {
           className="mt-10 md:mt-12 w-full flex flex-col items-start justify-start"
         >
           <button
-            className="flex items-center justify-center rounded-lg px-5 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity"
-            style={{
-              fontSize: "16px",
-              color: "#FFF",
-              fontWeight: 600,
-              lineHeight: 1.4,
-            }}
+            className="flex items-center justify-center rounded-lg px-5 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-base text-white font-semibold leading-[1.4]"
           >
             <span className="text-white">
               Безопасность в исследовании ClarIDHy
