@@ -8,6 +8,7 @@ import Safety from './components/Safety'
 import PrecautionsAndContraindications from './components/PrecautionsAndContraindications'
 import References from './components/References'
 import Footer from './components/Footer'
+import DrugInteractions from './components/DrugInteractions'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <MechanismOfAction />
       <Safety />
       <PrecautionsAndContraindications />
+      <DrugInteractions />
       <References />
       <Footer />
     </div>
