@@ -18,3 +18,12 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;  /* Chrome, Safari and Opera */
 }
+
+/* Hover effect for cards */
+.card-hover {
+  transition: background-color 0.3s ease;
+}
+
+.card-hover:hover {
+  background-color: #E74C39 !important;
+}

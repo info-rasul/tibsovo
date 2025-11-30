@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from '../assets/logo.svg'
+import mobileHeaderImage from '../assets/main/Header-mobile.svg'
 
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -29,8 +30,22 @@ function Header() {
 
   return (
     <>
+      {/* Мобильная версия Header с изображением */}
+      <div className="block md:hidden w-full">
+        <img
+          src={mobileHeaderImage}
+          alt=""
+          className="w-full h-auto"
+          style={{
+            objectFit: "contain",
+            boxShadow: "0px 1px 48px rgba(0, 0, 0, 0.05)",
+            borderRadius: "0"
+          }}
+        />
+      </div>
+
       <header 
-        className="fixed top-0 left-0 right-0 w-full backdrop-blur-[40px] shadow-[0_1px_48px_0_rgba(0,0,0,0.05)] z-50 bg-[rgba(255,255,255,0.80)]"
+        className="fixed top-0 left-0 right-0 w-full backdrop-blur-[40px] shadow-[0_1px_48px_0_rgba(0,0,0,0.05)] z-50 bg-[rgba(255,255,255,0.80)] hidden md:block"
       >
         <div className="h-14 px-4 flex items-center justify-between md:py-4 md:px-6 md:h-auto md:flex-wrap md:gap-10">
           {/* Logo */}
