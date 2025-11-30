@@ -14,7 +14,7 @@ const CommonGraphsImage = () => {
                 color="#9D9CA2"
                 opacity={1}
                 className="flex-shrink-0"
- text="Tibsovo. Инструкция по применению. Servier Pharmaceuticals LLC; 2023."
+                text="Tibsovo. Инструкция по применению. Servier Pharmaceuticals LLC; 2023."
               />
             </div>
           </div>
