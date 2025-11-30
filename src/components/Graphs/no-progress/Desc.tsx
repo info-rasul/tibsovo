@@ -22,7 +22,7 @@ const NoProgressDescGraph = () => {
             ECOG
           </p>
         </div>
-        <button className="mt-0 md:mt-[130px] w-full px-8 py-4 rounded-lg border border-[#151518] text-[#151518] text-sm md:text-base font-semibold leading-[140%] hover:opacity-90 transition-opacity">
+        <button className="mt-0 md:mt-[130px] w-full px-8 py-4 rounded-lg border border-[#151518] text-[#151518] text-sm md:text-base font-semibold leading-[140%] hover:opacity-90 transition-opacity cursor-pointer">
           Скачать брошюру
         </button>
       </div>

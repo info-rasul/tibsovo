@@ -1,6 +1,6 @@
-import icon1 from "../sixth/icons/1.svg";
-import icon2 from "../sixth/icons/2.svg";
-import icon3 from "../sixth/icons/3.svg";
+import icon1 from "../assets/sixth/icons/1.svg";
+import icon2 from "../assets/sixth/icons/2.svg";
+import icon3 from "../assets/sixth/icons/3.svg";
 import IconListItem from "./IconListItem";
 
 function Safety() {
@@ -68,7 +68,7 @@ function Safety() {
 
         {/* Блок с кнопкой */}
         <div className="mt-0 md:mt-12 w-full flex flex-col items-start justify-start">
-          <button className="flex items-center justify-center rounded-lg px-8 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-sm md:text-base text-white font-semibold leading-[140%] md:leading-[1.4] w-full md:w-auto">
+          <button className="flex items-center justify-center rounded-lg px-8 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-sm md:text-base text-white font-semibold leading-[140%] md:leading-[1.4] w-full md:w-auto cursor-pointer">
             <span className="text-white">
               Безопасность в исследовании ClarIDHy
             </span>

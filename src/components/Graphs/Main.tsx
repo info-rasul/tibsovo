@@ -5,6 +5,7 @@ import NoProgressGraphsImage from './no-progress/Graph'
 import CommonDescGraph from './common/Desc'
 import LongTimeDescGraph from './long-time/Desc'
 import NoProgressDescGraph from './no-progress/Desc'
+import InfoIcon from '../InfoIcon'
 
 const Graphs = () => {
   const [activeTab, setActiveTab] = useState<'common' |  'noProgress' | 'longTime'>('noProgress')
@@ -29,7 +30,7 @@ const Graphs = () => {
                   <button
                     key={tab.id}
                     onClick={() => setActiveTab(tab.id)}
-                    className={`px-4 py-3 md:px-4.5 md:py-3 rounded-lg text-xs md:text-sm font-semibold leading-[140%] transition-colors whitespace-nowrap flex-shrink-0 ${
+                    className={`px-4 py-3 md:px-4.5 md:py-3 rounded-lg text-xs md:text-sm font-semibold leading-[140%] transition-colors whitespace-nowrap flex-shrink-0 cursor-pointer ${
                       activeTab === tab.id
                         ? 'bg-[#61279E] text-white'
                         : 'text-[#151518]'
@@ -40,22 +41,15 @@ const Graphs = () => {
                 ))}
               </div>
               {/* Info Icon - visible on desktop only */}
-              <svg
-                className="hidden md:block w-6 h-6 flex-shrink-0"
-                width="24"
-                height="24"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g opacity="0.5">
-                  <circle cx="10.0002" cy="9.99995" r="7.50312" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M9.1665 12.9178H11.0918" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M10.1326 12.9179V9.37476H9.17383" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M10.0838 6.87143C10.0838 6.98654 9.99044 7.07985 9.87534 7.07985C9.76023 7.07985 9.66692 6.98654 9.66692 6.87143C9.66692 6.75632 9.76023 6.66301 9.87534 6.66301" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M9.87513 6.66297C9.99024 6.66297 10.0836 6.75628 10.0836 6.87139" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </g>
-              </svg>
+              <div className="hidden md:block">
+                <InfoIcon
+                  size={24}
+                  color="#636466"
+                  opacity={0.5}
+                  className="flex-shrink-0"
+ text="Tibsovo. Инструкция по применению. Servier Pharmaceuticals LLC; 2023."
+                />
+              </div>
             </div>
             <div className="flex flex-col px-4 md:px-8 pb-4 md:py-[17px]">
               {activeTab === 'common' && <CommonGraphsImage />}

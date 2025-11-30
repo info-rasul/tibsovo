@@ -1,7 +1,11 @@
+import { useState } from "react";
 import GraphsMain from "./Graphs/Main";
 import effectImage from "../assets/effect.svg";
+import ClarIDHyModal from "./Clarl/ClarIDHyModal";
 
 const Efficiency = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
   return (
     <div className="w-full max-w-full py-2 md:py-20 md:px-5 md:pb-24 bg-white">
       <div 
@@ -38,12 +42,15 @@ const Efficiency = () => {
 
               {/* Кнопки */}
               <div className="flex flex-col md:flex-row items-stretch md:items-center gap-3 md:gap-3 flex-wrap">
-                <button className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
+                <button
+                  onClick={() => setIsModalOpen(true)}
+                  className="flex items-center justify-center gap-2 rounded-lg bg-[#E74C39] px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto cursor-pointer"
+                >
                   <span className="text-sm md:text-base font-semibold leading-[140%] text-white">
                     Дизайн исследования ClarIDHy
                   </span>
                 </button>
-                <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto">
+                <button className="flex items-center justify-center gap-2 rounded-lg border border-white bg-white px-8 py-4 md:px-8 whitespace-nowrap w-full md:w-auto cursor-pointer">
                   <span className="text-sm md:text-base font-semibold leading-[140%] text-[#151518]">
                     Исходные характеристики
                   </span>
@@ -54,7 +61,13 @@ const Efficiency = () => {
         </div>
 
         <GraphsMain />
-      </div>  
+      </div>
+
+      {/* ClarIDHy Modal */}
+      <ClarIDHyModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </div>
   );
 };

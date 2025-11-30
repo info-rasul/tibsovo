@@ -1,8 +1,8 @@
-import icon1 from "../seventh/icons/1.svg";
-import icon2 from "../seventh/icons/2.svg";
-import icon3 from "../seventh/icons/3.svg";
-import icon4 from "../seventh/icons/4.svg";
-import rectangle13Icon from "../seventh/icons/Rectangle 13.svg";
+import icon1 from "../assets/seventh/icons/1.svg";
+import icon2 from "../assets/seventh/icons/2.svg";
+import icon3 from "../assets/seventh/icons/3.svg";
+import icon4 from "../assets/seventh/icons/4.svg";
+import rectangle13Icon from "../assets/seventh/icons/Rectangle 13.svg";
 import IconListItem from "./IconListItem";
 
 function PrecautionsAndContraindications() {

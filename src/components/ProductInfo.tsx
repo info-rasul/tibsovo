@@ -34,7 +34,7 @@ const ProductInfo = () => {
               </div>
               
               {/* Кнопка */}
-              <button className="mt-8 md:mt-12 self-stretch md:self-start px-8 py-4 rounded-lg border border-[#151518] text-[#151518] text-sm md:text-base font-semibold leading-[100%] hover:opacity-90 transition-opacity">
+              <button className="mt-8 md:mt-12 self-stretch md:self-start px-8 py-4 rounded-lg border border-[#151518] text-[#151518] text-sm md:text-base font-semibold leading-[100%] hover:opacity-90 transition-opacity cursor-pointer">
                 Скачать брошюру
               </button>
             </div>

@@ -1,4 +1,4 @@
-import frame30Icon from "../eighth/Frame 30.svg";
+import frame30Icon from "../assets/eighth/Frame 30.svg";
 
 function References() {
   return (

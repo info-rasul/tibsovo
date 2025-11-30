@@ -1,5 +1,6 @@
 import heroImage from '../assets/hero.svg'
 import heroImageMob from '../assets/hero-mob.svg'
+import InfoIcon from './InfoIcon'
 
 function Hero() {
   const stats = [
@@ -63,22 +64,14 @@ function Hero() {
                 {stats[0].description}
               </div>
               {/* Info Icon */}
-              <svg 
-                className="absolute right-4 top-4 w-5 h-5 opacity-50" 
-                width="20" 
-                height="20" 
-                viewBox="0 0 20 20" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <g opacity="0.5">
-                  <circle cx="10.0002" cy="9.99995" r="7.50312" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M9.1665 12.9178H11.0918" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M10.1326 12.9179V9.37476H9.17383" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M10.0838 6.87143C10.0838 6.98654 9.99044 7.07985 9.87534 7.07985C9.76023 7.07985 9.66692 6.98654 9.66692 6.87143C9.66692 6.75632 9.76023 6.66301 9.87534 6.66301" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M9.87513 6.66297C9.99024 6.66297 10.0836 6.75628 10.0836 6.87139" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                </g>
-              </svg>
+              <div className="absolute right-4 top-4">
+                <InfoIcon
+                  size={20}
+                  color="#636466"
+                  opacity={0.5}
+                  text="Tibsovo. Инструкция по применению. Servier Pharmaceuticals LLC; 2023."
+                />
+              </div>
             </div>
 
             {/* Two smaller cards - always in row, 1/2 width each on mobile */}
@@ -95,22 +88,14 @@ function Hero() {
                     {stat.description}
                   </div>
                   {/* Info Icon */}
-                  <svg 
-                    className="absolute right-4 top-4 w-5 h-5 opacity-50" 
-                    width="20" 
-                    height="20" 
-                    viewBox="0 0 20 20" 
-                    fill="none" 
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <g opacity="0.5">
-                      <circle cx="10.0002" cy="9.99995" r="7.50312" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M9.1665 12.9178H11.0918" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M10.1326 12.9179V9.37476H9.17383" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M10.0838 6.87143C10.0838 6.98654 9.99044 7.07985 9.87534 7.07985C9.76023 7.07985 9.66692 6.98654 9.66692 6.87143C9.66692 6.75632 9.76023 6.66301 9.87534 6.66301" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                      <path d="M9.87513 6.66297C9.99024 6.66297 10.0836 6.75628 10.0836 6.87139" stroke="#636466" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-                    </g>
-                  </svg>
+                  <div className="absolute right-4 top-4">
+                    <InfoIcon
+                      size={20}
+                      color="#636466"
+                      opacity={0.5}
+ text="Tibsovo. Инструкция по применению. Servier Pharmaceuticals LLC; 2023."
+                    />
+                  </div>
                 </div>
               ))}
             </div>

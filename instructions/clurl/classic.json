@@ -1,0 +1,1428 @@
+{
+    "blocks": [
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "link",
+            "properties": {
+                "rel": "stylesheet",
+                "href": "https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+            }
+        },
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "link",
+            "properties": {
+                "href": "https://fonts.googleapis.com/css2?family=Geist:wght@400;600&display=swap",
+                "rel": "stylesheet"
+            }
+        },
+        {
+            "@type": "@builder.io/sdk:Element",
+            "tagName": "div",
+            "properties": {
+                "layer-name": "Дизайн исследования ClarIDHy"
+            },
+            "responsiveStyles": {
+                "large": {
+                    "display": "flex",
+                    "width": "100%",
+                    "maxWidth": "1440px",
+                    "paddingBottom": "257px",
+                    "flexDirection": "column",
+                    "alignItems": "center",
+                    "gap": "64px",
+                    "background": "#FFF",
+                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                    "margin": "0 auto"
+                },
+                "medium": {
+                    "padding": "20px",
+                    "paddingBottom": "100px"
+                },
+                "small": {
+                    "padding": "16px",
+                    "paddingBottom": "60px"
+                }
+            },
+            "children": [
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "display": "flex",
+                            "width": "100%",
+                            "maxWidth": "1440px",
+                            "height": "107px",
+                            "padding": "40px 80px 32px 40px",
+                            "alignItems": "center",
+                            "justifyContent": "space-between",
+                            "boxSizing": "border-box"
+                        },
+                        "medium": {
+                            "padding": "20px",
+                            "height": "auto",
+                            "flexDirection": "column",
+                            "alignItems": "flex-start",
+                            "gap": "16px"
+                        },
+                        "small": {
+                            "padding": "16px"
+                        }
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "alignItems": "flex-end",
+                                    "gap": "12px"
+                                },
+                                "medium": {
+                                    "width": "100%"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Дизайн исследования ClarlDHy"
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "color": "#151518",
+                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                            "fontSize": "32px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "600",
+                                            "lineHeight": "110%",
+                                            "letterSpacing": "-0.96px"
+                                        },
+                                        "medium": {
+                                            "fontSize": "28px",
+                                            "lineHeight": "120%"
+                                        },
+                                        "small": {
+                                            "fontSize": "24px",
+                                            "lineHeight": "120%",
+                                            "letterSpacing": "-0.72px"
+                                        }
+                                    },
+                                    "properties": {
+                                        "layer-name": "Дизайн исследования ClarlDHy"
+                                    },
+                                    "layerName": "Дизайн исследования ClarlDHy"
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "component": {
+                                        "name": "Custom Code",
+                                        "options": {
+                                            "code": "<svg id=\"976:56077\" layer-name=\"Interface, Essential/info-information-circle\" data-component-name=\"Interface, Essential/info-information-circle\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"info-icon\" style=\"display: flex; width: 32px; height: 32px; justify-content: center; align-items: center\">\n<circle cx=\"16.0001\" cy=\"16\" r=\"12.005\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></circle>\n<path d=\"M14.666 20.6686H17.7464\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M16.2127 20.6686V14.9996H14.6787\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M16.1332 10.9943C16.1332 11.1784 15.9839 11.3277 15.7998 11.3277C15.6156 11.3277 15.4663 11.1784 15.4663 10.9943C15.4663 10.8101 15.6156 10.6608 15.7998 10.6608\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M15.8 10.6608C15.9842 10.6608 16.1335 10.8101 16.1335 10.9943\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</svg>"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "component": {
+                                "name": "Custom Code",
+                                "options": {
+                                    "code": "<svg id=\"976:56078\" layer-name=\"Symbols/close-big\" data-component-name=\"Symbols/close-big\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"close-icon\" style=\"display: flex; width: 32px; height: 32px; padding: 7.667px; justify-content: center; align-items: center; opacity: 0.5\">\n<g opacity=\"0.5\">\n<path d=\"M7.66602 7.66669L24.3327 24.3334\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M7.66602 24.3334L24.3327 7.66669\" stroke=\"#151518\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n</svg>"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@type": "@builder.io/sdk:Element",
+                    "tagName": "div",
+                    "properties": {},
+                    "responsiveStyles": {
+                        "large": {
+                            "width": "100%",
+                            "maxWidth": "1360px",
+                            "height": "472px",
+                            "position": "relative",
+                            "display": "flex",
+                            "alignItems": "flex-start",
+                            "gap": "24px"
+                        },
+                        "medium": {
+                            "flexDirection": "column",
+                            "height": "auto",
+                            "gap": "32px",
+                            "maxWidth": "100%"
+                        },
+                        "small": {
+                            "gap": "24px"
+                        }
+                    },
+                    "children": [
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "334px",
+                                    "height": "auto",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "gap": "20px",
+                                    "borderRadius": "12px"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "maxWidth": "500px"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "height": "auto",
+                                            "padding": "24px",
+                                            "flexDirection": "column",
+                                            "alignItems": "flex-start",
+                                            "gap": "24px",
+                                            "flexShrink": "0",
+                                            "alignSelf": "stretch",
+                                            "borderRadius": "20px",
+                                            "background": "rgba(224,219,244,0.40)"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "20px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "component": {
+                                                "name": "Text",
+                                                "options": {
+                                                    "text": "Основные критерии включения:"
+                                                }
+                                            },
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "width": "286px",
+                                                    "color": "#151518",
+                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                    "fontSize": "20px",
+                                                    "fontStyle": "normal",
+                                                    "fontWeight": "600",
+                                                    "lineHeight": "120%",
+                                                    "letterSpacing": "-0.4px"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "fontSize": "18px"
+                                                }
+                                            },
+                                            "properties": {
+                                                "layer-name": "Основные критерии включения:"
+                                            },
+                                            "layerName": "Основные критерии включения:"
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "286px",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "16px"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Измеряемый очаг (RECIST v1.1)"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Измеряемый очаг (RECIST v1.1)"
+                                                    },
+                                                    "layerName": "Измеряемый очаг (RECIST v1.1)"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Прогрессирование заболевания после 1 или 2 линий системной терапии, вкл. гемцитабин или 5-фторурацил"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Прогрессирование заболевания после 1 или 2 линий системной терапии, вкл. гемцитабин или 5-фторурацил"
+                                                    },
+                                                    "layerName": "Прогрессирование заболевания после 1 или 2 линий системной терапии, вкл. гемцитабин или 5-фторурацил"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "ECOG 0–1"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "ECOG 0–1"
+                                                    },
+                                                    "layerName": "ECOG 0–1"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Без предшествующей терапии ингибитором IDH1"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Без предшествующей терапии ингибитором IDH1"
+                                                    },
+                                                    "layerName": "Без предшествующей терапии ингибитором IDH1"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Гистологически подтвержденный диагноз холангиокарциномы"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Гистологически подтвержденный диагноз холангиокарциномы"
+                                                    },
+                                                    "layerName": "Гистологически подтвержденный диагноз холангиокарциномы"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Наличие мутации IDH1 (методом NGS в центральной лаборатории)"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#151518",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Наличие мутации IDH1 (методом NGS в центральной лаборатории)"
+                                                    },
+                                                    "layerName": "Наличие мутации IDH1 (методом NGS в центральной лаборатории)"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "168px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "gap": "16px",
+                                    "marginTop": "123px"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "maxWidth": "500px",
+                                    "marginTop": "0"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Рандомизация (2:1)"
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "color": "#151518",
+                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                            "fontSize": "16px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "400",
+                                            "lineHeight": "140%"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "fontSize": "14px",
+                                            "lineHeight": "140%"
+                                        }
+                                    },
+                                    "properties": {
+                                        "layer-name": "Рандомизация (2:1)"
+                                    },
+                                    "layerName": "Рандомизация (2:1)"
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "N=185"
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "color": "#151518",
+                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                            "fontSize": "16px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "400",
+                                            "lineHeight": "140%"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "fontSize": "14px",
+                                            "lineHeight": "140%"
+                                        }
+                                    },
+                                    "properties": {
+                                        "layer-name": "N=185"
+                                    },
+                                    "layerName": "N=185"
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "component": {
+                                        "name": "Text",
+                                        "options": {
+                                            "text": "Стратификация по кол-ву предшествующих линий терапии (1 или 2)"
+                                        }
+                                    },
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "alignSelf": "stretch",
+                                            "color": "#151518",
+                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                            "fontSize": "16px",
+                                            "fontStyle": "normal",
+                                            "fontWeight": "400",
+                                            "lineHeight": "140%"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "fontSize": "14px",
+                                            "lineHeight": "140%"
+                                        }
+                                    },
+                                    "properties": {
+                                        "layer-name": "Стратификация  по кол-ву предшествующих  линий терапии  (1 или 2)"
+                                    },
+                                    "layerName": "Стратификация  по кол-ву предшествующих  линий терапии  (1 или 2)"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "260px",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "gap": "8px"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "maxWidth": "500px",
+                                    "gap": "16px"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "width": "100%",
+                                            "flexDirection": "column",
+                                            "alignItems": "flex-start"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "padding": "24px",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "24px",
+                                                    "alignSelf": "stretch",
+                                                    "borderRadius": "20px",
+                                                    "background": "#151518"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "padding": "20px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Ивосидениб 500 мг 1 раз в сутки"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#FFF",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "20px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "120%",
+                                                            "letterSpacing": "-0.4px"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "18px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Ивосидениб  500 мг 1 раз в сутки"
+                                                    },
+                                                    "layerName": "Ивосидениб  500 мг 1 раз в сутки"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "16px",
+                                                            "alignSelf": "stretch"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "28-дневной цикл"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "28-дневной цикл"
+                                                            },
+                                                            "layerName": "28-дневной цикл"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "n=124; получавшие лечение n=121"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "n=124; получавшие лечение n=121"
+                                                            },
+                                                            "layerName": "n=124; получавшие лечение n=121"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "width": "100%",
+                                            "flexDirection": "column",
+                                            "alignItems": "flex-start"
+                                        },
+                                        "medium": {},
+                                        "small": {}
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "padding": "24px",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "24px",
+                                                    "alignSelf": "stretch",
+                                                    "borderRadius": "20px",
+                                                    "background": "#151518"
+                                                },
+                                                "medium": {},
+                                                "small": {
+                                                    "padding": "20px"
+                                                }
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Плацебо 1 раз в сутки"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#FFF",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "20px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "120%",
+                                                            "letterSpacing": "-0.4px"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "18px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Плацебо  1 раз в сутки"
+                                                    },
+                                                    "layerName": "Плацебо  1 раз в сутки"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "16px",
+                                                            "alignSelf": "stretch"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "28-дневной цикл"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "28-дневной цикл"
+                                                            },
+                                                            "layerName": "28-дневной цикл"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "n= 61; получавшие лечение n=59"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "n= 61;  получавшие лечение n=59"
+                                                            },
+                                                            "layerName": "n= 61;  получавшие лечение n=59"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "n=124; получавшие лечение n=121"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "n=124;  получавшие лечение n=121"
+                                                            },
+                                                            "layerName": "n=124;  получавшие лечение n=121"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "component": {
+                                "name": "Text",
+                                "options": {
+                                    "text": "Лечение до прогрессирования заболевания, появления неприемлемой токсичности или отмены препарата. Переход от плацебо на ивосидениб был разрешен при рентгенологическом прогрессировании заболевания"
+                                }
+                            },
+                            "responsiveStyles": {
+                                "large": {
+                                    "width": "168px",
+                                    "color": "#151518",
+                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                    "fontSize": "16px",
+                                    "fontStyle": "normal",
+                                    "fontWeight": "400",
+                                    "lineHeight": "140%",
+                                    "marginTop": "123px"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "maxWidth": "500px",
+                                    "marginTop": "0"
+                                },
+                                "small": {
+                                    "fontSize": "14px",
+                                    "lineHeight": "140%"
+                                }
+                            },
+                            "properties": {
+                                "layer-name": "Лечение  до прогрессирования заболевания,  появления неприемлемой токсичности или отмены препарата.   Переход от плацебо  на ивосидениб был разрешен при рентгенологическом прогрессировании заболевания"
+                            },
+                            "layerName": "Лечение  до прогрессирования заболевания,  появления неприемлемой токсичности или отмены препарата.   Переход от плацебо  на ивосидениб был разрешен при рентгенологическом прогрессировании заболевания"
+                        },
+                        {
+                            "@type": "@builder.io/sdk:Element",
+                            "tagName": "div",
+                            "properties": {},
+                            "responsiveStyles": {
+                                "large": {
+                                    "display": "flex",
+                                    "width": "334px",
+                                    "height": "auto",
+                                    "flexDirection": "column",
+                                    "alignItems": "flex-start",
+                                    "gap": "32px",
+                                    "borderRadius": "12px",
+                                    "background": "#61279E"
+                                },
+                                "medium": {
+                                    "width": "100%",
+                                    "maxWidth": "500px"
+                                },
+                                "small": {}
+                            },
+                            "children": [
+                                {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "tagName": "div",
+                                    "properties": {},
+                                    "responsiveStyles": {
+                                        "large": {
+                                            "display": "flex",
+                                            "width": "334px",
+                                            "padding": "24px",
+                                            "flexDirection": "column",
+                                            "alignItems": "flex-start",
+                                            "gap": "32px",
+                                            "borderRadius": "20px",
+                                            "background": "#61279E",
+                                            "boxSizing": "border-box"
+                                        },
+                                        "medium": {},
+                                        "small": {
+                                            "padding": "20px"
+                                        }
+                                    },
+                                    "children": [
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "286px",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "24px"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Первичная конечная точка:"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#FFF",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "20px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "120%",
+                                                            "letterSpacing": "-0.4px"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "18px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Первичная конечная  точка:"
+                                                    },
+                                                    "layerName": "Первичная конечная  точка:"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "ВПБ (при оценке независимого радиологического центра)"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#FFF",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "16px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "400",
+                                                            "lineHeight": "140%"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "14px",
+                                                            "lineHeight": "140%"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "ВПБ (при оценке независимого радиологического центра)"
+                                                    },
+                                                    "layerName": "ВПБ (при оценке независимого радиологического центра)"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "width": "286px",
+                                                    "height": "1px",
+                                                    "opacity": "0.2",
+                                                    "background": "#FFF"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            }
+                                        },
+                                        {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "tagName": "div",
+                                            "properties": {},
+                                            "responsiveStyles": {
+                                                "large": {
+                                                    "display": "flex",
+                                                    "width": "286px",
+                                                    "flexDirection": "column",
+                                                    "alignItems": "flex-start",
+                                                    "gap": "24px"
+                                                },
+                                                "medium": {},
+                                                "small": {}
+                                            },
+                                            "children": [
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "component": {
+                                                        "name": "Text",
+                                                        "options": {
+                                                            "text": "Вторичные конечные точки:"
+                                                        }
+                                                    },
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "alignSelf": "stretch",
+                                                            "color": "#FFF",
+                                                            "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                            "fontSize": "20px",
+                                                            "fontStyle": "normal",
+                                                            "fontWeight": "600",
+                                                            "lineHeight": "120%",
+                                                            "letterSpacing": "-0.4px"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {
+                                                            "fontSize": "18px"
+                                                        }
+                                                    },
+                                                    "properties": {
+                                                        "layer-name": "Вторичные конечные точки:"
+                                                    },
+                                                    "layerName": "Вторичные конечные точки:"
+                                                },
+                                                {
+                                                    "@type": "@builder.io/sdk:Element",
+                                                    "tagName": "div",
+                                                    "properties": {},
+                                                    "responsiveStyles": {
+                                                        "large": {
+                                                            "display": "flex",
+                                                            "flexDirection": "column",
+                                                            "alignItems": "flex-start",
+                                                            "gap": "16px",
+                                                            "alignSelf": "stretch"
+                                                        },
+                                                        "medium": {},
+                                                        "small": {}
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Безопасность/переносимость"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Безопасность/переносимость"
+                                                            },
+                                                            "layerName": "Безопасность/переносимость"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ВБП (при оценке исследователем)"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "ВБП (при оценке исследователем)"
+                                                            },
+                                                            "layerName": "ВБП (при оценке исследователем)"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "РВ"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "РВ"
+                                                            },
+                                                            "layerName": "РВ"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ЧОО"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "ЧОО"
+                                                            },
+                                                            "layerName": "ЧОО"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ПО"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "ПО"
+                                                            },
+                                                            "layerName": "ПО"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "ВДО"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "ВДО"
+                                                            },
+                                                            "layerName": "ВДО"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "КЖ"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "КЖ"
+                                                            },
+                                                            "layerName": "КЖ"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Показатели экономики здравоохранения"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Показатели экономики здравоохранения"
+                                                            },
+                                                            "layerName": "Показатели экономики здравоохранения"
+                                                        },
+                                                        {
+                                                            "@type": "@builder.io/sdk:Element",
+                                                            "tagName": "div",
+                                                            "component": {
+                                                                "name": "Text",
+                                                                "options": {
+                                                                    "text": "Фармакокинетика/фармакодинамика"
+                                                                }
+                                                            },
+                                                            "responsiveStyles": {
+                                                                "large": {
+                                                                    "alignSelf": "stretch",
+                                                                    "color": "#FFF",
+                                                                    "fontFamily": "'Geist',-apple-system,Roboto,Helvetica,sans-serif",
+                                                                    "fontSize": "16px",
+                                                                    "fontStyle": "normal",
+                                                                    "fontWeight": "400",
+                                                                    "lineHeight": "140%"
+                                                                },
+                                                                "medium": {},
+                                                                "small": {
+                                                                    "fontSize": "14px",
+                                                                    "lineHeight": "140%"
+                                                                }
+                                                            },
+                                                            "properties": {
+                                                                "layer-name": "Фармакокинетика/фармакодинамика"
+                                                            },
+                                                            "layerName": "Фармакокинетика/фармакодинамика"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "layerName": "Дизайн исследования ClarIDHy"
+        }
+    ],
+    "vcpImportId": "vcp-9c1ce0c4cf464af69fd9975e92d756a0"
+}
