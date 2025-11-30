@@ -61,11 +61,11 @@ function IconListItem({
 
   return (
     <div
-      className={`relative w-full flex items-center gap-6 justify-start overflow-visible ${className}`}
+      className={`relative w-full flex items-center gap-3 md:gap-6 justify-start overflow-visible ${className}`}
     >
       {/* Единый блок: прямоугольник с кругом и текст */}
       <div
-        className="relative flex items-center flex-1 min-w-0 gap-6"
+        className="relative flex items-center flex-1 min-w-0 gap-3 md:gap-6"
       >
         {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
         {showGradient && (

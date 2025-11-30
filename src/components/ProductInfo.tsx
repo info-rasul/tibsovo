@@ -56,7 +56,7 @@ const ProductInfo = () => {
             <ProductInstruct />
           </div>
           {/* Блок с предупреждением */}
-          <div className="p-4 md:p-12 pb-12 relative z-10">
+          <div className="p-4 md:p-12 md:pb-12 relative z-10">
             <IconListItem
               icon={warnIcon}
               iconSize={56}
