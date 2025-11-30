@@ -8,7 +8,9 @@ import MechanismOfAction from '../components/MechanismOfAction'
 import Safety from '../components/Safety'
 import PrecautionsAndContraindications from '../components/PrecautionsAndContraindications'
 import References from '../components/References'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer' 
+import DrugInteractions from '../components/DrugInteractions'
+
 
 function TibsovoPage() {
   return (
@@ -29,6 +31,7 @@ function TibsovoPage() {
         <Safety />
       </div>
       <PrecautionsAndContraindications />
+      <DrugInteractions />
       <References />
       <Footer />
     </div>

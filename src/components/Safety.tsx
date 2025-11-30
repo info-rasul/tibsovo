@@ -1,9 +1,12 @@
+import { useState } from "react";
 import icon1 from "../assets/sixth/icons/1.svg";
 import icon2 from "../assets/sixth/icons/2.svg";
 import icon3 from "../assets/sixth/icons/3.svg";
 import IconListItem from "./IconListItem";
+import SafetyModal from "./SafetyModal";
 
 function Safety() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const listItems = [
     {
       text: "Наиболее частыми нежелательными реакциями были утомляемость (43 %), \nтошнота (42 %), боль в животе (35 %), диарея (35 %), снижение аппетита (24 %), \nасцит (23 %), рвота (23 %), анемия (19 %) и сыпь (15 %).",
@@ -68,13 +71,22 @@ function Safety() {
 
         {/* Блок с кнопкой */}
         <div className="mt-0 md:mt-12 w-full flex flex-col items-start justify-start">
-          <button className="flex items-center justify-center rounded-lg px-8 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-sm md:text-base text-white font-semibold leading-[140%] md:leading-[1.4] w-full md:w-auto cursor-pointer">
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="flex items-center justify-center rounded-lg px-8 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-sm md:text-base text-white font-semibold leading-[140%] md:leading-[1.4] w-full md:w-auto cursor-pointer"
+          >
             <span className="text-white">
               Безопасность в исследовании ClarIDHy
             </span>
           </button>
         </div>
       </div>
+
+      {/* Safety Modal */}
+      <SafetyModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+      />
     </section>
   );
 }

@@ -52,9 +52,12 @@ function PrecautionsAndContraindications() {
 
   return (
     <section
-      className="w-full py-8 px-4 md:py-12 md:px-5 md:pb-12 bg-[rgba(224,219,244,0.4)] rounded-[16px] md:rounded-[20px] overflow-hidden"
+      className="w-full md:py-12 md:px-5 md:pb-12 "
     >
       {/* Основной контентный блок */}
+      <div
+        className="mx-auto w-full px-4 py-8 md:max-w-[1360px] bg-[rgba(224,219,244,0.4)] rounded-[16px] md:rounded-[20px] overflow-hidden"
+      >
       <div
         className="mx-auto w-full md:max-w-[1360px]"
       >
@@ -137,6 +140,7 @@ function PrecautionsAndContraindications() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );
