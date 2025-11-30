@@ -5,20 +5,40 @@ import mobileHeaderImage from '../assets/main/Header-mobile.svg'
 function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
-  const navItems: string[] = [
-    'Эффективность',
-    'Способ применения',
-    'Механизм действия',
-    'Безопасность'
+  const navItems: { label: string; id: string }[] = [
+    { label: 'Эффективность', id: 'efficiency' },
+    { label: 'Способ применения', id: 'product-info' },
+    { label: 'Механизм действия', id: 'mechanism-of-action' },
+    { label: 'Безопасность', id: 'safety' }
   ]
 
   // Навигационные элементы для модалки (без "Мнения экспертов")
-  const modalNavItems: string[] = [
-    'Эффективность',
-    'Способ применения',
-    'Механизм действия',
-    'Безопасность'
+  const modalNavItems: { label: string; id: string }[] = [
+    { label: 'Эффективность', id: 'efficiency' },
+    { label: 'Способ применения', id: 'product-info' },
+    { label: 'Механизм действия', id: 'mechanism-of-action' },
+    { label: 'Безопасность', id: 'safety' }
   ]
+
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id)
+    if (element) {
+      const headerHeight = 80 // Высота фиксированного header
+      const elementPosition = element.getBoundingClientRect().top
+      const offsetPosition = elementPosition + window.pageYOffset - headerHeight
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      })
+    }
+  }
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault()
+    scrollToSection(id)
+    closeModal()
+  }
 
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen)
@@ -64,10 +84,11 @@ function Header() {
             {navItems.map((item, index) => (
               <a
                 key={index}
-                href="#"
+                href={`#${item.id}`}
+                onClick={(e) => handleNavClick(e, item.id)}
                 className="text-[#151518] text-sm font-semibold leading-[1.4] hover:opacity-80 transition-opacity"
               >
-                {item}
+                {item.label}
               </a>
             ))}
           </nav>
@@ -159,11 +180,11 @@ function Header() {
           {modalNavItems.map((item, index) => (
             <a
               key={index}
-              href="#"
-              onClick={closeModal}
+              href={`#${item.id}`}
+              onClick={(e) => handleNavClick(e, item.id)}
               className="text-[#151518] text-base font-semibold leading-[140%] cursor-pointer hover:opacity-80 transition-opacity"
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </nav>
