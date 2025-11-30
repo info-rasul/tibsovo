@@ -1,6 +1,7 @@
 import '../App.scss'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Warning from '../components/Warning'
 import Efficiency from '../components/Efficiency'
 import ProductInfo from '../components/ProductInfo'
 import MechanismOfAction from '../components/MechanismOfAction'
@@ -14,10 +15,19 @@ function TibsovoPage() {
     <div className="min-h-screen w-full max-w-full overflow-x-hidden ">
       <Header />
       <Hero />
-      <Efficiency />
-      <ProductInfo />
-      <MechanismOfAction />
-      <Safety />
+      <Warning />
+      <div id="efficiency">
+        <Efficiency />
+      </div>
+      <div id="product-info">
+        <ProductInfo />
+      </div>
+      <div id="mechanism-of-action">
+        <MechanismOfAction />
+      </div>
+      <div id="safety">
+        <Safety />
+      </div>
       <PrecautionsAndContraindications />
       <References />
       <Footer />
