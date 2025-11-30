@@ -1,4 +1,4 @@
-import Graphs from "./Graphs";
+import GraphsMain from "./Graphs/Main";
 import effectImage from "../assets/effect.svg";
 
 const Efficiency = () => {
@@ -53,8 +53,8 @@ const Efficiency = () => {
           </div>
         </div>
 
-        <Graphs />
-      </div>
+        <GraphsMain />
+      </div>  
     </div>
   );
 };

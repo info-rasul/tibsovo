@@ -2,20 +2,20 @@ import frame30Icon from "../eighth/Frame 30.svg";
 
 function References() {
   return (
-    <section className="w-full flex flex-col items-stretch justify-start bg-white py-12 md:pt-6 md:pb-24">
-      <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start">
+    <section className="w-full flex flex-col items-stretch justify-start bg-white py-6 md:py-12 md:pt-6 md:pb-24">
+      <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start px-4 md:px-0">
         {/* Основной контейнер с фоном */}
         <div className="w-full flex flex-col items-stretch justify-start">
-          <div className="w-full flex flex-col items-stretch justify-start px-5 md:px-12 py-12 md:py-12 rounded-2xl bg-[rgba(224,219,244,0.4)]">
+          <div className="w-full flex flex-col items-stretch justify-start px-6 md:px-12 py-6 md:py-12 rounded-[16px] md:rounded-2xl bg-[rgba(224,219,244,0.4)] gap-6 md:gap-0">
             {/* Заголовок с черным кружочком */}
-            <div className="w-full flex items-center justify-start flex-wrap gap-6 text-[40px] text-[#0B0F3E] font-semibold tracking-[-1.2px] leading-[1.1]">
+            <div className="w-full flex items-center justify-start flex-wrap gap-6 md:gap-6">
               {/* Текст заголовка */}
-              <h2 className="flex-1">
+              <h2 className="flex-1 text-[24px] md:text-[40px] text-[#151518] md:text-[#0B0F3E] font-semibold tracking-[-0.48px] md:tracking-[-1.2px] leading-[120%] md:leading-[1.1]">
                 Список литературы
               </h2>
 
               {/* Черный кружочек */}
-              <div className="flex-shrink-0 w-8 h-8 rounded-full self-stretch relative my-auto">
+              <div className="flex-shrink-0 w-6 h-6 md:w-8 md:h-8 rounded-full self-stretch relative my-auto">
                 <img
                   src={frame30Icon}
                   alt=""
@@ -25,8 +25,8 @@ function References() {
             </div>
 
             {/* Список литературы */}
-            <div className="w-full flex flex-col items-stretch justify-start mt-8 px-2 text-[#151518] text-base font-normal leading-[1.4] md:max-w-[72%]">
-              <ol className="list-decimal list-outside ml-4 space-y-4">
+            <div className="w-full flex flex-col items-stretch justify-start mt-0 md:mt-8 px-0 md:px-2 text-[#151518] text-xs md:text-base font-normal leading-[140%] md:leading-[1.4] lg:max-w-[72%]">
+              <ol className="list-decimal list-outside ml-4 space-y-3 md:space-y-4">
                 <li>
                   Dhillon S. Ivosidenib: first global approval. Drugs.
                   2018;78:1509–16;

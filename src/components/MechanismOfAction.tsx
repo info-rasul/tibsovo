@@ -23,7 +23,7 @@ const MechanismOfAction = () => {
   return (
     <div className="w-full pt-8 pb-2 md:py-18 md:px-5 md:pb-14">
       <div
-        className="px-2 md:px-0 mx-auto w-full max-w-[375px] md:max-w-[1360px] rounded-[16px] md:rounded-[20px] pt-8 md:pt-16 pb-2 md:pb-4 relative overflow-hidden bg-[#E74C39] bg-[right_top] bg-auto bg-no-repeat"
+        className="px-2 md:px-0 mx-auto w-full md:max-w-[1360px] rounded-[16px] md:rounded-[20px] pt-8 md:pt-16 pb-2 md:pb-4 relative overflow-hidden bg-[#E74C39] bg-[right_top] bg-auto bg-no-repeat"
         style={{
           backgroundImage: `url("${effectImage}")`,
         }}

@@ -52,16 +52,16 @@ function PrecautionsAndContraindications() {
 
   return (
     <section
-      className="w-full py-8 px-4 md:py-12 md:px-5 md:pb-12"
+      className="w-full py-8 px-4 md:py-12 md:px-5 md:pb-12 bg-[rgba(224,219,244,0.4)] rounded-[16px] md:rounded-[20px] overflow-hidden"
     >
       {/* Основной контентный блок */}
       <div
-        className="mx-auto w-full max-w-[375px] md:max-w-[1360px] rounded-[16px] md:rounded-[20px] overflow-hidden bg-[rgba(224,219,244,0.4)]"
+        className="mx-auto w-full md:max-w-[1360px]"
       >
-        <div className="py-8 md:p-6 md:px-16 md:pt-16 md:pb-12 flex flex-col gap-8 md:gap-12">
+        <div className="py-2 md:py-8 md:p-6 lg:px-16 lg:pt-16 md:pb-12 flex flex-col gap-8 md:gap-12">
           {/* БЛОК 1: ГЛАВНЫЙ ЗАГОЛОВОК */}
           <div
-            className="w-full flex flex-col items-stretch justify-start px-4 md:px-0 md:pb-4"
+            className="w-full flex flex-col items-stretch justify-start md:pb-4"
           >
             <h2
               className="w-full text-left text-xl md:text-[32px] font-semibold tracking-[-0.4px] md:tracking-[-0.96px] leading-[120%] md:leading-[35px] text-[#151518]"
@@ -78,7 +78,7 @@ function PrecautionsAndContraindications() {
           <div className="w-full flex flex-col items-stretch justify-start gap-6 md:gap-0 md:pb-4">
             {/* Заголовок раздела */}
             <div
-              className="w-full flex items-center justify-start px-4 md:px-0"
+              className="w-full flex items-center justify-start"
             >
               <h3
                 className="flex-1 text-left text-base md:text-2xl font-semibold tracking-[-0.48px] leading-[140%] md:leading-[1.2] text-[#151518]"
@@ -98,7 +98,7 @@ function PrecautionsAndContraindications() {
                     color="#6A19A4"
                     gradientOpacity={1}
                     className="pr-4 md:pr-0"
-                    textClassName="text-xs md:text-base leading-[140%]"
+                    textClassName="text-xs md:text-xl leading-[140%] md:leading-[28px]"
                     iconSize={72}
                   />
                 </div>
@@ -129,7 +129,7 @@ function PrecautionsAndContraindications() {
                     color="#E74C39"
                     gradientOpacity={0.8}
                     className="pr-4 md:pr-0"
-                    textClassName="text-xs md:text-base leading-[140%]"
+                    textClassName="text-xs md:text-xl leading-[140%] md:leading-[28px]"
                     iconSize={72}
                   />
                 </div>

@@ -20,11 +20,11 @@ function Safety() {
   ];
 
   return (
-    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-10 px-4 md:px-0 md:py-12 md:pt-16 md:pb-8 overflow-hidden">
+    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-10 px-4 md:px-6 2xl:px-0 md:py-12 md:pt-16 md:pb-8 overflow-hidden">
       {/* Главный контейнер */}
-      <div className="w-full max-w-[375px] md:max-w-[1360px] mx-auto flex flex-col items-stretch justify-start gap-8 md:gap-0">
+      <div className="w-full md:max-w-[1360px] mx-auto flex flex-col items-stretch justify-start gap-8 md:gap-0">
         {/* Внутренний контейнер с контентом */}
-        <div className="w-full flex flex-col items-stretch justify-start px-4 md:px-0 gap-3 md:gap-0">
+        <div className="w-full flex flex-col items-stretch justify-start gap-3 md:gap-0">
           {/* Заголовок секции */}
           <h2 className="text-[#61279E] text-xs md:text-base font-semibold leading-[120%] tracking-[0.36px] md:tracking-[0.48px] uppercase">
             Безопасность
@@ -51,7 +51,7 @@ function Safety() {
         </div>
 
         {/* Блок со списком элементов */}
-        <div className="relative mt-0 md:mt-12 md:ml-16 w-full mx-auto flex flex-col items-stretch justify-start overflow-visible">
+        <div className="relative mt-0 md:mt-12 px-4 lg:px-0 lg:ml-16 w-full mx-auto flex flex-col items-stretch justify-start overflow-visible">
           {listItems.map((item, index) => (
             <div key={index} className={index > 0 ? "mt-6 md:mt-12" : ""}>
               <IconListItem
@@ -67,7 +67,7 @@ function Safety() {
         </div>
 
         {/* Блок с кнопкой */}
-        <div className="mt-0 md:mt-12 w-full flex flex-col items-start justify-start px-4 md:px-0">
+        <div className="mt-0 md:mt-12 w-full flex flex-col items-start justify-start">
           <button className="flex items-center justify-center rounded-lg px-8 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity text-sm md:text-base text-white font-semibold leading-[140%] md:leading-[1.4] w-full md:w-auto">
             <span className="text-white">
               Безопасность в исследовании ClarIDHy

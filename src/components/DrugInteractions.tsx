@@ -1,4 +1,3 @@
-import IconSectionHeader from "./IconSectionHeader";
 import d1 from "../assets/drug/1.svg";
 import d2 from "../assets/drug/2.svg";
 import d3 from "../assets/drug/3.svg";
@@ -81,13 +80,13 @@ function DrugInteractions() {
   ];
 
   return (
-    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-8 md:pt-8 md:pb-8 overflow-hidden">
-      <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start">
+    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-8 px-4 md:px-6 2xl:px-0 md:pt-8 md:pb-8 overflow-hidden">
+      <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start px-4 md:px-0">
         {/* Заголовок секции - отдельный блок */}
         <div className="w-full">
           <div className="w-full max-w-[1243px] flex flex-col items-stretch justify-start pl-0">
-            <h2 className="text-[#151518] text-[32px] font-semibold leading-[35px] tracking-[-0.96px]">
-              Взаимодействие с другими лекарственными <br /> препаратами и другие виды взаимодействия
+            <h2 className="text-[#151518] text-[20px] md:text-[32px] font-semibold leading-[120%] md:leading-[35px] tracking-[-0.4px] md:tracking-[-0.96px] max-w-[343px] md:max-w-none">
+              Взаимодействие с другими лекарственными <br className="hidden md:block" /> препаратами и другие виды взаимодействия
             </h2>
           </div>
         </div>
@@ -97,41 +96,76 @@ function DrugInteractions() {
           {/* Внутренний контейнер с контентом */}
           <div className="w-full flex flex-col items-start justify-start text-[32px] text-[#151518] font-semibold tracking-[-0.96px] leading-[35px] pl-0">
             {/* Блок со списком секций */}
-            <div className="w-full flex flex-col items-stretch justify-start p-16">
+            <div className="w-full flex flex-col items-stretch justify-start md:p-16">
               {sections.map((section, sectionIndex) => (
                 <div
                   key={sectionIndex}
-                  className={`relative w-full flex items-start justify-start overflow-visible md:flex-wrap gap-6 ${
-                    sectionIndex > 0 ? "mt-12" : ""
+                  className={`relative w-full flex flex-col md:flex-row items-start justify-start overflow-visible gap-0 md:gap-6 ${
+                    sectionIndex > 0 ? "mt-0 md:mt-12" : ""
                   }`}
                 >
                   {/* Контейнер иконки */}
-                  <IconSectionHeader icon={section.icon} color="#87A9E2" gradientOpacity={0.8} />
+                  <div className="relative flex items-center flex-shrink-0 w-full md:w-auto">
+                    {/* Градиентный фон для десктопной версии */}
+                    <div className="hidden md:block absolute pointer-events-none"
+                      style={{
+                        left: "calc((100vw - 1360px) / 2 * -1)",
+                        right: "calc(100% - 72px)",
+                        top: "0",
+                        height: "72px",
+                        background: "linear-gradient(to right, rgba(135, 169, 226, 0) 0%, rgba(135, 169, 226, 0.8) 100%)",
+                        borderTopRightRadius: "36px",
+                        borderBottomRightRadius: "36px",
+                      }}
+                    />
+                    
+                    {/* Круглый блок с иконкой */}
+                    <div
+                      className="relative w-12 h-12 md:w-[72px] md:h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
+                      style={{
+                        backgroundColor: "#87A9E2",
+                        boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
+                      }}
+                    >
+                      {section.icon && (
+                        <img
+                          src={section.icon}
+                          alt=""
+                          className="w-7 h-7 md:w-10 md:h-10 object-contain"
+                        />
+                      )}
+                    </div>
 
-                  {/* Контент секции */}
-                  <div className="flex-1 min-w-0 flex flex-col items-stretch justify-start relative z-10 pt-4 max-w-[79%]">
-                    {/* Заголовок секции */}
-                    <h3 className="text-[#151518] text-[24px] tracking-normal">
+                    {/* Заголовок секции для мобильной версии (рядом с иконкой) */}
+                    <h3 className="md:hidden text-[#151518] text-[14px] font-semibold leading-[140%] flex-1 ml-3">
+                      {section.title}
+                    </h3>
+                  </div>
+
+                  {/* Контейнер со списком элементов с padding для мобильной версии */}
+                  <div className="w-full flex flex-col items-stretch justify-start pt-5 pb-8 px-4 md:py-0 md:px-0 md:pt-4 flex-1 min-w-0 md:max-w-[79%]">
+                    {/* Заголовок секции для десктопной версии */}
+                    <h3 className="hidden md:block text-[#151518] text-[24px] tracking-normal mb-5">
                       {section.title}
                     </h3>
 
                     {/* Список элементов */}
-                    <div className="mt-5 w-full flex flex-col items-stretch justify-start">
+                    <div className="w-full flex flex-col items-stretch justify-start gap-4 md:gap-0">
                       {section.items.map((item, itemIndex) => (
                         <div
                           key={itemIndex}
-                          className={`relative w-full flex items-start justify-start gap-3 ${
-                            itemIndex > 0 ? "mt-5" : ""
+                          className={`relative w-full flex items-start justify-start gap-2 md:gap-3 ${
+                            itemIndex > 0 ? "mt-0 md:mt-5" : ""
                           }`}
                         >
                           {/* Буллет-точка */}
-                          <div className="flex items-center justify-center flex-shrink-0 w-7 pl-1.5 pr-1.5 pt-2 pb-2">
-                            <div className="rounded-full flex-shrink-0 w-3 h-3 bg-[#87A9E2]" />
+                          <div className="flex items-center justify-center flex-shrink-0 w-[17px] h-[17px] md:w-7 md:h-auto md:pl-1.5 md:pr-1.5 md:pt-2 md:pb-2">
+                            <div className="rounded-full flex-shrink-0 w-[17px] h-[17px] md:w-3 md:h-3 bg-[#87A9E2]" />
                           </div>
 
                           {/* Текст элемента */}
                           <p
-                            className="flex-1 min-w-0 text-[#151518] text-xl font-normal leading-[28.2px] tracking-normal"
+                            className="flex-1 min-w-0 text-[#151518] text-xs md:text-xl font-normal leading-[140%] md:leading-[28.2px] tracking-normal"
                             dangerouslySetInnerHTML={{ __html: item.text }}
                           />
                         </div>
