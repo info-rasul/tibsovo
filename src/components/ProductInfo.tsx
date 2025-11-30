@@ -1,5 +1,7 @@
 import tibsovoImage from '../assets/product-tbs.png'
 import ProductInstruct from './ProductInstruct'
+import IconListItem from './IconListItem'
+import warnIcon from '../assets/icons/warn.svg'
 
 const ProductInfo = () => {
   return (
@@ -54,15 +56,17 @@ const ProductInfo = () => {
             <ProductInstruct />
           </div>
           {/* Блок с предупреждением */}
-          <div className="p-10  pb-12 relative z-10 flex items-start">
-            {/* Иконка предупреждения */}
-            <div className="flex items-center flex-shrink-0">
-     
-            </div>
-            {/* Текст предупреждения */}
-            <p className="flex-1 text-[#151518] text-xs md:text-base font-semibold md:font-normal leading-[140%] md:leading-[22px] pt-1">
-              Лечение следует продолжать до прогрессии заболевания или до тех пор, пока пациент не перестанет переносить терапию.
-            </p>
+          <div className="p-12 pb-12 relative z-10">
+            <IconListItem
+              icon={warnIcon}
+              iconSize={56}
+              text=""
+              boldText={`Лечение следует продолжать до прогрессии заболевания \n или до тех пор, пока пациент не перестанет переносить терапию.`}
+              color="#87A9E2"
+              showGradient={true}
+              gradientOpacity={0.8}
+              textClassName="text-xs md:text-base font-semibold md:font-normal leading-[140%] md:leading-[22px]"
+            />
           </div>
         </div>
       </div>

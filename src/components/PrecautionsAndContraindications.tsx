@@ -3,6 +3,7 @@ import icon2 from "../seventh/icons/2.svg";
 import icon3 from "../seventh/icons/3.svg";
 import icon4 from "../seventh/icons/4.svg";
 import rectangle13Icon from "../seventh/icons/Rectangle 13.svg";
+import IconListItem from "./IconListItem";
 
 function PrecautionsAndContraindications() {
   const precautions = [
@@ -124,70 +125,16 @@ function PrecautionsAndContraindications() {
             {/* Список пунктов мер предосторожности */}
             <div className="mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start">
               {precautions.map((item, index) => (
-                <div
+                <IconListItem
                   key={index}
-                  className={`relative w-full flex items-center gap-6 justify-start overflow-visible ${
-                    index > 0 ? "mt-10 md:mt-12" : ""
-                  }`}
-                >
-                  {/* Единый блок: прямоугольник с кругом и текст */}
-                  <div
-                    className="relative flex items-center flex-1 min-w-0"
-                    style={{ gap: "24px" }}
-                  >
-                    {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
-                    <div
-                      className="absolute pointer-events-none"
-                      style={{
-                        left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
-                        right: "calc(100% - 72px)",
-                        top: "50%",
-                        transform: "translateY(-50%)",
-                        height: "72px",
-                        background:
-                          "linear-gradient(to right, rgba(106, 25, 164, 0) 0%, rgba(106, 25, 164, 1) 100%)",
-                        borderTopRightRadius: "36px",
-                        borderBottomRightRadius: "36px",
-                      }}
-                    />
-
-                    {/* Голубой круглый блок */}
-                    <div
-                      className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
-                      style={{
-                        backgroundColor: "#6A19A4",
-                        boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
-                      }}
-                    >
-                      <img
-                        src={item.icon}
-                        alt=""
-                        className="w-10 h-10"
-                        style={{
-                          objectFit: "contain",
-                        }}
-                      />
-                    </div>
-
-                    {/* Текст элемента списка */}
-                    <p
-                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line"
-                      style={{ wordBreak: "break-word" }}
-                    >
-                      {item.lineBreak ? item.lineBreak : (
-                        <>
-                          {item.text}
-                          {item.boldText && (
-                            <>
-                              {" "}
-                              <strong style={{ fontWeight: 700 }}>{item.boldText}</strong>
-                            </>
-                          )}
-                        </>
-                      )}
-                    </p>
-                  </div>
-                </div>
+                  icon={item.icon}
+                  text={item.text}
+                  lineBreak={item.lineBreak}
+                  boldText={item.boldText}
+                  color="#6A19A4"
+                  gradientOpacity={1}
+                  className={index > 0 ? "mt-10 md:mt-12" : ""}
+                />
               ))}
             </div>
           </div>
@@ -217,60 +164,15 @@ function PrecautionsAndContraindications() {
             {/* Список пунктов противопоказаний */}
             <div className="mt-10 md:mt-12 w-full flex flex-col items-stretch justify-start">
               {contraindications.map((item, index) => (
-                <div
+                <IconListItem
                   key={index}
-                  className={`relative w-full flex items-center gap-6 justify-start overflow-visible ${
-                    index > 0 ? "mt-10 md:mt-12" : ""
-                  }`}
-                >
-                  {/* Единый блок: прямоугольник с кругом и текст */}
-                  <div
-                    className="relative flex items-center flex-1 min-w-0"
-                    style={{ gap: "24px" }}
-                  >
-                     {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
-                     <div
-                       className="absolute pointer-events-none"
-                       style={{
-                         left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
-                         right: "calc(100% - 72px)",
-                         top: "50%",
-                         transform: "translateY(-50%)",
-                         height: "72px",
-                         background:
-                           "linear-gradient(to right, rgba(231, 76, 57, 0) 0%, rgba(231, 76, 57, 0.8) 100%)",
-                         borderTopRightRadius: "36px",
-                         borderBottomRightRadius: "36px",
-                       }}
-                     />
- 
-                     {/* Оранжевый круглый блок */}
-                     <div
-                       className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
-                       style={{
-                         backgroundColor: "#E74C39",
-                         boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
-                       }}
-                     >
-                      <img
-                        src={item.icon}
-                        alt=""
-                        className="w-10 h-10"
-                        style={{
-                          objectFit: "contain",
-                        }}
-                      />
-                    </div>
-
-                    {/* Текст элемента списка */}
-                    <p
-                      className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line"
-                      style={{ wordBreak: "break-word" }}
-                    >
-                      {item.lineBreak || item.text}
-                    </p>
-                  </div>
-                </div>
+                  icon={item.icon}
+                  text={item.text}
+                  lineBreak={item.lineBreak}
+                  color="#E74C39"
+                  gradientOpacity={0.8}
+                  className={index > 0 ? "mt-10 md:mt-12" : ""}
+                />
               ))}
             </div>
           </div>

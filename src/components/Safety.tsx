@@ -1,6 +1,7 @@
 import icon1 from "../sixth/icons/1.svg";
 import icon2 from "../sixth/icons/2.svg";
 import icon3 from "../sixth/icons/3.svg";
+import IconListItem from "./IconListItem";
 
 function Safety() {
   const listItems = [
@@ -61,60 +62,15 @@ function Safety() {
         {/* Блок со списком элементов */}
         <div className="relative mt-10 md:mt-12 md:ml-16 w-full mx-auto flex flex-col items-stretch justify-start overflow-visible">
           {listItems.map((item, index) => (
-            <div
+            <IconListItem
               key={index}
-              className={`relative w-full flex items-center gap-6 justify-start overflow-visible ${
-                index > 0 ? "mt-10 md:mt-12" : ""
-              }`}
-            >
-              {/* Единый блок: прямоугольник с кругом и текст */}
-              <div
-                className="relative flex items-center flex-1 min-w-0"
-                style={{ gap: "24px" }}
-              >
-                {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
-                <div
-                  className="absolute pointer-events-none"
-                  style={{
-                    left: "calc((100vw - 1360px) / 2 * -1 - 40px)",
-                    right: "calc(100% - 72px)",
-                    top: "50%",
-                    transform: "translateY(-50%)",
-                    height: "72px",
-                    background:
-                      "linear-gradient(to right, rgba(135, 169, 226, 0) 0%, rgba(135, 169, 226, 0.8) 100%)",
-                    borderTopRightRadius: "36px",
-                    borderBottomRightRadius: "36px",
-                  }}
-                />
-
-                {/* Голубой круглый блок */}
-                <div
-                  className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
-                  style={{
-                    backgroundColor: "#87A9E2",
-                    boxShadow: "0 0 20px 0 rgba(97, 39, 158, 0.08)",
-                  }}
-                >
-                  <img
-                    src={item.icon}
-                    alt=""
-                    className="w-10 h-10"
-                    style={{
-                      objectFit: "contain",
-                    }}
-                  />
-                </div>
-
-                {/* Текст элемента списка */}
-                <p
-                  className="text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line md:whitespace-pre-line"
-                  style={{ wordBreak: "break-word" }}
-                >
-                  {item.text}
-                </p>
-              </div>
-            </div>
+              icon={item.icon}
+              text={item.text}
+              color="#87A9E2"
+              gradientOpacity={0.8}
+              className={index > 0 ? "mt-10 md:mt-12" : ""}
+              textClassName="md:whitespace-pre-line"
+            />
           ))}
         </div>
 

@@ -1,3 +1,5 @@
+import IconSectionHeader from "./IconSectionHeader";
+
 function DrugInteractions() {
   const sections = [
     {
@@ -121,38 +123,10 @@ function DrugInteractions() {
                 }}
               >
                 {/* Контейнер иконки */}
-                <div 
-                  className="relative flex items-start flex-shrink-0"
-                  style={{ 
-                    width: '176px',
-                    gap: '-32px'
-                  }}
-                >
-                  {/* Прямоугольник, растянутый влево с градиентом прозрачности */}
-                  <div 
-                    className="absolute pointer-events-none"
-                    style={{ 
-                      left: 'calc((100vw - 1360px) / 2 * -1)',
-                      right: 'calc(100% - 72px)',
-                      top: '0',
-                      height: '72px',
-                      background: 'linear-gradient(to right, rgba(135, 169, 226, 0) 0%, rgba(135, 169, 226, 0.8) 100%)',
-                      borderTopRightRadius: '36px',
-                      borderBottomRightRadius: '36px'
-                    }}
-                  />
-                  
-                  {/* Голубой круглый блок */}
-                  <div 
-                    className="relative w-[72px] h-[72px] rounded-full flex items-center justify-center flex-shrink-0 z-10"
-                    style={{
-                      backgroundColor: '#87A9E2',
-                      boxShadow: '0 0 20px 0 rgba(97, 39, 158, 0.08)'
-                    }}
-                  >
-                    {/* Иконка будет добавлена сюда позже */}
-                  </div>
-                </div>
+                <IconSectionHeader
+                  color="#87A9E2"
+                  gradientOpacity={0.8}
+                />
 
                 {/* Контент секции */}
                 <div 
