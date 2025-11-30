@@ -1,4 +1,4 @@
-import graphImage from "../../../assets/graph.svg";
+import graphImage from "../../../assets/graphs/3.svg";
 
 const LongTimeGraphsImage = () => {
   return (
@@ -7,7 +7,7 @@ const LongTimeGraphsImage = () => {
         <div className="flex flex-col relative">
           <div className="flex items-start justify-between">
             <div className="text-[#61279E] text-[48px] md:text-[80px] font-semibold leading-[120%] md:leading-[110%] tracking-[-1.92px] md:tracking-[-4px]">
-              63%
+              92%
             </div>
             {/* Info Icon - visible on mobile only, positioned to the right */}
             <svg
@@ -58,8 +58,7 @@ const LongTimeGraphsImage = () => {
             </svg>
           </div>
           <div className="text-[#151518] text-sm md:text-base font-normal leading-[140%] md:leading-[22px] md:mt-1 md:max-w-[48%]">
-            снижение риска прогрессирования заболевания или смерти (HR, 0.37
-            [95% CI, 0.25-0.54]; P&lt;0.0001)
+            пациентов были живы через 2 года
           </div>
         </div>
       </div>

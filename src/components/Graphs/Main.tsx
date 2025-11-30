@@ -7,12 +7,12 @@ import LongTimeDescGraph from './long-time/Desc'
 import NoProgressDescGraph from './no-progress/Desc'
 
 const Graphs = () => {
-  const [activeTab, setActiveTab] = useState<'common' | 'longTime' | 'noProgress'>('common')
+  const [activeTab, setActiveTab] = useState<'common' |  'noProgress' | 'longTime'>('noProgress')
 
   const tabs = [
     { id: 'common' as const, label: 'Общая выживаемость' },
-    { id: 'longTime' as const, label: 'Выживаемость без прогрессии' },
     { id: 'noProgress' as const, label: 'Пациенты с длительным ответом' },
+    { id: 'longTime' as const, label: 'Выживаемость без прогрессии' },
   ]
 
   return (

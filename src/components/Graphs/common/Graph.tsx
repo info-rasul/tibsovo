@@ -1,14 +1,11 @@
-import graphImage from "../../../assets/graph.svg";
+import graphImage from "../../../assets/graphs/1.svg";
 
 const CommonGraphsImage = () => {
   return (
     <div>
       <div className="flex flex-col px-4 md:px-8 pb-4 md:py-[17px]">
         <div className="flex flex-col relative">
-          <div className="flex items-start justify-between">
-            <div className="text-[#61279E] text-[48px] md:text-[80px] font-semibold leading-[120%] md:leading-[110%] tracking-[-1.92px] md:tracking-[-4px]">
-              63%
-            </div>
+          <div className="flex items-start justify-end">
             {/* Info Icon - visible on mobile only, positioned to the right */}
             <svg
               className="md:hidden w-6 h-6 flex-shrink-0"
@@ -57,13 +54,8 @@ const CommonGraphsImage = () => {
               />
             </svg>
           </div>
-          <div className="text-[#151518] text-sm md:text-base font-normal leading-[140%] md:leading-[22px] md:mt-1 md:max-w-[48%]">
-            снижение риска прогрессирования заболевания или смерти (HR, 0.37
-            [95% CI, 0.25-0.54]; P&lt;0.0001)
-          </div>
         </div>
       </div>
-      {/* Graph Image */}
       <div className="flex flex-col px-4 pt-8 md:px-8 md:pb-4 md:py-[30px]">
         <img src={graphImage} alt="Graph" className="w-full h-auto" />
       </div>

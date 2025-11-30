@@ -1,4 +1,4 @@
-import graphImage from "../../../assets/graph.svg";
+import graphImage from "../../../assets/graphs/2.svg";
 
 const NoProgressGraphsImage = () => {
   return (
@@ -7,7 +7,7 @@ const NoProgressGraphsImage = () => {
         <div className="flex flex-col relative">
           <div className="flex items-start justify-between">
             <div className="text-[#61279E] text-[48px] md:text-[80px] font-semibold leading-[120%] md:leading-[110%] tracking-[-1.92px] md:tracking-[-4px]">
-              163%
+              63%
             </div>
             {/* Info Icon - visible on mobile only, positioned to the right */}
             <svg
