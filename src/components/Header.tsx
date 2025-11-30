@@ -148,7 +148,6 @@ function Header() {
               href="#"
               onClick={closeModal}
               className="text-[#151518] text-base font-semibold leading-[140%] cursor-pointer hover:opacity-80 transition-opacity"
-              style={{ fontFamily: 'Geist, -apple-system, Roboto, Helvetica, sans-serif' }}
             >
               {item}
             </a>

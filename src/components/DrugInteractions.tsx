@@ -75,9 +75,6 @@ function DrugInteractions() {
   return (
     <section 
       className="w-full flex flex-col items-stretch justify-start bg-white pb-[100px] md:pb-[120px]"
-      style={{ 
-        fontFamily: 'Geist, -apple-system, Roboto, Helvetica, sans-serif'
-      }}
     >
     
         {/* Заголовок секции - отдельный блок */}
@@ -85,9 +82,6 @@ function DrugInteractions() {
           <div className="w-full max-w-[1243px] flex flex-col items-stretch justify-start pl-0">
             <h2 
               className="text-[#151518] text-[32px] font-semibold leading-[35px] tracking-[-0.96px]"
-              style={{ 
-                fontFamily: 'Geist, -apple-system, Roboto, Helvetica, sans-serif'
-              }}
             >
               Взаимодействие с другими лекарственными препаратами и другие виды взаимодействия
             </h2>

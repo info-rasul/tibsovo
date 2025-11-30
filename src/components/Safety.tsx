@@ -20,15 +20,12 @@ function Safety() {
   ];
 
   return (
-    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-12 md:py-16 overflow-hidden">
+    <section className="relative w-full flex flex-col items-stretch justify-start bg-white py-12 md:pt-16 md:pb-8 overflow-hidden">
       {/* Главный контейнер */}
       <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start">
         {/* Внутренний контейнер с контентом */}
         <div
           className="w-full flex flex-col items-stretch justify-start"
-          style={{
-            fontFamily: "Geist, -apple-system, Roboto, Helvetica, sans-serif",
-          }}
         >
           {/* Заголовок секции */}
           <h2 className="text-[#61279E] text-base font-semibold leading-[120%] tracking-[0.48px] uppercase">
@@ -77,9 +74,6 @@ function Safety() {
         {/* Блок с кнопкой */}
         <div
           className="mt-10 md:mt-12 w-full flex flex-col items-start justify-start"
-          style={{
-            fontFamily: "Geist, -apple-system, Roboto, Helvetica, sans-serif",
-          }}
         >
           <button
             className="flex items-center justify-center rounded-lg px-5 md:px-8 py-4 gap-2 overflow-hidden bg-[#E74C39] hover:opacity-90 transition-opacity"

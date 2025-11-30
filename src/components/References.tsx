@@ -12,9 +12,6 @@ function References() {
   return (
     <section 
       className="w-full flex flex-col items-stretch justify-start bg-white py-12 md:py-16"
-      style={{ 
-        fontFamily: 'Geist, -apple-system, Roboto, Helvetica, sans-serif'
-      }}
     >
       <div className="w-full max-w-[1360px] mx-auto flex flex-col items-stretch justify-start">
         {/* Основной контейнер с фоном */}

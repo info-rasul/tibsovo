@@ -6,7 +6,6 @@ function Footer() {
       className="w-full flex flex-col items-center justify-center px-5 md:px-20 py-9"
       style={{
         backgroundColor: 'rgba(224, 219, 244, 0.4)',
-        fontFamily: 'Century Gothic, -apple-system, Roboto, Helvetica, sans-serif'
       }}
     >
       <div

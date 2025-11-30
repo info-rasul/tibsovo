@@ -1,7 +1,6 @@
 interface IconListItemProps {
   icon: string;
   text: string;
-  lineBreak?: string;
   boldText?: string;
   color: string;
   showGradient?: boolean;
@@ -15,7 +14,6 @@ interface IconListItemProps {
 function IconListItem({
   icon,
   text,
-  lineBreak,
   boldText,
   color,
   showGradient = true,
@@ -94,17 +92,11 @@ function IconListItem({
           className={`text-[#151518] text-xl font-normal leading-[28px] flex-1 min-w-0 relative z-10 whitespace-pre-line ${textClassName}`}
           style={{ wordBreak: "break-word" }}
         >
-          {lineBreak ? (
-            lineBreak
-          ) : (
+          {text}
+          {boldText && (
             <>
-              {text}
-              {boldText && (
-                <>
-                  {" "}
-                  <strong style={{ fontWeight: 700 }}>{boldText}</strong>
-                </>
-              )}
+              {" "}
+              <strong style={{ fontWeight: 700 }}>{boldText}</strong>
             </>
           )}
         </p>
