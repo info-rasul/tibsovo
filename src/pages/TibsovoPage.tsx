@@ -11,7 +11,6 @@ import References from '../components/References'
 import Footer from '../components/Footer' 
 import DrugInteractions from '../components/DrugInteractions'
 
-
 function TibsovoPage() {
   return (
     <div className="min-h-screen w-full max-w-full overflow-x-hidden ">
