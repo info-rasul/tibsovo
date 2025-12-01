@@ -51,7 +51,6 @@ function Main() {
             className="w-full h-auto"
             style={{
               objectFit: "contain",
-              boxShadow: "0px 1px 48px rgba(0, 0, 0, 0.05)",
               borderRadius: "0"
             }}
           />
