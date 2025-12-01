@@ -1,3 +1,0 @@
-
-1. используй env_figma и подключись к фигма. Ты видишь блок? да или нет
-https://www.figma.com/design/pXSmINvA5ZQlGLAGJvIKcr/Servier-Landings--work---Copy-?node-id=976-76138&t=FbEacxM0tRdIlxzE-4
