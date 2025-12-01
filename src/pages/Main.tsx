@@ -4,6 +4,8 @@ import logo from "../assets/main/logo.svg";
 import arrowIcon from "../assets/main/Arrow.svg";
 import productImage from "../assets/main/image 6.svg";
 import mobileHeader from "../assets/main/Header-mobile.svg";
+import leftBackground from "../assets/main-back/left.svg";
+import rightBackground from "../assets/main-back/right.svg";
 import Footer from "../components/Footer";
 
 function Main() {
@@ -121,6 +123,52 @@ function Main() {
 
       {/* Десктопная версия */}
       <div className="hidden md:block">
+        {/* Фиксированное изображение слева */}
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            height: "100vh",
+            width: "auto",
+            zIndex: 3,
+            pointerEvents: "none"
+          }}
+        >
+          <img
+            src={leftBackground}
+            alt=""
+            style={{
+              height: "100%",
+              width: "auto",
+              objectFit: "cover"
+            }}
+          />
+        </div>
+
+        {/* Фиксированное изображение справа */}
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            right: 0,
+            height: "100vh",
+            width: "auto",
+            zIndex: 3,
+            pointerEvents: "none"
+          }}
+        >
+          <img
+            src={rightBackground}
+            alt=""
+            style={{
+              height: "100%",
+              width: "auto",
+              objectFit: "cover"
+            }}
+          />
+        </div>
+
         <div
           style={{
             position: "fixed",
@@ -130,7 +178,8 @@ function Main() {
             backgroundColor: "#FFFFFF",
             width: "100%",
             opacity: opacity,
-            transition: "opacity 0.3s ease-out"
+            transition: "opacity 0.3s ease-out",
+            zIndex: 2
           }}
         >
           <section
